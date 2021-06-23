@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>CollectGenome</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table style="width: 100%;" class="normal" border="0"
+ cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td
+ style="width: 464px; vertical-align: top; height: 198px;">
+            <div class="normal">
+            <div align="center">
+            <h2>CollectGenome</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%"><br>
+This <a href="Executors.html">Executor</a> is a subclass of <a
+ href="SQLUser.html">SQLUser</a> which collects Genome databases, as
+described
+under SQLUser. While the whole collection is referred to as a 'genome'
+and its subdivisions as 'chromosomes' CollectGenome can be used on
+smaller
+entities than whole genomes.<br>
+            <br>
+            <br>
+            <hr size="2" width="100%"><br>
+CollectGenome has five parameters:<br>
+            <ul>
+              <li>Generation: The file generation to fetch data from.
+Default: 1.</li>
+              <li>MinChainScore: Chains with lower score than this are
+rejected. Default: 250.</li>
+              <li>MinProcessScore: Chains with lower score than this
+are not given the full time-consuming treatment. The columns
+RepBaseFinds, PolClass and BestRefRV are not filled unless the job is
+already done by RetroVID and ORFID (if <a
+ href="RetroTector.html#ClusterMode">ClusterMode</a> = Yes). Default:
+300.</li>
+              <li>MinLTRPairScore: LTR candidate pairs with lower
+PairFactor than this and not belonging in a Chain are ignored. Default:
+0.</li>
+              <li>MultiPuteins: If Yes, more than one Putein of the
+same Gene may be associated with the same (multigenus) Chain.<br>
+              </li>
+            </ul>
+The file generation is contained in the file name. Eg, a file named
+002SelectedChains.txt has generation 2.<br>
+            <br>
+Below the ordinary contents of a startup parameter window, there are a
+number of other controls, whose use is described below.<br>
+            <br>
+            <hr style="width: 100%; height: 2px;"><br>
+The procedure for using CollectGenome is as follows:<br>
+            <br>
+            <ol>
+              <li>In the Choose genome field, specify the name of a new
+genome database to create or an old one to extend.<br>
+              </li>
+              <li>Click 'Add one row'.</li>
+              <li>Use the <a href="FileDialogs.html">file dialog</a>
+to choose a directory (typically a whole
+chromosome, possibly zipped) to collect from. Its path will appear
+above Long
+comment.</li>
+              <li>Enter any text of any length that catches your fancy
+in the 'Long comment' field.</li>
+              <li>Enter a unique identifier, typically the number of
+the chromosome, in 'Chromosome'.</li>
+              <li>Click 'Add row'. The data you just specified will
+appear as a new row in the chromosome list. If you made an error, it
+may be removed with
+Delete last row.</li>
+              <li>Repeat 2-6 to your heart's content.</li>
+              <li>Not necessary, but it may be a good idea to
+select-copy-paste the
+contents of the chromosome list into a text file. It can then be
+reimported with the 'Import' button, which can save some tedious work.<br>
+              </li>
+              <li>Click 'Run' and let CollectGenome work - possibly for
+days
+if you are collecting a full genome. The RetroTector main window will
+give an idea of what is going on. If you chose an old database, you
+will be asked if you actually want to add to it, and if you want old
+data belonging to the relevant chromosomes to be removed first. This is
+useful if a run was interrupted in the middle of a chromosome. </li>
+            </ol>
+The results may be viewed using any suitable SQL viewer, or <a
+ href="Genomeview.html">Genomeview</a>.<br>
+            <br>
+It is also possible (with the 'Import' button) to import a
+tab-delimited
+text file into the chromosome list. See point 8 above.<br>
+            <br>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-12-15</font><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

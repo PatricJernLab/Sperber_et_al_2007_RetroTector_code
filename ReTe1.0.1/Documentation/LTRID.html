@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>LTRID</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <div align="center">
+            <h2>LTRID</h2>
+            </div>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%"><br>
+LTRID is an <a href="Executors.html"> Executor</a> which searches
+for LTRs, paired or single. At present, the single LTR search is
+rather rudimentary.<br>
+            <br>
+Under very favourable circumstances, LTRID may pinpoint the exact
+extent of<br>
+an LTR, but in general its findings should be seen as no more than
+complex motif hits, suggesting the possible presence of an LTR. With
+default settings, LTRID is definitely overdiagnosing.<br>
+            <br>
+LTRID is normally run by a <a href="ParameterFile.html#ExecutorScript">
+script</a> created by <a href="SweepDNA.html">SweepDNA</a> , but may
+also be run interactively.<br>
+            <br>
+LTRID first constructs LTR candidates. Any LTR candidate has a hotspot,
+which is either the position of the T in the polyadenylation signal
+(AATAAA, AGTAAA or ATTAAA), or 4 positions before the position of a hit
+by the neural net defined by U5NN.txt in <a href="Database.html">Database</a>
+or a position whose surrounding 21 bases show marked similarity (at
+most 3 errors) to the corresponding region in another candidate within
+a reasonable distance. Once a hotspot has been located, a score factor
+between 0 and 0.5 is calculated from
+a number of factors with relative weights specified by parameters (see
+below). Each factor is regarded within a <a href="RangeSpec.html">
+distance
+range</a> from the hotspot initially specified in the 'hotspot' column
+in LTRIDData.txt in <a href="Database.html"> Database</a>. The factors
+are at present:<br>
+            <ul>
+              <li>Presence of AATAAA, AGTAAA or ATTAAA, perfect or with
+one error.</li>
+              <li>Highest score reached by the neural net defined
+by U5NN.txt</li>
+              <li>Value of <a href="Modifiers.html#GTModifier">
+GTModifier</a> at the position of the above maximum.</li>
+              <li>Highest score reached by the neural net defined
+by U3NN.txt</li>
+              <li>Highest score reached by the weight matrix defined by
+the parameter 'TATAA' in LTRIDData.txt .</li>
+              <li>Highest score reached by the weight matrix defined by
+the parameter 'MEME50' in LTRIDData.txt .</li>
+              <li>Highest score reached by the Motifs in the
+'LTR1Motifs' parameter in <a href="Motifs.html">Motifs.txt</a> .</li>
+              <li>Highest score reached by the Motifs in the
+'LTR2Motifs' parameter in <a href="Motifs.html"> Motifs.txt</a> .</li>
+              <li>Highest score reached by <a
+ href="Modifiers.html#TransSiteModifier">TransSiteModifier</a> .</li>
+              <li>Highest score reached by <a
+ href="Modifiers.html#CpGModifier"> CpGModifier</a> .</li>
+              <li>Highest score reached by <a
+ href="Modifiers.html#SplitOctamerModifier"> SplitOctamerModifier</a> .</li>
+            </ul>
+Having collected its LTR candidates, LTRID tries to make them either
+into singleLTRs (if the score factor is high enough and likely
+integration sites are found) or into LTR pairs (if two of them are
+sufficiently similar, by a dynamic programming algorithm, within at
+least -50 to +40 positions from the hotspot, and at least one of them
+has a
+correct polyadenylation signal). In successful cases, the start and end
+of the LTRs are redefined on the basis of likely integration sites, and
+the score factor recalculated within these limits.<br>
+            <br>
+The whole procedure is normally performed in both strands of the DNA.
+The
+result is output into an <a href="ParameterFile.html#ExecutorScript">Executor
+script</a> for <a href="RetroVID.html"> RetroVID</a> .<a
+ href="file:///GSpHD/Users/gsper/RetroTector010/Manual/Documentation/RetroVID.html"><br>
+            </a> <br>
+            <hr size="2" width="100%">The parameters of LTRID are:<br>
+            <br>
+            <ul>
+              <li>InputFile : The name of the file to get parameters
+from. Only used in interactive mode.</li>
+              <li>DNAFile: The name of the DNA file in the current
+directory to search in. Default: name of current directory + '.txt'.</li>
+              <li>Database: Database subdirectory to use.<br>
+Default: Ordinary.<br>
+              </li>
+              <li>ExponentStrength: The higher this value, the more
+sensitive is the score factor to deviations from perfection. Default:
+2.</li>
+              <li>LTRepTolerance: A measure of the tolerance for
+dissimilarities between LTRs in a pair. Default: 7.</li>
+              <li>LINELTRTolerance: Not in use at present.<br>
+              </li>
+              <li>AATAAAWeight: Relative weight of AATAAA (AGTAAA,
+ATTAAA) in scoring. Default: 1.</li>
+              <li>U5NetWeight: Relative weight of U5NN.txt neural
+network in scoring. Default: 2.</li>
+              <li>GTWeight: Relative weight of GTModifier in scoring.
+Default: 1.</li>
+              <li>U3NetWeight: Relative weight of U3NN.txt neural
+network in scoring. Default: 1.</li>
+              <li>TATAAWeight: Relative weight of TATAA box weight
+matrix
+in scoring. Default: 1.</li>
+              <li>MEME50Weight: Relative weight of MEME50 weight matrix
+in scoring. Default: 1.</li>
+              <li>Motifs1Weight. Relative weight of LTR1Motifs in
+Motifs.txt in scoring. Default: 4.</li>
+              <li>Motifs2Weight. Relative weight of LTR2Motifs in
+Motifs.txt in scoring. Default: 4.</li>
+              <li>TransSitesWeight. Relative weight of <a
+ href="Modifiers.html#TransSiteModifier">TransSiteModifier</a>
+in scoring. Default: 1.<br>
+              </li>
+              <li>CpGWeight: Relative weight of <a
+ href="Modifiers.html#CpGModifier">CpGModifier</a> in scoring.
+Default: 1.</li>
+              <li>SplitOctamerWeight: Relative weight of <a
+ href="Modifiers.html#SplitOctamerModifier">SplitOctamerModifier</a>
+in scoring. Default: 1.</li>
+              <li>SingleLTRThreshold. Lowest acceptable score factor in
+single LTR candidates. Default: 0.18.</li>
+              <li>DoSingleLTRs: If Yes, single LTR candidates are to be
+output. Default:Yes.</li>
+              <li>MaxPairsOutput: No more LTR pairs than this are
+output per strand. Default: 50.<br>
+              </li>
+              <li>Debugging: If Yes, extra information, in particular
+all preliminary candidates, is output. Default:No.<br>
+              </li>
+            </ul>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-10-16</font>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

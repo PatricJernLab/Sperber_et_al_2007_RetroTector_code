@@ -1,0 +1,135 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright ((c)) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+HML2_HOM_env                        ----MNPSEMQRKAPPRRRRHRNRAPLTHKMNKMVTSEEQMKLPSTKKAE
+compounded_seq_from_babou2snrn      --------------------------------------------------
+hml6.17_env_orf_MedstrandYinBl      --------------------------------------------------
+JSRV_env_JSRCG                      -------MPKRRAGFRKGWYARQRNSLTHQMQRMTLSEPTSELPTQRQIE
+env_mmtvb                           MPKHQSGSPTDSSDLLLSGKKQRPHLALRRKRRREMRKINRKVPRMNLVP
+iap_mouse_env_                      -------------------------MVQKMLTSRGLFLILTMLNLSQVPS
+                                                                                      
+                                                                 <SU1>
+HML2_HOM_env                        PPTWAQLKKLTQLATKYLENTKVTQTPESMLLAALMIVSMVVSLPMPAGA
+compounded_seq_from_babou2snrn      --------------------------------------------------
+hml6.17_env_orf_MedstrandYinBl      --------------------------------------------------
+JSRV_env_JSRCG                      ALMPYAWN---------EAHVQPPVTPTNILIMLLLLLQRVQNG------
+env_mmtvb                           IKEKTAWQHLQALISEAEEVLKTSQTPQTSLTLFLALLSVLGPPP-----
+iap_mouse_env_                      IMGEQRWAILSTFPKPMPVRHDAIVFPKFFTTNKTVDLP-----------
+                                                                                      
+                                                         <SU2>
+HML2_HOM_env                        AAANYTYWAYVPFPPLIRAVTW-MDNPTEVYVNDSVWVPGPIDDRCPAKP
+compounded_seq_from_babou2snrn      ------------------------------------------DDRFPAQP
+hml6.17_env_orf_MedstrandYinBl      --------------------------------------------------
+JSRV_env_JSRCG                      --AAAAFWAYIPDPPMIQSLGW-DREIVPVYVNDTSLLGG-KSDIHISPQ
+env_mmtvb                           -VTGESYWAYLPKPPILHPVGWGSTDPIRVLTNQTMYLGGSPDFHGFRNM
+iap_mouse_env_                      ------YLLYDPTAPLGENRSLLEQGSLCFQINGPGNCINLTARALGKFN
+                                                                                      
+
+HML2_HOM_env                        EEEGMMINISIGYHYPPICLGRAPGCLMPAVQNWLVEVPTVSPICRFTYH
+compounded_seq_from_babou2snrn      ERKGMQFNLSTGYKFPPLCIAMSPGCLAFSNQNWMWTVPSSSNDSYEVHN
+hml6.17_env_orf_MedstrandYinBl      --------------------------------------------------
+JSRV_env_JSRCG                      QANISFYGLTTQYPMCFSYQSQHPHCIQVSADISYPRVTISGIDEKTGKK
+env_mmtvb                           SGNVHFEGKSDTLPICLSFSFSTPTGCFQVDKQVFLSDTPTVDNNKPGGK
+iap_mouse_env_                      EHRGWVSTTQDTSNVEITFTNRTFWQEVNWVNGTFLPPNFSDKEHLHQPK
+                                                                                      
+
+HML2_HOM_env                        MVSGMSLRPRVNYLQDFSYQRS----LKFRPKGKP-CPKEIPKESKNTEV
+compounded_seq_from_babou2snrn      VFSSNSFHIMAVELNPHEEWRVPVTTKNNTTKGLPDCSREPTKGTCLGNS
+hml6.17_env_orf_MedstrandYinBl      --------------------------------------------------
+JSRV_env_JSRCG                      SYGN-----------------------GTGPLDIPFCDKHLSIGIGIDTP
+env_mmtvb                           GDKRRMWELWLTTLGNSGANTKLVPIKKKLPPKYPHCQIAFKKDAFWEGD
+iap_mouse_env_                      IAPHCSLE------------------DEGLILPWSDCQSSIIRWVDQSKT
+                                                                                      
+
+HML2_HOM_env                        LVWEECVANSAV-ILQNNEFGTIIDWAPRGQFYHNCSGQTQSCPSAQVSP
+compounded_seq_from_babou2snrn      IIWNDCDAPKAVRVLRGLVTGAVIDLGSQRYYWRNFSGQNTQCSEFNY--
+hml6.17_env_orf_MedstrandYinBl      --------------------------------------------------
+JSRV_env_JSRCG                      WTLCRARVASVYNINNANATFLWDWAPGGTPDFPEYRGQHPPIFSVNTAP
+env_mmtvb                           ESAPPRWLPCAFPDQGVSFSPKGALGLLWDFSLPSPSVDQSDQIKSKKNL
+iap_mouse_env_                      FSFSPNMIDDPEKEFVMKKGLFIQDFRMHPFHKWVLCGVNGSCTELNPLI
+                                                                                      
+
+HML2_HOM_env                        AVDSDLTESLDKHKHKKLQSFYPWEWGEKGISTPRPKIVSPVSGPEHPEL
+compounded_seq_from_babou2snrn      -LIHHVRDGWQSSRLREWVSPYPFKWMDSGIVPPRPKIFK----------
+hml6.17_env_orf_MedstrandYinBl      --------------------------------------------------
+JSRV_env_JSRCG                      IYQTELWKLLAAFGHGNSLYLQPNISGTKYGDVGVTGFLYP---------
+env_mmtvb                           FGNYTPPVNKEVHRWYEAGWVEPTWFWENSPKDPNDRDFTALVPHTELFR
+iap_mouse_env_                      FIQGGAVGKASFTGISRFAQYWGIHDASQDSYGYTNTSVEITG-------
+                                                                                      
+
+HML2_HOM_env                        WRLTVASHHIRIWSGNQTLETRDRKPFYTIDLNSSLTVPLQSCVKPPYML
+compounded_seq_from_babou2snrn      ---------VNVRTGN------------------TYQEPIRD--NPPYML
+hml6.17_env_orf_MedstrandYinBl      -----------------------------------------CVFNPYVFL
+JSRV_env_JSRCG                      ----------------------------------------RACVPYPFML
+env_mmtvb                           LVAASRHLILKRPG-----------------FQEHEMIPTSACVTYPYAI
+iap_mouse_env_                      -----------------------------------FNKTLVNQINYPSTP
+                                                                                      
+
+HML2_HOM_env                        VVGN---IVIKP--DSQTITCENCRLLTCIDSTFNWQH---RILLVRARE
+compounded_seq_from_babou2snrn      LVGI---INVTP--NRQTIECDDCKLSTCIDAPFDSQN---KYLLVRARE
+hml6.17_env_orf_MedstrandYinBl      AAQK---DQLQV--NNTQLTCKSCQLYHCINHSTLRTHNISTLMILGCIP
+JSRV_env_JSRCG                      IQGH---MEITLSLNIYHLNCSNCILTNCIRGVAKGEQ----VIIVKQPA
+env_mmtvb                           LLGLPQLIDIEKRGSTFHISCSSCRLTNCLDSSAYDYA----AIIVKRPP
+iap_mouse_env_                      VCVYPPFLFILSNDSFEVCSNDSCWISQCWDVTKNTRA-----MVARIPR
+                                             :    .      ..* :  *              ::     
+
+                                                                     <SU3>
+HML2_HOM_env                        GVWIPVSMD-RPWEASPSVHILTEVLKGVLNRSKRFIFTLIAVIMGLIAV
+compounded_seq_from_babou2snrn      GLWIPVSLH-RPWESSPSIHIVNEVLKRTLQTTKRFIFTLTAVIAGLIAV
+hml6.17_env_orf_MedstrandYinBl      GLGIPVNLS-EAWAATPALHFVKLLLLQVTHCARRALGMIIFAIVSLVTL
+JSRV_env_JSRCG                      FVMLPVEIA-EAWYDETALELLQRINTALS-RPKRGLSLIILGIVSLITL
+env_mmtvb                           YVLLPVDIGDEPWFDDSAIQTFRYATDLIR--AKRFVAAIILGISALIAI
+iap_mouse_env_                      WIPVPVETP-------STLSMFR---------QKRDFGITAAMIIAISAS
+                                     : :**.         .::  .           :* .      * .: : 
+
+                                                                                     <
+HML2_HOM_env                        TATAAVAGVALHSSVQSVNFVNDWQKNSTRLWNSQSSIDQKLANQINDLR
+compounded_seq_from_babou2snrn      TATAAAAGLAIHRSVQTAQYVEAWQKNSTRLRNSRAQADQKLANQINDLR
+hml6.17_env_orf_MedstrandYinBl      ITSVVMSSVTLHSSVQTAQYVENWTRTANQARLLQNKINTELQTEVAMLK
+JSRV_env_JSRCG                      IATAVTACVSLAQSIQAAHTVDSLSYNVTKVMGTQEDIDKKIEDRLSALY
+env_mmtvb                           ITSFAVATTALVKEMQTATFVNNLHRNVTLALSEQRIIDLKLEARLNALE
+iap_mouse_env_                      AAAATAAGYAMVSAVS-GTKLNQLSADLADAITVQTSASTKLKGGLMILN
+                                     :: . :  ::   :.    ::            :   . ::   :  * 
+
+
+                                    TM2>                <TM4>
+HML2_HOM_env                        QTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNESEHHWDMV-RRHL
+compounded_seq_from_babou2snrn      QSMIWLGDRVMNLEHRMQLQCDWNASDYYIRPNAYNKDQHSWKKS-DLNL
+hml6.17_env_orf_MedstrandYinBl      SMVLWLGEQVXSLQLQRQLRCHFNHTRICVTNLEYNKSEYPWDLVKAHLQ
+JSRV_env_JSRCG                      DVVRVLGEQVQSINFRMKIQCHANYKWICVTKKPYNTSDFPWDKVKKHLQ
+env_mmtvb                           EVVLELGQDVANLKTRMSTRCHANYDFICVTPLPYNATEN-WERTRAHLL
+iap_mouse_env_                      QCLDLAEEQIGVLHQMAQLGCERKLEALCITSVQYENFTYAANLSRQLSL
+                                    . :    : :  :.   .  *. :     :    *:      .       
+
+
+HML2_HOM_env                        QGRE-DNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVT
+compounded_seq_from_babou2snrn      KAWD-DNLTLGISKLKEQIFEDSQAHLTTIPGSDIFEGITEGDLIQIPLN
+hml6.17_env_orf_MedstrandYinBl      GAFT-SNITFDISELQNKILDLNRHTQEFQPSLEDWTEFQEGLESLNPWT
+JSRV_env_JSRCG                      GIWFNTNLSLDLLQLHNEILDIENSPKATLNIADTVDNFLQNLFSNFPS-
+env_mmtvb                           GIWNDNEISYNIQELTNLISDMSKQHIDAVDLSGLAQSFANGVKALNPLD
+iap_mouse_env_                      YLAG------NWSERFDETLEALIAAVLKINSTRMDLSLTEGLSSWISSA
+                                              .  :  :   :                 . :.     .  
+
+                                             <TM5>
+HML2_HOM_env                        WVKTIGSTTIINLILILVCLFCLLLVCRCTQQLRRDSDHRERAMMTMAVL
+compounded_seq_from_babou2snrn      GSKPLRRSLLSLALLTSVRLCWLLLVCRCLRGVPGQVVSQRQAMMAVTIL
+hml6.17_env_orf_MedstrandYinBl      YLKSHSNILYVVLGVMLFCLCLLFIVCKIGWTANRRMRAAQPGLTFFQLI
+JSRV_env_JSRCG                      -LHSLWKTLIGLGIFVIIIAIVIFVFPCVVRGLVRDFLKMRVEMLHMKYR
+env_mmtvb                           WTQYFIFIGVGALLLVIVLMIFPIVFQCLAKSLDQVQSDLN-----VLLL
+iap_mouse_env_                      FSYFKEWVGVGLFGVATCCGLVVMLWLVCKLRTQQTR---DKVVITQALA
+                                                  .        ::                         
+
+
+HML2_HOM_env                        SKRKGGNVG----KSKRDQIVTVSV--------
+compounded_seq_from_babou2snrn      VNKKGGDGGGKTARCRGKRLKPQAVP-------
+hml6.17_env_orf_MedstrandYinBl      HKQGDMQGAEGPWDVTNSAFHWRLYDQTANCLS
+JSRV_env_JSRCG                      TMLQHRHLMELLKNKERGAAGDDP---------
+env_mmtvb                           KKKKGGNAAPAAEMVELPRVSYT----------
+iap_mouse_env_                      AIEQGASPEIWLSMLKN----------------
+                                                                     
+::
+Suspect::
+hml6.17_env_orf_MedstrandYinBl<START><SU2>
+::

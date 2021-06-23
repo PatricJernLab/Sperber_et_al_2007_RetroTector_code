@@ -1,0 +1,339 @@
+{CLUSTAL W (1.8) multiple sequence alignment
+{ Copyright (©) 2000-2006, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2006 10 16
+{
+Alignment::
+                                               <MA1>
+HML1                               ------------------MRQSESRHSVYLNFLSDLLQRGG-VKVSTQNL
+HML3z                              --------------------------------------------------
+HERV-K10                           --------------MGQTKSKIKSKYASYLSFIKILLKRGG-VKVSTKNL
+HERV-K_C4_                         ------------------MGKTESKYTTYLSFLRQLFKHAGGVKVDTENL
+D_Melanogaster_Gypsy_gag           ------------MSWAHNYRKVKVEYESEDSWEEEQVGQALGRPLDSATV
+D_subobscura_gypsy_ORF1_annot      --------------------------------------------------
+MPMV                               ------------------MGQELSQHERYVEQLKQALKTRG-VKVKYADL
+MMTV                               ------------------MGVSGSKGQKLFVSVLQRLLSERGLHVKESSA
+_HML-6p                            ------------------MGQNLFCZEKKNEKLLKVLLKQSGAQVZSQTL
+IAPm                               MFGLEFFLVLEALLFLFTCYQVVKAGRILDEIQDKLSEVKRGERVGTKRK
+D_melanogaster_Zam_gag_annot       ----------------------------MSKKLTQTIKQTTRSVLESHTF
+D_buzzati_Osvaldo_gag_annot        ---------------------TMVRAWVYNLKKDDVLRYGDEFGVTLSGT
+S_Cerevisiae_TY32_ORF1_a           --------------------------------------------------
+Tricholoma_Matsutake_MarY1_a       --------------------------MDASECFDALESDVSGMRVQIDSL
+Pisum_sativum_gypsy_annot          -----------------------------------------MAGRNDDAM
+Oryza_sativa_RIRE3_annot           MVTTRRTANTGDGNQPEGSNINNHGSPPPPPPPPPPPDTNAILTQILAQQ
+A_Thaliana_Endovir1_gag            ------------ILLVHPLSGQTRRSADCWNKLEAVSEDZSEDQVIDADV
+C_Elegans_Cer1_gag                 --------------MQKSQILVETTLKLKAVEEERDKRKKEEQFREADAR
+                                                                                     
+
+HML1                               LSLFSIVKQFCPWFPEQGTMEL---DEWERIGRDFKKAYKEG--AEIPVS
+HML3z                              ------------------------------MG------------------
+HERV-K10                           IKLFQIIEQFCPWFPEQGTSDL---KDWKRIGKELKQAGRKG--NIIPLT
+HERV-K_C4_                         MDLFHAMEQFCPWFPKQETLKL---KHXEGVGKDLKRAYREG--KEIPLP
+D_Melanogaster_Gypsy_gag           DITMDPNQIQALIDNAVRQALS---QQQSQFQTQLNSLAARV--QSLQVE
+D_subobscura_gypsy_ORF1_annot      ---MEPAQLLAIVEGAVRQALE---QQQNQFQAQITALATQV--QSLQVE
+MPMV                               LKFFDFVKDTCPWFPQEGTIDI---KRWRRVGDCFQDYYNTFGPEKVPVT
+MMTV                               IEFYQFLIKVSPWFPEEGGLNL---QDWKRVGREMKRYAAEHGTDSIPKQ
+_HML-6p                            TKMLQEVITHNPWFPQAGTPDV---ENWHRAGEGLKQAHQKG--LKVDSS
+IAPm                               YGTQNKYTGLSKGLEPEEKLRLG-RNTWREIRRKRGKREKKKDQLAEVSR
+D_melanogaster_Zam_gag_annot       PKRVTRSVSKTNTLPVIRESTP--LPPLQPINMDSGNASVGN--SAPVTP
+D_buzzati_Osvaldo_gag_annot        LDVMR--RQFGEWVETNEGRIPY-SLTVAELARLHGRRPSNSEDVPTVIV
+S_Cerevisiae_TY32_ORF1_a           --LFKRTIEKPNLATPHPSMSF------------MDQIPGGGNYPKLPVE
+Tricholoma_Matsutake_MarY1_a       KSTIENFVRTLQANPTTNSSPFT-TPSAPNNDVLPNASTKER--AQIKPS
+Pisum_sativum_gypsy_annot          AAAMQAMAQAVQNLPNAGGDAG-----SRSLATFQRENPPVFKGKHDPDA
+Oryza_sativa_RIRE3_annot           ANMMAAFLHHIQNPPRHNAPPPPPPPQHSELAEFLRIRPPTFSSSNNPVD
+A_Thaliana_Endovir1_gag            DISPNERMTWKSQQDVQFGEEIF--ARRFGVIQDLEGZPRRPKTSIVZIE
+C_Elegans_Cer1_gag                 SNNYARKGEISSNIEQKNHQNIQIMDTRCTTSSSRMNTPAQRIGENLSTS
+                                                                                     
+
+HML1                               VWSVWVLIKAALEPFQTDDE---------------------ADSDEEEEV
+HML3z                              --QIWGLVRFTLELFHTD--------------------------NEEERL
+HERV-K10                           VWNDWAIIKAALEPFQTEEDSISVSDAPGSCLIDCNENTRKKSQKETESL
+HERV-K_C4_                         VWSLWSLVHAALEPFQTD--------------------------NEAE--
+D_Melanogaster_Gypsy_gag           APQIKIYEKVSVNPDVRCD-------------------------------
+D_subobscura_gypsy_ORF1_annot      APQIITYEKISVDPDAKCD-------------------------------
+MPMV                               AFSYWNLIKELIDKKEVNPQVMAAVAQTEEILKSNSQTDLTKTSQNPDLD
+MMTV                               AYPIWLQLREILTEQSDLVLLSAEAKSVTEEELEEGLTGLLSTSSQEKTY
+_HML-6p                            AFSTRSLVHTVLLPLYPFYS-------------------------AGQQE
+IAPm                               KRSLCSSLDGLGEPALSSSEADEEFSS-------------EETDWEEEAA
+D_melanogaster_Zam_gag_annot       TVSGFSSIATALS-------------------------------------
+D_buzzati_Osvaldo_gag_annot        GNDQYEEDPNAARQSLPS--------------------------------
+S_Cerevisiae_TY32_ORF1_a           CLPNFPIQPSLTFRGRNDS-------------------------------
+Tricholoma_Matsutake_MarY1_a       PPAEFNGARAQGRAFLNS--------------------------------
+Pisum_sativum_gypsy_annot          ALGWLKEIERIFRVMDCTP-------------------------------
+Oryza_sativa_RIRE3_annot           ALDWLHAVGKKLDTVQCNDKEKVIFATHQLQGPASLWWDYFQATQPEGQP
+A_Thaliana_Endovir1_gag            VLRFLLDLAVIVVKSKCKAFHCERVR------------------------
+C_Elegans_Cer1_gag                 NVGNNVVRETVREYCEETG-------------------------------
+                                                                                     
+
+HML1                               ECKNLTS-----------DSECEEQLLEEIKEKKGKLNSMFYZSLSAPP-
+HML3z                              ZYSEVT-------------EEVTEHVYLPAKAKVAKEGEVHPYPSAPPP-
+HERV-K10                           HCEYVAEPVMAQSTQNVDYNQLQEVIYPETLKLEGKGPELMGPSESKPRG
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           --------------------------------------------------
+D_subobscura_gypsy_ORF1_annot      --------------------------------------------------
+MPMV                               LISLDSD-----------DEGAKSSSLQDKGLSSTKKPKRFPVLLTAQTS
+MMTV                               GTRGTAYAEIDTEVDKLSEHIYDEPYEEKEKADKNEEKDHVRKIKKVVQR
+_HML-6p                            SCSESKN--------------LKESVVPPTAPIENKKQEREDNNWPIPP-
+IAPm                               HYEKKGYQ---------PGKVLANQLRKPKAAGEGQFADWPQGSRLQGP-
+D_melanogaster_Zam_gag_annot       --------------------------------------------------
+D_buzzati_Osvaldo_gag_annot        --------------------------------------------------
+S_Cerevisiae_TY32_ORF1_a           --------------------------------------------------
+Tricholoma_Matsutake_MarY1_a       --------------------------------------------------
+Pisum_sativum_gypsy_annot          --------------------------------------------------
+Oryza_sativa_RIRE3_annot           ITWARFTAAFRRTHVPAGVVALKKREFRELKQGNRSVMEYLHEFNNLARY
+A_Thaliana_Endovir1_gag            -------------------FTLIRILEKSKSVSCDYLLCVLGNLRDKLKZ
+C_Elegans_Cer1_gag                 --------------------EILEDFEVNQNDSVLTERNVTGSVRNGDS-
+                                                                                     
+
+HML1                               --------------------------------------------------
+HML3z                              --------------------------------------------------
+HERV-K10                           TSPLPAGQVLVRLQPQKQVKENKTQ-----------------PQVAYQYC
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           --------------------------------------------------
+D_subobscura_gypsy_ORF1_annot      --------------------------------------------------
+MPMV                               KDPEDPNPSEVDWDGLEDEAAKYHN-----------------PDWPPFLT
+MMTV                               KENSE---------------------------------------------
+_HML-6p                            --------------------------------------------------
+IAPm                               --------------------------------------------------
+D_melanogaster_Zam_gag_annot       --------------------------------------------------
+D_buzzati_Osvaldo_gag_annot        --------------------------------------------------
+S_Cerevisiae_TY32_ORF1_a           --------------------------------------------------
+Tricholoma_Matsutake_MarY1_a       --------------------------------------------------
+Pisum_sativum_gypsy_annot          --------------------------------------------------
+Oryza_sativa_RIRE3_annot           APEDVREDEEKQEKFLAGMDPELSVGLVSGDYPDFQRLVDKSIRLEAKHK
+A_Thaliana_Endovir1_gag            --------------------------------------------------
+C_Elegans_Cer1_gag                 --------------------------------------------------
+                                                                                     
+                                   <MA2>
+HML1                               --AELSEWPPPLSPLNGQENK------------------LAEKLIAPVV-
+HML3z                              --YYFEENDPPNLSFPEDTG---------------------XKLVAPVT-
+HERV-K10                           RWLNFSIGHPQKVSMDIQECPQHHRAGRHTISRPLGDLILWHHLVDRVVN
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           --------------------------------------------------
+D_subobscura_gypsy_ORF1_annot      --------------------------------------------------
+MPMV                               RPPPYNKATPSAPTVMAVVNPKEELKEKIAQLEEQIKLEELHQALISKLQ
+MMTV                               --GKRKEKDSKAFLATDWNDDDLSPEDWDDLEEQAAHYHDDDELILPVKR
+_HML-6p                            --------------------------------------------------
+IAPm                               ---PYAESPPCVVR------------------------------------
+D_melanogaster_Zam_gag_annot       --------------------------------------------------
+D_buzzati_Osvaldo_gag_annot        --------------------------------------------------
+S_Cerevisiae_TY32_ORF1_a           --------------------------------------------------
+Tricholoma_Matsutake_MarY1_a       --------------------------------------------------
+Pisum_sativum_gypsy_annot          --------------------------------------------------
+Oryza_sativa_RIRE3_annot           ELESHKRRLANFRNQQGANQRVRYTNPYPGGSSSQQQQQQQQQSRPAPRP
+A_Thaliana_Endovir1_gag            --------------------------------------------------
+C_Elegans_Cer1_gag                 --------------------------------------------------
+                                                                                     
+
+                                                                                    <
+HML1                               ------------------APLKPGAIG-SAIQNSIQKARAKGDLEAWQFP
+HML3z                              ------------------VQAAPRAMALSSIQAGIQQARREGDLEAWQFP
+HERV-K10                           YMKLLINQERKEILRHGNSQMAPPSRQGSELHEIIDKSRKEGDTEAWQFP
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           --------------------------------------------------
+D_subobscura_gypsy_ORF1_annot      --------------------------------------------------
+MPMV                               KLKTGNETVTHPDTAGGLSRTPHWPGQHIPKGKCCASREKEEQIPKDIFP
+MMTV                               KVVKKKP-----------QALRRKPLPPVGFAGAMAEAREKGDLTFTFPV
+_HML-6p                            ------------------PPVAETSVPPPSVAEIETSIQRILCSAACTFP
+IAPm                               ------------------QPCAERQCAKRQCADSFIPREEQRKIQQAFPV
+D_melanogaster_Zam_gag_annot       --------------------------------------------------
+D_buzzati_Osvaldo_gag_annot        --------------------------------TSAAARLQQTEQGAWRAT
+S_Cerevisiae_TY32_ORF1_a           --------------------------------------------------
+Tricholoma_Matsutake_MarY1_a       --------------------------------------------------
+Pisum_sativum_gypsy_annot          --------------------------------------------------
+Oryza_sativa_RIRE3_annot           QFVVRVPQPQQQQNQQGTRAPRPPTPAVQPVQGRRDASGPQRLCFNCFEP
+A_Thaliana_Endovir1_gag            -----------------FRSCVKPIKVVVNFLIRFLIKZDSVVLSLGNIV
+C_Elegans_Cer1_gag                 ----------------------------QVQTNSLERMTQMMLAQSLPEP
+                                                                                     
+
+                                   CA0>
+HML1                               ITIIQ-------QGGKN---IANWATFPFKLLKE-FKQAISQYGPNSSFV
+HML3z                              VRIHPP-----DQEGNI---TATFEPFPFKLLKK-LKQAINEYGPGSPFV
+HERV-K10                           VTLEPMPPGEGAQEGEPPTVEARYKSFSIKMLKD-MKEGVKQYGPNSPYM
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           --------------------------IPLDIIKS-VPEFSGTQDEYVAWR
+D_subobscura_gypsy_ORF1_annot      --------------------------IPLDIIKS-VPDFTGAQDEYVAWR
+MPMV                               VTETVD---------GQGQAWRHHNGFDFAVIKE-LKTAASQYGATAPYT
+MMTV                               VFMGES----------DEDDTPVWEPLPLKTLKE-LQSAVRTMGPSAPYT
+_HML-6p                            ISIRPD-------PNNPQQFIHEHTPLEFTLLKEZEKLSVINNGIQSPFT
+IAPm                               FEGAEG--------------GRVHAPVEYLQIKE-LAESVRKYGTNANFT
+D_melanogaster_Zam_gag_annot       -------------------------ATDILAFVKELPTFDGTPGQLDKYI
+D_buzzati_Osvaldo_gag_annot        STPQPE--------------IRTRGPSSSEQEYPKVAKHVREWNFRFDGT
+S_Cerevisiae_TY32_ORF1_a           -------------------------------------------HKLKNFI
+Tricholoma_Matsutake_MarY1_a       ----------------------------CELYISLQSHQFVDEAAKIYWA
+Pisum_sativum_gypsy_annot          -------------------------------------------AQKVRYG
+Oryza_sativa_RIRE3_annot           GHFADKCPKPRRQQGQAPPRPNNGGKDVIRGRVNHVTAEDVLTTPDFIVG
+A_Thaliana_Endovir1_gag            LGSSGFSIGISRHLNQVVLNNRCRSCGEDGLPQRVRAVGKAIMLEKGNYG
+C_Elegans_Cer1_gag                 AKFTAE--------------EGSISIEAFEKTFKLKFGTFSDEQQVAILE
+                                                                                     
+
+HML1                               QTLFKNMALDNRLIPYDSDTLTKSVL----IPSQYLQLKTWWADEAQTQA
+HML3z                              MGLLKNVTVSSRIIPTDWDTLTRACL----TPAQFLQFKTWWADEASIQA
+HERV-K10                           RTLLDSIAYGHRLIPYDWEILAKSSL----SPSQFLQFKTWWIDGVQEQV
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           QSAIYAYELFKPYNGSSAHYQAVAIL----RNKIRGAAGALLVSHN-GIE
+D_subobscura_gypsy_ORF1_annot      QAAIYAYELFKNFPKSTAHYQAVAII----RNKIKGSAGALLVSHNTVLN
+MPMV                               LAIVESVADN-WLTPTDWNTLVRAVL----SGGDHLLWKSEFFENCRDTA
+MMTV                               LQVVDMVAS-QWLTPSDWHQTARATL----SPGDYVLWRTEYEEKSKEMV
+_HML-6p                            LGLLESVFGAMRLLPFDVKHLARTCL----SATAYLTWNLNWQEMCADQA
+IAPm                               LVQLDRLAG-MALTPADWQTVVKAALP---MMGKYMEWRALWHETAQAQA
+D_melanogaster_Zam_gag_annot       TSVEEIIMLIRGTDQTPYGLLTLRAI----RNKIVGRADEALNLANTKLI
+D_buzzati_Osvaldo_gag_annot        SKPLEFLEQVEWSADTYGLDLDLIPRA---MPELLKGMALKWYVANNRHW
+S_Cerevisiae_TY32_ORF1_a           SEIMLNMSMISWPNDASRIVYCRRHLL---NPAAQWANDFVQEQGILEIT
+Tricholoma_Matsutake_MarY1_a       FTYMKSEHAYLYVDRILRQTKELGSLP---FSTWGDFRAEFVRHFCPLNE
+Pisum_sativum_gypsy_annot          THMLAVEADDWWLETHERLTVAGEVIT---WDVFRREFMTKYYPEDVRGK
+Oryza_sativa_RIRE3_annot           TFLVHSIPATILFDSGASHSFISMPFVGKNQLGVERLRNPLLITTPGGVM
+A_Thaliana_Endovir1_gag            HWKVKMRALIRGLGKEAWIATSVGWKAPVVKGENGEDVLKTEDQWTDAEE
+C_Elegans_Cer1_gag                 SKYLEGRAQKAYRSLTAGEKVKVKVVLNALANRLRLSVEDENHRAKQKWN
+                                                                                     
+
+HML1                               RENTQAQPPVPVSFEQLMGVGPNWGRLQNQAVIDDVAIVQLCFVCLWAWE
+HML3z                              AHNAQAQPQINITADQLLGVDG-WAGLDAQLVMQDDAIERLRGVSIRAWE
+HERV-K10                           RRNRAANPPVNIDADQLLGIGQNWSTISQQALMQNEAIEQVRAICLRAWE
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           FDAILARLDCTYSDKTSLRLLRQGLEMVRQGDLPLMQYYDEVEKKLTLVT
+D_subobscura_gypsy_ORF1_annot      FDAILARLDCTYSDKTSLRLLRQSLELVSQGEMSLMQYYDDVEKKLTLVT
+MPMV                               KRNQQAGNGWDFD---MLTGSGNYSSTDAQMQYDPGLFAQIQAAATKAWR
+MMTV                               QKAAGKRKG--KVSLDMLLGTGQFLSPSSQIKLSKDVLKDVTTNAVLAWR
+_HML-6p                            RQNHASGHG-DITEGMLLGNGZLYSDLECQMALPDPAYQQCAQAAKHAWA
+IAPm                               RANAAALTP-EQRDWTFDLLTGQGAYSADQTNYHWGAYAQISSTAIRAWK
+D_melanogaster_Zam_gag_annot       WDDIKSNLLRLYSSKKSEATLLGELQSLPDNLTLGQLFFGLSRIRSQLIS
+D_buzzati_Osvaldo_gag_annot        RTWGTFVRSFQEFFFAEDYLEDLKDEVKRRKQMVDEPFKIYMVEMQTLMR
+S_Cerevisiae_TY32_ORF1_a           FDTFIQGLYQHFYKPPDINKIFNAITQLSEAKLGIERLNQRFRKIWDRMP
+Tricholoma_Matsutake_MarY1_a       RHRAVTRLESSTYHQGRRSVDDYIDEFKDLVDMAG---YGSGLPVVVKFR
+Pisum_sativum_gypsy_annot          KEIEFLELKQGNMSVTDYAAKFVELSKFYPHYTGAGAEFSKCIKFENGLR
+Oryza_sativa_RIRE3_annot           TAKYYSPAVPIEIQGIPFPSDLILLDTKNLDVILGMNWLAQFQGVVDCAR
+A_Thaliana_Endovir1_gag            AKATANSRALSLIFNSVNQNQFKRIQNCESAKEAWDKLAKAYEGTSSVKR
+C_Elegans_Cer1_gag                 ILSRKPDQSCEDYCLLIDDIARIAFRRVSPEELSSMKYVKLLDEVTDMHL
+
+                                                                                     
+                                                <CA1>
+HML1                               R-IHVTEEKYPSFSSVXQEPKEPYTGFIAWLQEAMYK-----AITDKTAQ
+HML3z                              KZITSGGEQYLSFSAIKQGPREPYVDFIARLQESLKK-----MISDSAAQ
+HERV-K10                           K-IQDPGSTCPSFNTVRQGSKEPYPDFVARLQDVAQK-----SIADEKAG
+HERV-K_C4_                         -----SEEEREEFDNQNSEPPLPSTNKKESLKMIYAN-----LPSLPKPT
+D_Melanogaster_Gypsy_gag           NKIVMTHEQEGADLLNAEVRADALHAFISGLKKALRA-----VVFPAQPK
+D_subobscura_gypsy_ORF1_annot      NKIVMSHDQEGADLLNREVRDDALHAFISGLKKSLRA-----VVFPAQPK
+MPMV                               K-LPVKGDPGASLTGVKQGPDEPFADFVHRLITTAGR-----IFGSAEAG
+MMTV                               A-IPPPGVKKTVLAGLKQGNEESYETFISRLEEAVYR-----MMPRGEGS
+_HML-6p                            T-IPEERVPVQSFLHLMQGSQEPYVQFLARLQEAVKH-----QIPHTAAT
+IAPm                               G-LSRAGETTGQLTKVVQGPQESFSDFVARMTEAAER-----IFGESEQA
+D_melanogaster_Zam_gag_annot       ITSNSGQSATIIEAKKTLYDEVCLNAFISRIREPLKT-----VIRLKDPK
+D_buzzati_Osvaldo_gag_annot        P-LRYGPDHEMKLIYNNSIPDLRAYARPYQFQSLMEL-----MKLADEFE
+S_Cerevisiae_TY32_ORF1_a           P--DFMTEKAAIMTYTRLLTKETYNIVRMHKPETLKD-----AMEEAYQT
+Tricholoma_Matsutake_MarY1_a       RGLNREIQDQIAQMLEGRPADDDILAWYEAASLCDEN-----RLTNAAFN
+Pisum_sativum_gypsy_annot          SEIKKAVGYQKIRIFTELVDS---CRIFEEDNNAHYK-----IVSDRRGK
+Oryza_sativa_RIRE3_annot           RTVTLYRGPEQPVVFFAPPTSVRSSELHIGLSEIPIVREFGDVFPEELPG
+A_Thaliana_Endovir1_gag            SRIDMLASQFENLTMDESENIEEFSGKISAIASEAHN-----LGKKYKDK
+C_Elegans_Cer1_gag                 RCSIDNKIMDTDEINHYDVCREMIIRHEWNVSKINEKQCLNSKLSEKRGK
+
+                                                                                     
+                                            <CA2>
+HML1                               DVVIQLLAYDNANAECQTAIRPEREGS------FSZEYIKACDGIADNLH
+HML3z                              NIVLQLLAFDNANPDCQAALRPIRGKA------HLVDYIKACDGIGGNLY
+HERV-K10                           KVIVELMAYENANPECQSAIKPLKGKVPA-GSDVISEYVKACDGIGGAMH
+HERV-K_C4_                         QKIVQPTVPVEKCPEWPPPPQP--------------------SGCRGREP
+D_Melanogaster_Gypsy_gag           DLPSALALAREAEASIERSMFAN-------------SYAKAVEERAHSGA
+D_subobscura_gypsy_ORF1_annot      DLPSALALAREAEASIERSMFAN-------------SYAKALQDRAQIAE
+MPMV                               VDYVKQLAYENANPACQAAIRPYRKKT------DLTGYIRLCSDIGPSYQ
+MMTV                               DILIKQLAWENANSLCQDLIRPIRKTG------TIQDYIRACLDASPAVV
+_HML-6p                            EMLTLTLALENANADCKRALAPVRCTK-------LGKFSRTCQDVETELH
+IAPm                               APLIEQLIYEQATKECRAAIAPRKNKG-------LQDWLRVCRELGGPLT
+D_melanogaster_Zam_gag_annot       TIETAYELCQGERARYQN--------------------RNPYPPTQNNTE
+D_buzzati_Osvaldo_gag_annot        ELERDRERLRRLQRPARTRLMAMEEDD----------GHEEEMLRRGALE
+S_Cerevisiae_TY32_ORF1_a           TALTERFFPGFELDADGDTIIG------------ATTHLQEEYDSDYDSE
+Tricholoma_Matsutake_MarY1_a       AAFHAPTTTHTPYTFNRSLPRP-----------------NPIPTRQTPTP
+Pisum_sativum_gypsy_annot          QHQNRGKPYDAPVGKGKQGAAP------------------AQRTSRGGAP
+Oryza_sativa_RIRE3_annot           MPPQREIEFRIDLAPGTTPLYKRPYRMAANELAEVKKQLEELKEKGYIRP
+A_Thaliana_Endovir1_gag            KLVKKLLRCLPSRFESKRTAMGTSLDTDTIDFEEVVGMLQAYELEITSGK
+C_Elegans_Cer1_gag                 VQNAENFVNQNTQNNLNRFLQTRLLIILGTLGTIIHKIIRRLLRISRESK
+
+                                                                                     
+                                                                      <NC1>
+HML1                               KATLLAQAMAGLRIGKNMPCF-----------SGSCFNCRQFXHTREECR
+HML3z                              NATLLAQAMAGLKVDKGNTPF-----------PGACFNCGKHGHTKKECR
+HERV-K10                           KAMLMAQAITGVVLGGQVRTF-----------GGKCYNCGQIGHLKKNCP
+HERV-K_C4_                         ETWLTVPIIARPTVHYGDGAI-----------------------------
+D_Melanogaster_Gypsy_gag           NGKSRFQGKP---NKEEQGQD-----------RNPHFTKRPK--------
+D_subobscura_gypsy_ORF1_annot      GNKVRAQGKPTRFNKDEQNQE-----------RNPHFVKRQKGWPQPQAP
+MPMV                               QGLAMAAAFSGQTVKDFLNNKNK-------EKGGCCFKCGKKGHFAKNCH
+MMTV                               QGMAYAAAMRGQKYSTFVKQTYGGGKGGQGAEGPVCFSCGKTGHIRKDCK
+_HML-6p                            CSAILAQAMANLVVDKSKRSQRSN------PKVGKCYNCGKTGHFKKECC
+IAPm                               NAGLAAAILQSQNRSMSRNDQ------------RTCFNCGKPGHFKKDCR
+D_melanogaster_Zam_gag_annot       RRTNNYNNNNNNNHRDNNNRN------------NVTRLTPKTTQTITQTP
+D_buzzati_Osvaldo_gag_annot        ESPRPAPRTGATGQRTHIPNP-----------SRACRVCGQEGHRAVRCR
+S_Cerevisiae_TY32_ORF1_a           DNLTQNRYVHTVRTRRSYNKP-----------MSNHRNRRNNNASREECI
+Tricholoma_Matsutake_MarY1_a       AVNVPVPMDVDAARSRARKLD-------------LCYRCGEPGHRAGACP
+Pisum_sativum_gypsy_annot          AGYSLFPMLVRLVHKNNVMHCLK---------IKKCFPCGKLVHAIADCK
+Oryza_sativa_RIRE3_annot           STSPWGAPVIFVEKKDKTKRMCVDYRALNEVTIKNKYPLPRIDDLFDQLK
+A_Thaliana_Endovir1_gag            GGYSKGVALAVSSEKNEIQELKDSMSMMAKNFSRAMKRVEKRGFARNQGS
+C_Elegans_Cer1_gag                 VGKLFQFLRNIRILRIGAVTVSKE--------DGICFGARKSLKIMHHKN
+
+                                                                                     
+                                                             <NC2>
+HML1                               KGN-QRAKI-----STINQQKSP-GVCPRCKKGNHWESQCHSKFSQDGHP
+HML3z                              KNQXVRPLD-----RGKKKTAEP-EICPKCKKGKHWAHQCHSKFDKEGDP
+HERV-K10                           VLNKQNITI-----QATTTGREPPDLCPRCKKGKHWASQCRSKFDKNGQP
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           --------------------------------------------------
+D_subobscura_gypsy_ORF1_annot      KDNQTEAPQ-----PMEVDSSSRFRQKTDYSKRQANESNAPKHKNSSDRS
+MPMV                               EHAHNNAEP-----KVP-------GLCPRCKRGKHWANECKSKTDNQGNP
+MMTV                               DEKGSKRA--------------PPGLCPRCKKGYHWKSECKSKFDKDGNP
+_HML-6p                            LISGQKGPYZCGALHPLAQRKKTPGLCPHCNKGNHWAIQCRSKFHQNCNH
+IAPm                               APDKQGGTLT---------------LCSKCGKGYHRADQCRSVRDIKGRV
+D_melanogaster_Zam_gag_annot       IPNIVN-----------------------QTTATELVTRLKIIKQIMGYT
+D_buzzati_Osvaldo_gag_annot        NRA--------------------LDFCWQCGRIGVRTVACCQSGNDQRYP
+S_Cerevisiae_TY32_ORF1_a           KN----------------------RLCFYCKKEGHRLNECRARKASSNRS
+Tricholoma_Matsutake_MarY1_a       HRQDIRMLTP--------------EGRDKLLQDLLALVDVEEAKDQVAEE
+Pisum_sativum_gypsy_annot          HKE---------------------MICFNCGEEGHIGSQCQKPKKSQTGK
+Oryza_sativa_RIRE3_annot           GATVFSKIDLRSGYHQLRIREEDIPKTAFTTRYGLYEFTVMSFGLTNAPA
+A_Thaliana_Endovir1_gag            DRDRDRDRDR--------NSKRSEIQCHECQGYGHIKAECPSLKRKDLKC
+C_Elegans_Cer1_gag                 VMNVNKVDG------MASCFKLKNRACFRCNEMGHIAWNCPKKNENTSEK
+                                                                                     
+
+HML1                               LS---GNSKRSPPRAPQQTEA-----------------------------
+HML3z                              IS---GNAMRGPSRAPFXTGAFLAQAIP--------------------SP
+HERV-K10                           LS---GNEQRGQPQAPQQTGAFPIQPFVPQGFQGQQPPLSQVFQGISQLP
+HERV-K_C4_                         --------------------------------------------------
+D_Melanogaster_Gypsy_gag           --------------------------------------------------
+D_subobscura_gypsy_ORF1_annot      TG---QKRQRVNNVVQTDSKEAVTEYDKSVNFLGNTPGFRTSNGGWLGEL
+MPMV                               IPPHQGNGWRGQPQAPKQAYG-----AVSFVPANKNNPFQSLPEPPQEVQ
+MMTV                               LPPLETNAENSKNL------------------------------------
+_HML-6p                            LS---GNEKGAWTRAPQTMRAFPVQTTTPLQGWVPGGTLIPSPQEHQEVQ
+IAPm                               LPPPDSQSAYVP--------------------------------------
+D_melanogaster_Zam_gag_annot       T-------------------------------------------------
+D_buzzati_Osvaldo_gag_annot        QSRGEREQCQTAPRH-----------------------------------
+S_Cerevisiae_TY32_ORF1_a           --------------------------------------------------
+Tricholoma_Matsutake_MarY1_a       VKLEVVEEQDFPIRSE----------------------------------
+Pisum_sativum_gypsy_annot          VFALTGTQTSSEDRLIRGTCYINGFPLVAII-------------------
+Oryza_sativa_RIRE3_annot           FFMNLMNKVFMEYLDKFVVVFIDDILIYSQSEEDHQHHLRLVLGKLREHQ
+A_Thaliana_Endovir1_gag            SECRGIGHPSLIASGPSLPDRSYIAESDSDSDDEDSEEDVKGFVSFVGII
+C_Elegans_Cer1_gag                 EAPVAKVETIEGVRMKDCLLMVKSEKSESEVTRSLEKGQIGKANVEILLD
+                                                                                     
+
+HML1                               -----------------------------------
+HML3z                              LYNVCPPPQLVVPQ---------------------
+HERV-K10                           QYNNCPSPQAAVQQ---------------------
+HERV-K_C4_                         -----------------------------------
+D_Melanogaster_Gypsy_gag           -----------------------------------
+D_subobscura_gypsy_ORF1_annot      -----------------------------------
+MPMV                               DWTSVPPPTQY------------------------
+MMTV                               -----------------------------------
+_HML-6p                            D----------------------------------
+IAPm                               -----------------------------------
+D_melanogaster_Zam_gag_annot       -----------------------------------
+D_buzzati_Osvaldo_gag_annot        -----------------------------------
+S_Cerevisiae_TY32_ORF1_a           -----------------------------------
+Tricholoma_Matsutake_MarY1_a       -----------------------------------
+Pisum_sativum_gypsy_annot          -----------------------------------
+Oryza_sativa_RIRE3_annot           LYAKLSKCEFLSEVKFLGHVISAKGVAV-------
+A_Thaliana_Endovir1_gag            EDDNVSSDSSDSEVGCEKEEISADDESDVE-----
+C_Elegans_Cer1_gag                 SGASISLMSKNTWEKIVEVNGKSWEQDQIYEVGVZ
+                                                                      
+::
+Suspect::
+HERV-K_C4_<MA2><CA0>
+HERV-K_C4_<NC1><END>
+D_Melanogaster_Gypsy_gag<NC2><END>
+HML3z<START><MA1>
+S_Cerevisiae_TY32_ORF1_a<START><MA1>
+::

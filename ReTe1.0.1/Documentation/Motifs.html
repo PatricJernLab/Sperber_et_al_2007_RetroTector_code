@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>Motifs.txt</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <div align="center">
+            <h2>Motifs.txt</h2>
+            </div>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%"><br>
+Motifs.txt is a file in <a href="Database.html"> Database</a> defining
+            <br>
+            <h3><a name="Motifdef"></a> Motifs</h3>
+Motifs are operators that at a particular position (the target
+position) in a DNA sequence detect the presence of some quantitative
+feature to a degree in excess of a threshold, or the presence of an
+all-or-nothing feature. When such is detected, a
+'Motif hit' is registered, with a score and a hotspot at the target
+position.
+            <p>A&nbsp;Motif type is defined either by a class inside
+RetroTector.jar (belonging to the package 'builtins') or by a .class
+file in the <a href="Plugins.html">plugins</a> directory. Individual
+Motifs are created at RetroTector startup, using the Motifs.txt file
+which provides individual details. Each Motif class has a unique
+identifying string which is
+utilized in the second column of Motifs.txt.</p>
+            <p><a name="OrdinaryMotif"></a> Most Motif types belong to
+the subclass OrdinaryMotif. An OrdinaryMotif can calculate a raw score
+at any position in a DNA sequence, and yields no more than one hit in
+the same position. If the&nbsp;raw score is below a
+certain threshold, no hit is registered. If the raw score is above the
+threshold, a Motif hit is registered, with a final score proportional
+to the
+difference between the raw score and the threshold. Usually the
+proportionality factor is chosen in such a way that if the raw score
+equals its theoretical maximum, the final score equals the maximal
+score defined in Motifs.txt. The threshold is usually adjusted
+according to the character of the
+DNA sequence to which it will be applied, by calculating the raw score
+in 1000 positions distributed along
+the sequence. The threshold is then set to the average of these scores
+plus
+their standard deviation times a <a name="SDfactor"></a>factor
+(typically
+5.5). </p>
+            <p>Therefore, in addition to its hitfinding capacity, a
+Motif class has a 'refresh' function, applied before the hitfinding,
+which
+calculates the threshold, and/or possibly does other preparations. </p>
+            <p>Some properties of Motif classes may also be determined
+by named parameters, whose default value may be changed through <a
+ href="Configuration.html"> Configuration.txt</a> . For example, the <a
+ href="PPTMotif.html">PPTMotif</a> has a parameter named
+'LowLimit' usually with the value 20. If
+you want to try 22 instead, you include a parameter like this </p>
+            <p>PPTMotifdefaults:: <br>
+&nbsp;LowLimit: 22 <br>
+:: </p>
+            <p>in Configuration.txt. </p>
+            <p>At startup, all the classes in <a href="Plugins.html">
+plugins</a> are absorbed into RetroTector. It is therefore possible to
+write your own Motif classes and drop them into the plugins directory.
+See <a href="ProgOwn.html"> Programming on your own</a> . </p>
+            <hr width="100%">
+            <p>The motif classes available (but not all in use) at
+present are: </p>
+            <ul>
+              <li>OrdinaryMotifs:</li>
+              <ul type="circle">
+                <li><a href="AcidMotif.html">AcidMotif</a> </li>
+                <li><a href="AcidNNMotif.html">AcidNNMotif</a> <br>
+                </li>
+                <li><a href="BaseMotif.html">BaseMotif</a> </li>
+                <li><a href="BaseNNMotif.html">BaseNNMotif</a> </li>
+                <li><a href="BaseWeightMatrixMotif.html">BaseWeightMatrixMotif</a>
+                </li>
+                <li><a href="HyPhobMotif.html">HyPhobMotif</a> </li>
+                <li><a href="PPTMotif.html"> PPTMotif</a></li>
+                <li><a href="ProteaseCleavageMotif.html">ProteaseCleavageMotif</a></li>
+                <li><a href="PuteinEndMotif.html">PuteinEndMotif</a></li>
+                <li><a href="PuteinStartMotif.html">PuteinStartMotif<br>
+                  </a></li>
+                <li><a href="RMotif.html">RMotif<br>
+                  </a></li>
+                <li><a href="SiSeqMotif.html">SiSeqMotif</a></li>
+                <li><a href="SlipperyMotif.html">SlipperyMotif</a></li>
+                <li><a href="SpliceAcceptorMotif.html">SpliceAcceptorMotif</a></li>
+                <li><a href="SpliceDonorMotif.html">SpliceDonorMotif<br>
+                  </a></li>
+                <li><a href="SplitAcidMotif.html"> SplitAcidMotif</a> <br>
+                </li>
+              </ul>
+              <li> More esoteric ones:</li>
+              <ul>
+                <li><a href="CoincidenceMotif.html"> CoincidenceMotif</a>
+                  <br>
+                </li>
+                <li><a href="LTRMotif.html">LTRMotif</a></li>
+                <li><a href="PseudoKnotMotif.html">PseudoKnotMotif<br>
+                  </a></li>
+                <li><a href="SingleAcidMotif.html">SingleAcidMotif</a><br>
+                </li>
+              </ul>
+            </ul>
+            <hr size="2" width="100%">
+            <h3><a name="Motifs.txt"></a>Structure of Motifs.txt</h3>
+Motifs.txt is a <a href="ParameterFile.html">parameter file</a>. The
+bulk of the Motifs are specified in the parameter Motifs. Specialized
+Motifs are contained in the parameters LTR1Motifs, LTR2Motifs,
+ComponentMotifs, KozakMotif, SpliceAcceptorMotif, SpliceDonorMotif,
+SlipperyMotif, ProteaseCleavageMotif, PseudoKnotMotif and possibly
+others. A Motif is defined by a single line in any of these, with a
+common
+structure. Unlike in many other files in Database, the fields are not
+space-delimited but rather contiguous, with fixed width. They are as
+follows (with the names used in the Java source):<br>
+            <ul>
+              <li>MOTIFID (width 11 characters). An integer, preferably
+unique. Its main use is to identify the Motif in error messages, in <a
+ href="CollectMotifHits.html">CollectMotifHits</a> and in forming
+CoincidenceMotifs.</li>
+              <li>MOTIFTYPE (5 characters). The identifying string of
+the Motif type to which the Motif belongs.</li>
+              <li>MOTIFLEVEL (2 characters). At present, either 'D',
+indicating a detection Motif, ie one used in the detection process, or
+'C' for a characterization Motif, used only in refining already
+detected chains.</li>
+              <li>MOTIFRVGENUS (25 characters). One or more of the
+identifying characters of <a href="VirusGenus.html">virus genera</a>
+in which this Motif occurs.</li>
+              <li>MOTIFSDFACTOR (5 characters). This field may be used
+in any way that suits the particular Motif class, but primarily to
+redefine the <a href="Motifs.html#SDfactor">factor</a> used in
+calculating raw score threshold.</li>
+              <li>MOTIFSUBGENE (5 characters). Name of the <a
+ href="SubGenes.html">SubGene</a> to
+which this Motif belongs, or '????' if not defined.</li>
+              <li>MOTIFGROUP (5 characters). Name of the <a
+ href="MotifGroups.html">MotifGroup</a> to
+which this Motif belongs, or '????' if not defined.</li>
+              <li>MAXSCORE (5 characters). The maximal score allowed
+for hits with this Motif.</li>
+              <li>PARAM (5 characters). This field may be used in any
+way that suits the particular Motif class, but primarily to specify raw
+score threshold (in OrdinaryMotifs). If there is a real number in this
+field, the procedure
+described above for calculating raw score threshold is omitted and
+the value is used instead.</li>
+              <li>MOTIFSTRING&nbsp; (55 characters). Contents vary
+according to Motif class, but define what feature the Motif scores.</li>
+              <li>MOTIFORIGIN (arbitrary length). A comment. <span
+ style="font-weight: bold;">If you use the</span> <a
+ href="CollectGenome.html">CollectGenome</a> <span
+ style="font-weight: bold;">command, make sure </span>that for all PBS
+Motifs, MOTIFORIGIN
+contains a specification of the relevant tRNA, of the form tRNAxxx
+(case irrelevant) where the xxx is a three-letter amino acid
+abbreviation.<br>
+              </li>
+            </ul>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-10-16</font><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

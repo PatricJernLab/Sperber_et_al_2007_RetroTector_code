@@ -1,0 +1,70 @@
+
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+
+                                   <MA1>
+P_vulgaris_copialike_gagpol        MVNVMGQIPLPRLSKATTYDNWSIQMKALFGSQDTWEVVEEGFEEPTNT
+A_Thaliana_copialike_gagpol        --SEKESVIIPKFDG--DYEHWAMLMENLIRSKEWWDIIETGIPRTERN
+Copia_TotalORF_X04456              MDKAKRNI--KPFDGEK-YAIWKFRIRALLAEQDVLKVVDG--------
+copialike_D_simulans_totalORF      MDKAKRNI--KPFDGEK-YAIWKFRIRALLAEQDVLKVVDG--------
+TNT1_TotalORF_X1377                MSGVKYEVA-K-FNGDNGFSTWQRRMRDLLIQQGLHKVLDVDSK-----
+Volvox_copialike_totalORF          MAEQSKRV-PK-LESIADYPQWEPRARNALILDGYWDVVNS--------
+                                          .  :  :.    :  *    .  :  .   .:::         
+
+
+P_vulgaris_copialike_gagpol        MGYTAAQTKVLKEMRSKDKAALYMLFRAVDESGFEKIASATTSKEAWDIL
+A_Thaliana_copialike_gagpol        VILTGPQRTELAEKTVKDHKVKNYLFASIDKTILKTILQKETSKDLWESM
+Copia_TotalORF_X04456              ----LMPKEVDDSWKKAERCAKSTIIEYLSDSFLNFATSDITARQILENL
+copialike_D_simulans_totalORF      ----LMPNEVDDSWKKAERCAKSTIIEYLSDSFLNFATSDITARQILENL
+TNT1_TotalORF_X1377                ----KPDTMKAEDWADLDERAASAIRLHLSDDVVNNIIDEDTARGIWTRL
+Volvox_copialike_totalORF          ---------APITSVEKGLMAKAALIMMVGDKFLQEIDQCATSAAGWAYL
+                                                       .   :   :..  .:   .  *:      :
+
+
+P_vulgaris_copialike_gagpol        KKVFKGFDRVKQVRLQTLRGELESMKMES-ESVSDYITRVQTVVNQLNRN
+A_Thaliana_copialike_gagpol        KRKYQGNDRVQSAQLQRLRRSFEILEMKLGETITGYFSRVMEVTNDMRNL
+Copia_TotalORF_X04456              DAVYQ---RKSLASQLALRKRLLSLKLSSEMSLLSHFHIFDELISELLAA
+copialike_D_simulans_totalORF      DAVYE---RKSLASQLALRKRLLSLKLSSEMSLLSHFHIFDELISELLAA
+TNT1_TotalORF_X1377                ESLYM---SKTLTNKLYLKKQLYALHMSEGTNFLSHLNVFNGLITQLANL
+Volvox_copialike_totalORF          KKIHS---ENQKGHQLLYDAQIRSLKKGNDERVEDYVKRTIQLRTKLKDS
+                                   .  .                 :  :.      . .:.     : ..:   
+
+                                        <CA1>                <CA2>           
+P_vulgaris_copialike_gagpol        GEKLTDARVVEKILRTLTDNFESIVCVIEESKNLTTLIIDKLAGSLEAHE
+A_Thaliana_copialike_gagpol        SEDMPDSKVVEKILRTLVEKFTYVVCAIEESNDIKMMTVDGLQSSLMVHE
+Copia_TotalORF_X04456              GAKIEEMDKISHLLITLPSCYDGIITAIETLS-EENLTLAFVKNRLLDQE
+copialike_D_simulans_totalORF      GAKIEEMDKISHLLITLPSCYDGIITAIETLS-EENLTLAFVKNRLLDQE
+TNT1_TotalORF_X1377                GVKIEEEDKAILLLNSLPSSYDNLATTILHGK-TTIELKDVTSALLLNEK
+Volvox_copialike_totalORF          GFDYPENITVKLMLDGLPPSFQHFVQQYTATGSLDKLTFDGILPLLVTEE
+                                   . .  :      :*  *   :  .                     *  .:
+
+
+P_vulgaris_copialike_gagpol        QRKKKKKEETLEQALQTKALIKDEKLLYHQNSQYRGRGRGSRGNSRGGKG
+A_Thaliana_copialike_gagpol        QN--LRRHDVEDKVLKAETQWRPD----------GGRGRGGSPNRGRGRG
+Copia_TotalORF_X04456              IKIKNDHNDTSKKVMNAIVHNNNN-------------TYKNNLFKNRVTK
+copialike_D_simulans_totalORF      IKIKNDHNDTSKKVMNAIVHNKNN-------------TYKNNLFKNRVTK
+TNT1_TotalORF_X1377                MRKKPENQGQ-----ALITEGRGR-------------SYQRSSNNYGRSG
+Volvox_copialike_totalORF          ARQASEITQERVGALVGRMHATDN------------------VNRQRWQP
+                                    .                                                
+
+                                                                        <NC1>
+P_vulgaris_copialike_gagpol        SNHEGYYKEKEQSSQPNWRGRGRGRGRGGRSNYSNIECYKCHKYGHYAKD
+A_Thaliana_copialike_gagpol        G----------------YQGRGRG-----HVNRDTVECFKCHKMGHFKAE
+Copia_TotalORF_X04456              P-----------------KKIFKG-----NSKYKVK-CHHCGREGHIKKD
+copialike_D_simulans_totalORF      P-----------------KKIFKG-----NSKYKVK-CHHCGREGHIKKD
+TNT1_TotalORF_X1377                A-----------------RGKSKN-----RSKSRVRNCYNCNQPGHFKRD
+Volvox_copialike_totalORF          G----------------------------TQPTQQEGCWKCGAPDHIKRN
+                                                          .             * :*   .*   :
+
+                                        <NC2>
+P_vulgaris_copialike_gagpol        CNSDKCYNCGKVGHFAKDCRVDIKIEETTNLALEVETNEGVLLMAQDEVK
+A_Thaliana_copialike_gagpol        CPS-----------WEKEANY-IEMEEDLLLMAHVEH------IGEEEKH
+Copia_TotalORF_X04456              CFHYKR----ILNNKNKENEKQVQTATSQGIAFMVKE------VNNTSVM
+copialike_D_simulans_totalORF      CFHYKR----ILNNKNKENEKQVQTATSHGIAFMVKE------VNNTSVM
+TNT1_TotalORF_X1377                CPNPRKGK-GETSGQKNDDNTAAMVQNNDNVVLFINE------EEECMHL
+Volvox_copialike_totalORF          CPQLYQNQ---GGNPRPHFGGGGRHPNKFGLFAAALS------ATTEVCG
+                                   *           .    .            :
+::

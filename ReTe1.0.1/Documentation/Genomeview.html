@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>Genomeview</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table style="width: 100%;" class="normal" border="0"
+ cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td
+ style="width: 464px; vertical-align: top; height: 198px;">
+            <div class="normal">
+            <div align="center">
+            <h2>Genomeview</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%"><br>
+This <a href="Executors.html">Executor</a> is a subclass of <a
+ href="SQLUser.html">SQLUser</a> and is used to inspect the contents of
+Genome
+datbases, as described under SQLUser and collected by <a
+ href="CollectGenome.html">CollectGenome</a>.<br>
+            <br>
+            <hr size="2" width="100%"><br>
+There are no parameters.<br>
+            <br>
+            <hr style="width: 100%; height: 2px;"><br>
+Genomeview uses a set of tabbed panes. At startup only one of these is
+present. If you are familiar with SQL, it provides the opportunity (now
+or later) to enter and execute any SQL command and view the result, if
+any. However, its main function is to specify a genome to view, with
+the Choose genome&nbsp; choice box (where the previous choice is marked
+with an '*'). Once you have done so, the other
+panes are added (though with a large database and a computer with
+limited capacity there may be a delay of several minutes):<br>
+            <br>
+            <span style="font-weight: bold;">Chains overview</span>:
+shows for each chromosome the distribution of Chains
+along its length. If one of the red lines is clicked, the Chain(s)
+corresponding to it (and its neighbours) will be shown in the Tables
+pane. Buttons allow doubling or halving the horizontal scale, and
+saving of the graphics.<br>
+            <br>
+            <span style="font-weight: bold;">LTRs overview</span>:
+shows for each chromosome the distribution of LTRs
+along its length. If one of the blue lines is clicked, the LTR(s)
+corresponding to it (and its neighbours) will be shown in the Tables
+pane. Buttons allow doubling or halving the horizontal scale, and
+saving of the graphics.<br>
+            <br>
+            <span style="font-weight: bold;">Tables</span>: Three
+scrollable tables show contents of the Chains, Puteins and LTRs tables,
+either a small selection (after clicking in Chains overview or LTRs
+overview or another table), a specfied selection, a whole chromosome
+or the whole genome,
+as chosen with the controls below each table. Clicking in a table has
+the following consequences:<br>
+            <ul>
+              <li>In a column head: The table is sorted (or resorted in
+opposite order) on the column in question. If you Shift-Click, the
+table is double sorted on the column and the most recently clicked
+column. By repeated Shift-Clicking you may sort on multiple columns,
+but don't push your luck! </li>
+              <li>In a data cell: if the cell content is textual, it is
+shown fully in a separate window. In any case, the row is selected,
+with effects depending on the table:</li>
+              <ul>
+                <li>In Chains: The Puteins and LTRs (if any)
+corresponding to the selected Chain are shown in their tables. The
+Chain
+details and Chain info panes receive contents relating to the selected
+Chain.</li>
+                <li>In Puteins: The Chain to which the selected Putein
+belongs is shown.</li>
+                <li>In LTRs: The Chain to which the selected LTR
+belongs (if any) is shown.</li>
+              </ul>
+            </ul>
+It is possible to select multiple lines in a table by
+platform-dependent modified clicking. The above-mentioned effects on
+the other table will apply for all the selected items.<br>
+            <br>
+Below each table are the following gadgets:<br>
+            <ul>
+              <li>A text field showing the total number of rows and
+number of selected rows.</li>
+              <li>A 'Show where' button. Clicking it changes the table
+contents
+defined by the next gadget,</li>
+              <li>A choice box. If it is empty, all elements of the
+relevant kind are included. If not, it should be a valid SQL 'where'
+clause, which you may either type yourself, or use one of the provided
+alternatives to include only one chromosome.</li>
+              <li>An 'Export selected...' button. It exports the
+selected
+rows, or all the rows if none are selected, either</li>
+            </ul>
+            <ol>
+              <ol>
+                <li>to a text file in one of several formats. A list
+window allows you to choose which columns to export, by reordering and
+selecting. Tabs, linefeeds and CRs inside the fields will be replaced
+by semicolons.<br>
+                </li>
+                <li>to an SQL database in a
+similar format as that used by <a href="CollectGenome.html">CollectGenome</a>,
+but there is no
+Chromosomes table. Instead the relevant fields in Chromosomes is added
+to each of the other three tables.</li>
+                <li>(at your peril!) to a specified (as database.table)
+SQL table. A list
+window allows you to choose which columns to export, by reordering and
+selecting. New columns are added to the target table as necessary, but
+other incompatibilities are not handled.<br>
+                </li>
+              </ol>
+            </ol>
+            <ul>
+              <li>A choice box to specify the target of the preceding
+button. You can select a file format (upper part) a new SQL database
+(enter name into empty line) or an existing database (lower part) or an
+SQL table (new or old) by specifying both database and table, separated
+by a dot.<br>
+              </li>
+            </ul>
+            <br>
+            <span style="font-weight: bold;">Chain details</span>:
+Contains<br>
+            <ul>
+              <li>one (or more if the Chain
+genus is ambiguous) graphic representations of the Chain with its
+Puteins and LTRs. It should be largely self-explaining. Black boxes
+denote the longest ORF inside each putein. If a putein box is
+cross-hatched, it means that the number of stop codons plus the number
+of shifts exceeds 2. Vertical dashed lines
+represent ALUs, L1s or other elements excluded by <a
+ href="SweepDNA.html">SweepDNA</a>.
+Buttons below each allow exporting of the graphics to a file, or
+opening the chain in <a href="Chainview.html">Chainview</a>, if the
+original results (possibly zipped) are available; if they are not where
+expected, you will be asked. Clicking in a Putein
+opens <a href="Puteinview.html">Puteinview</a> with the putein.
+Clicking in an LTR opens a window similar to the RepBase similarity
+pane (see below) relating specifically to the LTR.<br>
+              </li>
+              <li>a similar, but simpler graphic representation of the
+most similar reference retrovirus in 'forretrotector.refrvs', also with
+a button for graphics export.</li>
+              <li>a tabbed pane showing graphically regions of
+similarity (see RepBaseFinds field in <a href="SQLUser.html">SQLUser</a>)
+between the Chain (horizontal axis) and the consensus sequences from
+RepBase in
+'forretrotector.repbasetemplates' (vertical axis). If the sequence
+name in the tab is
+followed by a '&lt;', it means that the find is in the complementary
+strand.</li>
+            </ul>
+            <br>
+            <span style="font-weight: bold;">Chain info</span>: Textual
+information about the Chain, as described under <a
+ href="Chainview.html">Chainview</a>.<br>
+            <br>
+            <span style="font-weight: bold;">Ref info</span>: The
+original HTML page describing the most similar reference retrovirus in
+'forretrotector.refrvs'.<br>
+            <br>
+            <br>
+            <br>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-12-03</font><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>Modifiers</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body bgcolor="#ffffff" text="#000000" class="rededge" leftmargin="0"
+ topmargin="0" marginwidth="0" marginheight="0">
+<table width="640" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="160" rowspan="2" valign="top">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0"
+ height="401" bgcolor="#990000">
+        <tbody>
+          <tr>
+            <td width="160" height="135" valign="top"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ width="160" height="160" border="0" alt="Uppsala universitet"> </a> </td>
+          </tr>
+          <tr>
+            <td valign="top" height="160" class="sidomenyVIT"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td width="480" valign="top" height="329">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0"
+ class="normal">
+        <tbody>
+          <tr>
+            <td width="464" valign="top" height="198">
+            <div class="normal">
+            <div align="center">
+            <h2> </h2>
+            <h2> Modifiers</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr width="100%" size="2"><br>
+Modifiers are classes within RetroTector.jar which provide a
+numerical measure of something at any position in a DNA sequence.
+The 'something' may be very varied.
+            <p align="left">Several Modifiers express the density of
+something in the neighborhood of the position. <br>
+            <a name="DistAdd"></a>In <i>distribution-adding modifiers</i>
+this is achieved through creating an array of real numbers, originally
+zero, of the same length as the DNA. Then the whole DNA is searched for
+occurrences of the 'something' and each time it is found, the array
+elements in that position and its surroundings are incremented
+according
+to some distribution, presumably one which peaks at the hit position
+and decreases away from it. </p>
+            <p align="left"><a name="Gauss"></a><i>Gaussian modifiers</i>
+are a special case of distribution-adding modifiers where the
+distribution is Gaussian, typically with standard deviation 50. The
+tails are truncated at 1% of peak amplitude. </p>
+            <p align="left">A Modifier also provides, on request, the
+average, max and min of its values. The curves of the values may be
+displayed using the <a href="ModifierCurve.html">ModifierCurve</a>
+executor. </p>
+            <p align="left">At present, these Modifiers are
+implemented: <br>
+&nbsp; </p>
+            <ul>
+              <li><a href="Modifiers.html#AllORFModifier">AllORFModifier</a></li>
+              <li><a href="Modifiers.html#CpGModifier">CpGModifier</a><br>
+              </li>
+              <li><a href="Modifiers.html#GlycSiteModifier">GlycSiteModifier</a></li>
+              <li><a href="Modifiers.html#GTModifier">GTModifier</a><br>
+              </li>
+              <li> <a href="Modifiers.html#NonORFHexamerModifier">NonORFHexamerModifier</a></li>
+              <li> <a href="Modifiers.html#ORFHexamerModifier">ORFHexamerModifier</a></li>
+              <li><a href="#REndModifier">REndModifier<br>
+                </a></li>
+              <li> <a href="Modifiers.html#SplitOctamerModifier">SplitOctamerModifier</a></li>
+              <li> <a href="Modifiers.html#StopCodonModifier">StopCodonModifier</a></li>
+              <li> <a href="Modifiers.html#TransSiteModifier">TransSiteModifier</a></li>
+            </ul>
+            <hr width="100%" size="2">
+            <h4><a name="AllORFModifier"></a>AllORFModifier</h4>
+This Modifier expresses the score for unaligned fitting in the <a
+ href="ORFID.html#UnAlignedScore">ORFID</a> algorithm.<br>
+            <br>
+            <hr width="100%" size="2">
+            <h4><a name="CpGModifier"></a>CpGModifier</h4>
+This Modifier expresses the likelihood that the position is the centre
+of a CpG island. It does this by counting, within +-100 bases from the
+position, the number of 'g' bases (nG), the number of 'c' bases (nC)
+and the number of cg pairs (nCG). The value of CpGModifier is
+calculated as (nC + nG) * nCG / (nC*nG).<br>
+            <br>
+            <hr width="100%" size="2">
+            <h4><a name="GlycSiteModifier"></a>GlycSiteModifier </h4>
+This is a <a href="#DistAdd">distribution-adding Modifier</a>, with a
+bilinear distribution
+stretching over +- 90 bases. The feature it reacts to is an asparagine
+('n') followed 6 bases later by serine ('s') or threonine ('t').<br>
+            <br>
+            <hr width="100%" size="2">
+            <h4><b><a name="GTModifier"></a>GTModifier</b></h4>
+A <a href="Modifiers.html#Gauss">Gaussian Modifier</a> that reacts to
+the 'gt' base pair.<br>
+            <br>
+            <hr width="100%" size="2">
+            <h4><a name="NonORFHexamerModifier"></a>NonORFHexamerModifier</h4>
+A <a href="Modifiers.html#Gauss">Gaussian Modifier</a> that reacts to
+any of a number of hexamers, listed in <a href="NonORFHexamers.html">NonORFHexamers.txt</a>
+in <a href="Database.html">Database</a>, which are known to be rare in
+retroviral ORFs.<br>
+            <br>
+            <hr width="100%" size="2">
+            <h4><a name="ORFHexamerModifier"></a>ORFHexamerModifier</h4>
+A <a href="Modifiers.html#Gauss">Gaussian Modifier</a> that reacts to
+any of a number of hexamers, listed in <a href="ORFHexamers.html">ORFHexamers.txt</a>
+in <a href="Database.html">Database</a>, which are known to be common
+in retroviral ORFs.<br>
+            <br>
+            <hr style="width: 100%; height: 2px;"><br>
+            <h4><a name="REndModifier"></a>REndModifier</h4>
+This is a <a
+ href="file:///Users/gsper/RetroTector10/Manual/Documentation/Modifiers.html#DistAdd">distribution-adding
+Modifier</a>, with a
+triangular distribution
+stretching 9 positions in either direction for each occurrence of an
+internally defined motif, and multiplies by 2
+at 'a' bases and by 4 at 'ca' pairs.<br>
+            <br>
+            <hr width="100%" size="2">
+            <h4><a name="SplitOctamerModifier"></a>SplitOctamerModifier</h4>
+This Modifier expresses the density of split octamers known to occur in
+LTRs.
+            <p>It is a <a href="Modifiers.html#Gauss">Gaussian modifier</a>
+with standard deviation 50. A Gaussian is added around each occurrence
+of one of a number of split octamers. </p>
+            <p>The source of the split octamers is the multiparameter
+'Octamers' in the parameter file Splitoct.txt in <a
+ href="Database.html">Database</a>, but not all octamers in this are
+used. A line in this parameter consists of two tetramers, minimum and
+maximum distance (measured as bases between the tetramers), two
+measures of specificity (LTR/nonLTR ratio and LTR/Random ratio) and
+list of <a href="VirusGenus.html">virus genera</a> where the split
+octamer occurs. </p>
+            <p>At creation of a SplitOctamerModifier, Splitoct.txt is
+read, and those split octamers which have a value &gt;= 20 in the fifth
+column, and where the two tetramers are different (since repetitive
+regions is a considerable error source) are retained. </p>
+The DNA is then searched for positions where the first tetramer occurs.
+If the second tetramer is then found within the prescribed distance
+range downstream, a Gaussian is added around that position.<br>
+            <br>
+            <hr width="100%" size="2">
+            <h4><a name="StopCodonModifier"></a>StopCodonModifier</h4>
+            <p>This is a <a href="#DistAdd">distribution-adding
+Modifier</a>, with the same
+distribution
+as <a href="Modifiers.html#GlycSiteModifier">GlycSiteModifier</a>. The
+feature
+it&nbsp;reacts to is stop codons.<br>
+            </p>
+            <hr width="100%" size="2">
+            <h4><a name="TransSiteModifier"></a>TransSiteModifier</h4>
+This Modifier expresses the density of transcription sites known to
+occur in LTRs.
+            <p>It is a <a href="Modifiers.html#Gauss">Gaussian modifier</a>
+with standard deviation 50. A Gaussian is added around each occurrence
+of one of the transcription sites. </p>
+            <p>The transcription sites are defined in <a
+ href="Database.html#Transsites">Transsites.txt</a> in <a
+ href="Database.html">Database</a>. Its multiparameter 'Sites' is a
+list (with identification numbers) of site sequences. Some of them
+include ambiguity codes which are treated accordingly. The distinction
+between lower and upper case letters (less or more conserved positions)
+is not utilized at present.<br>
+            </p>
+            <hr width="100%" size="2">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td width="464" height="41" valign="top">
+            <hr size="1" color="#000000" noshade="noshade"><font
+ face="verdana" size="-2"> &copy; 2002-2004 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-09-22</font><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --><!-- #EndTemplate --> <br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

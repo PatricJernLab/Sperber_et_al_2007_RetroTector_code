@@ -1,0 +1,276 @@
+div.textarea {
+   left:  24px;
+   position: relative;
+   top:  12px;
+   width:  595px
+   }
+.whitebold { 
+   font-weight: normal;
+   font-size: 11px;
+   font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif;
+   color:#ffffff
+   }
+A.leftmenu:visited {
+   padding: 1px 1px 1px 8px;
+   display: block;
+   COLOR: #ffffff;
+   TEXT-DECORATION: underline;
+   font-weight: bold;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 11px;
+   }
+A.leftmenu:link {
+	padding: 1px 1px 1px 8px; display: block; COLOR: #ffffff; TEXT-DECORATION: underline; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+	}
+A.leftmenu:hover {
+	padding: 1px 1px 1px 8px; display: block; BACKGROUND: #ffffff; COLOR: #000000; TEXT-DECORATION: none
+}
+A.leftmenu:active {
+	padding: 1px; display: block;  BACKGROUND: #FFFF66; COLOR: #000099; TEXT-DECORATION: none
+}
+H1 {
+font-size: 36px;font-family:Arial, Geneva, Helvetica, Times, sans-serif; color: #000000
+}
+H2 {
+font-size: 24px;font-family:Arial, Geneva, Helvetica, sans-serif; color: #999999; font-weight: bold
+}
+H3 {
+font-size: 18px;font-family:Verdana, Arial, Helvetica, sans-serif
+}
+H4 {
+font-size: 15px;font-family:Arial, Geneva, Helvetica, Times, sans-serif
+}
+H5 {
+font-size: 12px;font-family:Arial,Geneva,Helvetica,Times,sans-serif
+}
+H6 {
+font-size: 10px;font-family:Arial,Geneva,Helvetica,Times,sans-serif
+}
+PRE {
+font-size: 11px;font-family:Courier,serif
+}
+UL {
+list-style-type:square
+}
+SELECT {
+font-family: Verdana,Times,sans-serif; font-size: 9pt
+}
+BR:after{
+text-indent:  11px
+}
+.smulrad { 
+font-size: 10px; font-family: Verdana, Arial, Geneva, Helvetica, Times, sans-serif; color: #000000; padding-top: 2px
+}
+.sidfot { 
+font-size: 10px; font-family: Verdana, Arial, Geneva, Helvetica, Times, sans-serif; color: #000000; padding-bottom: 2px
+}
+.normal { 
+font-size: 11px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif
+; color: #000000
+}
+.normal A:visited { 
+color: #333333
+}
+.normal2 { 
+font-size: 11px;font-family:Verdana,Arial,Geneva,Helvetica,Times,sans-serif
+}
+.fastbredd {
+font-size: 11px;font-family:Courier,serif
+}
+.bildtext { 
+font-size: 9px;font-family:Verdana,Arial,Geneva,Helvetica,Times,sans-serif
+}
+.gulmarkering {
+background-color:#FFFFCC;font-size: 11px;font-family:Verdana,Arial,Geneva,Helvetica,Times,sans-serif
+}
+.marginal {
+margin-left:0px; margin-top: 0px
+}
+.kategori {
+font-size: 10px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif; font-weight: bold; color: #FFFFFF; text-transform: uppercase; PADDING-LEFT: 8px
+; 
+; background-color: #990000
+}
+.sidomeny {
+font-size: 11px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif;line-height:  18px
+}
+.sidomeny A {
+text-decoration: none
+}
+.sidomeny a:hover {
+color: #FFFFFF; background-color:#990000
+}
+.nyhet {  
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; list-style-type: none; color: #000000; border-style: none
+}
+.nyhet A {
+text-decoration: none; color: #000000
+}
+.nyhet a:hover  {
+color: #990000 ; text-decoration: underline
+}
+.nyhetspuff { 
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; list-style-type: none; color: #000000; border-style: none
+}
+.nyhetspuff A {
+text-decoration: none; color: #000000
+}
+.nyhetspuff a:hover  {
+color: #990000 ; text-decoration: underline
+}
+.adress {  
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; color: #CCCCCC; padding-left: 5px
+}
+.logocell { 
+padding-left: 30px
+}
+.option {  
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: xx-small
+}
+.ruta { 
+border: #990000; border-style: inset; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px
+}
+.ruta2 { 
+border: 1px #990000 dashed; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; background-color: #FFFFFF; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px
+}
+.rutavit { 
+border: 1px #FFFFFF dashed; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #FFFFFF; background-color: #990000; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px 
+}
+.sidomenyVIT { 
+font-size: 11px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif;line-height: 15px; color: #FFFFFF; font-weight: normal; padding-left: 8px;
+; background-color: #990000
+}
+.sidomenyVIT A {
+color: #FFFFFF; text-decoration: none
+}
+.sidomenyVIT A:visited {
+text-decoration: none; color: #CCCCCC
+}
+.sidomenyVIT a:hover {
+text-decoration: underline; color: #FFFFFF
+}
+.greymenu {
+font-size: 11px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif;line-height:  18px; color: #000000; font-weight: bold
+}
+.greymenu A {
+text-decoration: none; color: #000000
+}
+.greymenu a:hover {
+text-decoration: underline; color: #990000
+}
+.small { 
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px
+; color: #000000
+}
+.small A {
+color: #000000; text-decoration: none
+}
+.small a:hover {
+text-decoration: underline; color: #990000; font-weight: normal
+}
+.rededge {  
+background-color: #FFFFFF; background-image: url(http://www.uu.se/images/UU_rededge.gif); background-repeat: repeat-y; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px
+}
+TD.redleft {  
+background: #990000;
+}
+.italic { 
+font-size: 11px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif;color:#000000 ; font-style: italic
+}
+.content { 
+font-size: 11px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif;line-height: normal; color: #000000; padding-left: 8px; list-style-type: square
+; font-weight: normal
+; padding-top: 8px
+}
+.O {  
+border-color: black #990000; border-style: solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 0px
+}
+.N { 
+border-color: #990000 black; border-style: dotted; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px
+}
+.NO { 
+border-color: #990000 #990000 black; border-style: dotted; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 0px
+}
+.NOSV { 
+border: 1px #990000 dotted; background-image:  url(http://www.uu.se/images/uhus400x300.jpg); background-repeat: no-repeat; background-position: right top
+}
+.S { 
+border-color: black #990000 #990000; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px
+}
+.SO { 
+border-color: black #990000 #990000; border-style: solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 0px
+}
+.utbbackg {  
+background-image: url(/Utbildning/backgrounds/konstvet2.jpg); background-repeat: no-repeat; background-position: right top; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-color: #ffffff
+}
+.utbbackg A {
+}
+.utbbackg a:hover  {
+color: #990000 ; text-decoration: underline
+}
+.notisrubrik { 
+font-size: 14px;font-family:Arial, Helvetica, sans-serif;color:#990000; font-weight: bold
+}
+.formfields {  
+font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000; font-size: 10px
+}
+.sidomenyVITkat { 
+font-size: 12px;font-family:Arial, Helvetica, sans-serif;line-height: 18px ; color: #FFFFFF; font-weight: bold; padding-left: 8px 
+; background-color: #990000
+}
+.V { 
+border-color: black #990000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 1px
+}
+body { 
+color: #000000; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px
+; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px
+}
+.lang { 
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px ; color: #999999 
+}
+.lang A {
+color: #999999; text-decoration: none
+}
+.lang a:hover {
+text-decoration: underline; color: #990000; font-weight: normal
+}
+.NS { 
+border: #990000; border-style: dotted; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px
+}
+.redhead { 
+font-size: 11px;font-family:Verdana, Arial, Geneva, Helvetica, Times, sans-serif ; color: #990000; font-weight: bold
+}
+.NV { 
+border: #990000 solid; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; border-width: 1px 0px 0px 1px
+}
+.button {  
+border-color: #CCCCCC #999999 #999999 #CCCCCC; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: #E8E8E8;
+}
+/*
+Använd @media så Netscape hoppar över detta parti.
+Netscape ballar ur annars
+*/
+@media all{
+	input.flatform, textarea.flatform, select.flatform{
+		border-top : solid 1px #999999;
+		border-right : solid 1px #CCCCCC;
+		border-left : solid 1px #999999;
+		border-bottom : solid 1px #CCCCCC;
+		color : #000000;
+		font : normal 11px verdana, sans-serif;
+		}
+	}
+HR.red {
+    height:1px;
+    background:#990000;
+   color: #990000
+   }
+.greyform {  
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; background-color: #CCCCCC; border: #666666; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px
+}
+p {  
+font-family: Verdana, Arial, Helvetica, sans-serif
+}
+td {  
+font-family: Verdana, Arial, Helvetica, sans-serif
+}

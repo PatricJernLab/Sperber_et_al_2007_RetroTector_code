@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>SQLUser</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table style="width: 100%;" class="normal" border="0"
+ cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td
+ style="width: 464px; vertical-align: top; height: 198px;">
+            <div class="normal">
+            <div align="center">
+            <h2>SQLUser</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%"><br>
+This <a href="Executors.html">Executor</a> is, technically speaking,
+the superclass of Executors that access SQL databases, such as <a
+ href="CollectGenome.html">CollectGenome</a> and <a
+ href="Genomeview.html">Genomeview</a>. From a practial viewpoint, it
+handles some tasks such as logging in to the database manager, etc. If
+you do not run it explicitly, it will automatically be run the first
+time in a session you run an SQL-using Executor.<br>
+            <br>
+SQLUser and its subclasses are designed to employ any SQL database
+manager
+for which a Java driver (Java connector) is available, but has only
+been tested with MySQL, which is fast, free and easy to install, but
+somewhat restricted. Since SQL is not fully standardized, using any
+other database manager is likely to cause problems which necessitate
+minor adjustments of RetroTector. Please report.<br>
+            <br>
+Once you have obtained a Java driver, presumably as a .jar file from
+the provider of your database manager, you may change the name of the
+file to something shorter (eg sqldriver.jar) and include it in the
+class path as described in the <a href="RetroTector.html">main page</a>.<br>
+            <br>
+In your SQL database system you should then establish a database named
+'forretrotector', containg the tables 'repbasetemplates', 'polproteins'
+and 'refrvs'. It can
+conveniently be created and filled using the SQL script
+'forretrotector.sql'.<br>
+            <br>
+            <hr size="2" width="100%"><br>
+The parameters of SQLUser are:<br>
+            <ul>
+              <li>User: A user name in the database. Default: "".</li>
+              <li>Password: The password for User. Default: "".</li>
+              <li>SubProtocol: The SQL implementation to use. Default:
+mysql.</li>
+              <li>Host: The host to access. Default: localhost.</li>
+              <li>JDBCDriver: The class of the Java driver for SQL.
+Default: com.mysql.jdbc.Driver.</li>
+              <li>Debugging: If Yes, most SQL commands are printed.
+Default: No.</li>
+            </ul>
+In order to avoid entering User and Password every time, an
+'SQLUserdefaults' parameter in <a href="Configuration.html">Configuration.txt</a>
+is very useful.<br>
+            <br>
+            <hr style="width: 100%; height: 2px;"><br>
+The SQL databases primarily handled by SQLUser and its subclasses are
+designated 'Genomes', though they need not actually correspond to
+genomes. Their main characteristic is that they consist of four tables:<br>
+            <ul>
+              <li>Chromosomes: Contains one row for each directory
+scanned in the collecting process, typically one for each chromosome.</li>
+              <li>Chains: Contains one row for each Chain found in a
+SelectedChains file.</li>
+              <li>Puteins: Contains one row for each Putein found in a
+Putein file.</li>
+              <li>LTRs: contains one row for each LTR found in a
+RetroVIDScript file.</li>
+            </ul>
+These tables all start with an 'id' column with a unique identifying
+integer. Otherwise, they contain a large number of columns, many of
+them with hopefully self-explaining names. Some of the more obscure
+ones:<br>
+            <ul>
+              <li>In Chromosomes:</li>
+              <ul>
+                <li>FinishedAt: A Timestamp field showing when the
+chromosome was collected by <a href="CollectGenome.html">CollectGenome</a>.</li>
+              </ul>
+              <li>In Chains:</li>
+              <ul>
+                <li>PreFlankSwept: The 2000 bases before the Chain,
+after removal of ALUs, L1s etc by <a href="SweepDNA.html">SweepDNA</a>.</li>
+                <li>PreFlankRaw: The 2000 bases before the Chain.</li>
+                <li>LTR5id: The id in LTRs of the 5'LTR.</li>
+                <li>GagPuteinid: The id(s) in Puteins of the Gag
+Putein(s) associated with the Chain.</li>
+                <li>ProPuteinid: The id(s) in Puteins of the Pro
+Putein(s) associated with the Chain.</li>
+                <li>PolPuteinid: The id(s) in Puteins of the Pol
+Putein(s) associated with the Chain.</li>
+                <li>EnvPuteinid: The id(s) in Puteins of the Env
+Putein(s) associated with the Chain.</li>
+                <li>LTR3id: The id in LTRs of the 3'LTR.</li>
+                <li>PostFlankSwept: The 2000 bases after the Chain,
+after removal of ALUs, L1s etc by <a href="SweepDNA.html">SweepDNA</a>.</li>
+                <li>PostFlankRaw: The 2000 bases after the Chain.</li>
+                <li>LTRDivergence: The percent dissimilarity between
+the LTRs.</li>
+                <li>APerc, CPerc, GPerc, TPerc: the percentage of the
+repsective bases in this Chain.</li>
+                <li>RepBaseFinds: A list of hits (at least 50 bases
+long, at least 62% identity) with the sequences
+from RepBase contained in the SQL table
+'forretrotector.repbasetemplates' mentioned above. Each list item
+contains:</li>
+              </ul>
+              <ol>
+                <ol>
+                  <li>The short name of the sequence, followed by
+'&lt;' if the complementary sequence was used.</li>
+                  <li>The start of the hit in the template.</li>
+                  <li>The start of the hit in the DNA.</li>
+                  <li>The length of the hit.</li>
+                </ol>
+              </ol>
+              <ul>
+                <li>PolClass: The name of the Pol protein in the SQL
+table
+'forretrotector.polproteins' mentioned above most similar to the Pol
+putein, if there is one, and a similarity measure.</li>
+                <li>BestRefRV: The name of the reference RV in the
+SQL table
+'forretrotector.refrvs' mentioned above most similar to the DNA
+sequence of this Chain, % similarity (or occasionally '?%' if there was
+insufficient memory) and an integer used by <a href="Genomeview.html">Genomeview</a>.</li>
+                <li>ChainInserts: Description of occurrences of ALUs
+and L1s and other finds by <a href="Brooms.html">Brooms</a>
+within this Chain.</li>
+              </ul>
+              <ul>
+                <li>Overlapper: The id of a Chain whose core (ie from
+CoreFirst to CoreLast) overlaps with the core of this.</li>
+                <li>CoreFirst: The start position of the first core (ie
+not LTR, PBS or PPT) Motif hit in the Chain.</li>
+                <li>CoreLast: The end position of the last core (ie not
+LTR, PBS or PPT) Motif hit in the Chain.</li>
+              </ul>
+              <li>In Puteins</li>
+              <ul>
+                <li>ChainId: The id of the Chain with which this Putein
+is associated.</li>
+                <li>Duplicator: The id of another Putein, strongly
+suspected of being identical.</li>
+              </ul>
+              <li>In LTRs:</li>
+              <ul>
+                <li>InChain: The id of a Chain in which this LTR is
+included.</li>
+                <li>PairedHotspot: If this LTR occurs in the
+RetroVIDScript file as part of at least one LTR pair, this column
+contains the hotspot position of one of its companions, otherwise null.</li>
+                <li>RepLTRFinds: Similar to RepBaseFinds above, but
+related only to this LTR.</li>
+                <li>LTRInserts: Description of occurrences of ALUs and
+L1s and other finds by <a href="Brooms.html">Brooms</a>
+within this LTR.<br>
+                </li>
+              </ul>
+            </ul>
+            <br>
+            <hr size="2" width="100%">Since <a href="SweepDNA.html">SweepDNA</a>
+splits the original sequence into overlapping chunks, the same element
+may occur in two chunks and yield two (not necessarily completely
+identical) entries in the database. The parameters Overlapper and
+Duplicator are designed to aid the identification of such cases.<br>
+            <br>
+            <hr size="2" width="100%"><br>
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-11-17</font><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

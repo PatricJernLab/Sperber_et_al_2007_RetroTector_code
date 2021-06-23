@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>DNA files</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <center>
+            <h2> DNA files</h2>
+            </center>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <p>The DNA sequences to be analyzed are presented as this
+type of <a href="ParameterFile.html">Parameter files</a>. Files in
+other formats may be acceptable initially, since they are converted by <a
+ href="SweepDNA.html">SweepDNA</a> .<br>
+            </p>
+            <p>Base positions larger than 2^31 can not be handled. If
+this
+is a problem, perhaps with a large genome not split into chromosomes, <a
+ href="RoughcutDNA.html">RoughcutDNA</a> may be used to cut it into
+pieces.<br>
+            </p>
+            <p>There is one required parameter: </p>
+            <ul>
+              <li> Sequence. Structure: see below.</li>
+            </ul>
+            <p>There are four optional parameter: </p>
+            <ul>
+              <li>Processed. If Yes, indicates that <a
+ href="SweepDNA.html">SweepDNA</a> has processed this file, removing
+ALUs etc.</li>
+              <li>ValidBases. The number of a, c, g or t outside
+inserts.</li>
+              <li>FirstUnPadded: The position of the first base not
+faked by <a href="SweepDNA.html">SweepDNA</a>, or -1.<br>
+              </li>
+              <li>LastUnPadded: The position of the last base not faked
+by <a href="SweepDNA.html">SweepDNA</a>.
+or -1.<br>
+              </li>
+            </ul>
+            <br>
+            <h4>&nbsp;Structure of 'Sequence' parameter</h4>
+This is a multiparameter, whose lines are in effect concatenated into
+one long line. If that line starts with an integer, the position of the
+first base represented in the string is set to its value, otherwise to
+1.
+After that, all characters not used as base codes (tcgawyrmknsvdhb) are
+ignored. t, c, g and a are interpreted as their respective bases while
+other basecodes are interpreted as unknown.<br>
+            <br>
+            <a name="Inserts"></a> There may also be inserts indicated,
+which will be ignored in reading the file, except that their contents
+are
+checked to be consistent. They consist of a set of lines as above,
+bracketed
+by two lines of the structure [|label|: and :|label], respectively,
+where
+the two labels are identical, typically consisting of 'ALU' (ALU in
+primary
+strand), 'CALU' (ALU in secondary strand), 'NALU'&nbsp; (nested ALU, ie
+ALU containing another insert, in primary strand) or 'NCALU' (nested
+ALU
+in secondary strand) followed by a number. Analogously, there may also
+be 'L1',
+'CL1',
+'NL1' or 'NCL1' inserts, describing LINE L1 elements, or analogously
+named inserts resulting from the action of custom <a href="Brooms.html">Brooms</a>.<br>
+            <br>
+            <hr size="2" width="100%"><br>
+According to needs, RetroTector may retrieve the primary or secondary
+strand of DNA. The contents of 'Sequence' are assumed to represent the
+primary strand. If the secondary strand is requested, the bases are
+complemented (unknown base remains unknown) und reverse ordered. The
+position numbering then starts at the highest position and decreases.
+Thus, one particular base pair will be assigned the same position
+number irrespective of strand.<br>
+            <br>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated:
+2006-07-26</font><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

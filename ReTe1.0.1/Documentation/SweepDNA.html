@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>SweepDNA</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <h2>SweepDNA</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <p>This <a href="Executors.html">Executor</a> collects <a
+ href="DNAFiles.html">DNA files</a> from a directory in the current <a
+ href="RetroTectorWindow.html">Working directory</a>, preferably named
+NewDNA. For each file in that directory, a new directory is created,
+with the same name minus the '.txt' extension. The DNA file is moved
+into it, accompanied by a <a href="ParameterFile.html#Sweepable">sweepable
+script</a>. Typically this script will be named
+'LTRID_001Script_.txt' and contain the lines: </p>
+            <p>Executor: LTRID <br>
+DNAFile: |DNA file name| <br>
+            </p>
+            <p>SweepDNA also accepts rougher files (such as those
+normally
+generated
+by FASTA), not conforming to the <a href="DNAFiles.html">DNA
+file</a> format, but consisting only of a number of leading lines, each
+starting
+with '{' (such lines will be copied) or '&gt;' (such lines will be
+discarded),
+and the <b>contents</b> belonging in the 'Sequence' parameter in the
+DNA
+file. SweepDNA will then make a new file, in DNA file format, and
+remove
+the old one (the last does not work properly in all implementations).
+Please note the limit on base positions in <a href="DNAFiles.html">DNA
+files</a>.<br>
+            </p>
+            <p>If the DNA file contains a parameter</p>
+            <p>&nbsp;&nbsp;&nbsp; Processed: Yes<br>
+            </p>
+            <p>it will not be further interfered with. Otherwise:<br>
+            </p>
+            <p>If the DNA sequence is long, SweepDNA will chop it into
+overlapping
+chunks, which will be named like the source DNA file, with _1, _2 etc
+added, which will each get its own subdirectory.<br>
+            </p>
+            <p>Frequently occurring transposons (entire or fragmentary)
+may interfere with the further analysis, by disrupting ERVs but above
+all by by being mistaken for LTRs by <a href="LTRID.html">LTRID</a>.
+SweepDNA therefore provides mechanisms for removing (or rather, marking
+as inserts to be ignored, see <a href="DNAFiles.html#Inserts">DNA files</a>)
+such items. By default ALUs and LINE L1s (the main culprits in primate
+genomes) are handled, but other transposons may be targeted by adding <a
+ href="Brooms.html">Brooms</a> to the <a href="Plugins.html">plugins</a>
+directory.<br>
+            </p>
+            <p>If the 'ALUTolerance' parameter is &gt;= 0, SweepDNA
+will also
+search for ALUs, with a fault tolerance dependent on its value, and
+mark
+them in the output DNA file.<br>
+            </p>
+            <p>If the 'LINETolerance' parameter is &gt;= 0, SweepDNA
+will also search for fragments of LINE L1 elements, with a fault
+tolerance dependent
+on
+its value, and mark them in the output DNA file.<br>
+            </p>
+            <p>Since RetroTector is designed to search for ERVs in
+their natural habitat, it may not perform optimally on short sequences
+such as an isolated virus sequence, perhaps not even with the important
+direct integration repeats. Therefore, if the DNA file is shorter than
+30000 bases, you are offered the opportunity to add an artificial
+habitat in the form of leading and trailing random sequences with
+specified base frequencies, and/or a specified direct repeat (default
+'agctcg') of length 4-6 bases.<br>
+            </p>
+            <p>To ensure that the above function is invoked early in a
+SweepDNA session small files (&lt;60 kB) are processed first.<br>
+            </p>
+            <p>The names of files to be swept by SweepDNA should not
+contain a blank character.<br>
+            </p>
+            <p> </p>
+            <p> </p>
+            <hr width="100%">
+            <p>There are six regular parameters: </p>
+            <ul>
+              <li>'ChunkSize'. If the sequence is longer than this, it
+will be chopped into chunks of at most this length. Default = 115000.</li>
+              <li>'ChunkOverlap'. Chunks will overlap by this many
+bases. Default = 15000.</li>
+              <li>'ALUTolerance'. Defines the fault tolerance (in the
+same way as the 'LTRepTolerance' parameter in <a href="LTRID.html">LTRID</a>)
+in the search for ALUs. If negative, there will be no search. Default =
+10.</li>
+              <li>'LINETolerance'. Defines the fault tolerance (in the
+same way as the 'LTRepTolerance' parameter in <a
+ href="file:///Macintosh%20HD/Users/gsper/RetroTector010/Manual/Documentation/LTRID.html">LTRID</a>)
+in the search for L1 fragments. If negative, there will be no search.
+Default
+= 10.<br>
+              </li>
+              <li> 'NewDNADirectory'. The name of the subdirectory of
+the current Working directory which contains the DNA files. Default =
+'NewDNA'.</li>
+              <li> 'ExecutorToUse'. The Executor for which the script
+will be made. Default = 'LTRID'.</li>
+            </ul>
+            <br>
+You may also add more parameters, specifying more lines to be included
+in the script. These must be named 'Line1', 'Line2' etc, with values
+the exact contents of the line in question.<br>
+            <br>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-11-12</font><!-- #EndDate --><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

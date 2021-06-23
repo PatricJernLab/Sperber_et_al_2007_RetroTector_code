@@ -1,0 +1,152 @@
+{CLUSTAL W (1.8) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+                                                    <SU1>  
+HSRV_env_AF033816                   -----MAPPMTLQQWIIWKKMNKAHEALQNTTTVTEQQKEQIILDIQNEE
+Simian_Foamy_Virus_type_1_env_      QLIRIMAPPMTLEQWLLWKKMSQAHQALENVTTLTEEQKQQVIIDIQHED
+Equine_foamy_virus_env_AF20190      -----MTPPMTLPEWMQWRYRQNVNKIREAIP---DVQIDLPVYNPDMTK
+Feline_foamy_virus_Y08851           ---MEQEHVMTLKEWMEWNAHKQLQKLQSTHP---ELHVDIPEDIPLVPE
+                                             *** :*: *.  .: ::  .  .   : : :         .
+
+                                     
+HSRV_env_AF033816                   VQPTRRDKFRYLLYTCCATSSRVLAWMFLVCILLIIVLVSCFVTISRIQW
+Simian_Foamy_Virus_type_1_env_      VVPTRMDKLKYLAYSCCATSTRVLCWIVLVCVLLLVVFISCFVTMSRIQW
+Equine_foamy_virus_env_AF20190      PLPLCLR-IKYWMYLLCATSPRVMAWLLFVCVLISVMIIAVIVTVFRMQW
+Feline_foamy_virus_Y08851           KVPLKMR-MRYRCYTLCATSTRIMFWILFFLLCFSIVTLSTIISILRYQW
+                                      *     ::*  *  ****.*:: *:.:. : : :: :: :::: * **
+
+
+HSRV_env_AF033816                   NKDIQVLGPVIDWNVTQRAVYQPLQTRRIARSLRMQHPVPKYVEVNMTSI
+Simian_Foamy_Virus_type_1_env_      NKDIAVFGPVIDWNVSQQAVIQQIRAKRLARSIRVEHATETYVEVNMTSI
+Equine_foamy_virus_env_AF20190      KAAIDVPGPVLFWNHTDVLTHVPPVGPHVTRLRRAVHLADRAVNINITHI
+Feline_foamy_virus_Y08851           KEAITHPGPVLSWQVTNSHVTMGGNTSSSSRRRRDIQYHKLPVEVNISGI
+                                    :  *   ***: *: ::  .         :*  *  :     *::*:: *
+
+
+HSRV_env_AF033816                   PQGVYYEPHPEPIVVKERVLGLSQILMINSENIANNANLTQEVKKLLTEM
+Simian_Foamy_Virus_type_1_env_      PQGVLYVPHPEPIILKERILGLSQVMMINSENIANTANLTQETKVLLADM
+Equine_foamy_virus_env_AF20190      PQGVFLEPFPKPIIDKERVLGISQIVMIDSGSIAQSMNLDLYMKHLLVDM
+Feline_foamy_virus_Y08851           PQGLFFAPQPKPIFHKERTLGLSQVILIDSDTITQGH--IKQQKAYLVST
+                                    ***:   * *:**. *** **:**:::*:* .*::        *  *.. 
+
+
+HSRV_env_AF033816                   VNEEMQSLSDVMIDFEIPLGDPRDQEQYIHRKCYQEFANCYLVKYKEPKP
+Simian_Foamy_Virus_type_1_env_      INEEMNDLANQMIDFEIPLGDPRDQKQYQHQKCFQEFAHCYLVKYKTTKG
+Equine_foamy_virus_env_AF20190      INEEMVALSNVVLPFELPVGDPSTQDQYIHKRCYQQFAHCYIVWQPGRRV
+Feline_foamy_virus_Y08851           INEEMEQLQKTVLPFDLPIKDPLTQKEYIEKRCFQKYGHCYVIAFNGNKV
+                                    :****  * . :: *::*: **  *.:* .::*:*::.:**::     : 
+
+
+HSRV_env_AF033816                   WPKEGLIADQCPLPGY-HAGLTYNRQSIWDYYIKVESIRPANWTTKSKYG
+Simian_Foamy_Virus_type_1_env_      WPSSTVIADQCPLPGN-HPTVQYAHQNIWDYYVPFEQIRPEGWNSKSYYE
+Equine_foamy_virus_env_AF20190      WPTSEIIQDQCPLPDHPYRPLGYMQQNAYDLYLQPPRYGLQNVNLTSLYG
+Feline_foamy_virus_Y08851           WPSQDLIQDQCPLPPRFGNNLKYRNHTIWKYYIPLPFKVSSNWTRVESYG
+                                    **.. :* ******      : * .:. :. *:        . .  . * 
+
+
+HSRV_env_AF033816                   QARLGSFYIPSSLRQINVSHVLFCSDQLYSKWYNIENTIEQNERFLLNKL
+Simian_Foamy_Virus_type_1_env_      DARIGGFYIPKWLRNNSYTHVLFCSDQIYGKWYNIDLTAQERENLLVRKL
+Equine_foamy_virus_env_AF20190      IARIG-AYRV--LYPEQYNATIFCSDQLYGNWWYLNRTSEQKEETYRKKM
+Feline_foamy_virus_Y08851           NIRIGSFKVPDEFRQN-ATHGIFCSDALYSNWYPRDLPSSVQQSFAQAYI
+                                      *:*       :     .  :**** :*.:*:  : . . .:      :
+
+
+HSRV_env_AF033816                   NNLTSG---TSVLKKRALPKDWSSQGKNALFREINVLDICSKPESVILLN
+Simian_Foamy_Virus_type_1_env_      INLAKGN--SSQLKDRAMPAEWDKQGKADLFRQINTLDVCNRPEMVFLLN
+Equine_foamy_virus_env_AF20190      LNLTENN--SSILKDRALPPTWTPKGQARLFRELNPLDFCTKPEAVMLLN
+Feline_foamy_virus_Y08851           TKVLMKRKKQPTLRDIAFPKELSPVGSGMLFRPINPYDICNMPRAVLLLN
+                                     ::       . *:. *:*      *.  *** :*  *.*. *. *:***
+
+
+HSRV_env_AF033816                   TSYYSFSLWEGDCNFTKDMISQLVPECDGFYNNSKWMHMHPYACRFWRSK
+Simian_Foamy_Virus_type_1_env_      SSYYEFSLWEGDCGFTRQNVTQANSLCKDFYNNSKWQKLHPYSCRFWRYK
+Equine_foamy_virus_env_AF20190      QSYYTWSLWEGDCYVYSRNISFPPECIN--YTRIANKTAHPYACRHWRLL
+Feline_foamy_virus_Y08851           KTYYTFSLWEGDCGYYQHNLTLHPACKN--FNRT--RQDHPYACRFWRNK
+                                     :** :*******      ::      .  :..      ***:**.**  
+
+
+HSRV_env_AF033816                   KNEKEETKCRDGETKRCLYYPLWDSPESTYDFGYLAYQKNFPSPICIEQQ
+Simian_Foamy_Virus_type_1_env_      Q-EKEETKCSNGEKKKCLYYPQWDTPEALYDFGFLAYLNSFPSPICIKNQ
+Equine_foamy_virus_env_AF20190      STNNEGKDEIKCSEYGCLFYPKYDQFELANDFGFLAYQKMFPSPICIQNY
+Feline_foamy_virus_Y08851           Y-DSESVQCYN--NDMCYYRPLYDGTENTEDWGWLAYTDSFPSPICIEEK
+                                      :.*  .  .     * : * :*  *   *:*:*** . *******:: 
+
+
+HSRV_env_AF033816                   KIRDQDYEVYSLYQERKIASKAYGIDTVLFSLKNFLNYTGTPVNEMPNAR
+Simian_Foamy_Virus_type_1_env_      TIREPEYKISSLYLECMNASDRHGIDSALLALKTFLNFTGQSVNEMPLAR
+Equine_foamy_virus_env_AF20190      SLSTEPYKVQSLYQECIQKGTSYDLEDVINQLLRVLQNNGIDLGKVPASR
+Feline_foamy_virus_Y08851           RIWKKNYTLSSVLAECVNQAMEYGIDEVLSKLDLIFGN----LTHQSADE
+                                     :    * : *:  *    .  :.:: .:  *  .:      : . .  .
+
+                                                                <SU3>
+HSRV_env_AF033816                   AFVGLIDPKFPPSYPNVTREHYTSCNNRKRRS-----VDNNYAKLRSMGY
+Simian_Foamy_Virus_type_1_env_      AFVGLTDPKFPPTYPNITRESSGCNNNKRKRR-----SVNNYERLRSMGY
+Equine_foamy_virus_env_AF20190      AFTPFYN-QMPVSYKKRDVTKRKSCGRRKRG--------DNFRKLQTSGL
+Feline_foamy_virus_Y08851           AFIPVNNFTWPR-YEKQNKQQKTSCERKKGRRQRRSVSTENLRRIQEAGL
+                                    **  . :   *  * :       .  .::          :*  :::  * 
+
+
+HSRV_env_AF033816                   ALTGAVQTLSQISDINDENLQQGIYLLRDHVITLMEATLHDISVMEGMFA
+Simian_Foamy_Virus_type_1_env_      ALTGAVQTLSQISDINDERLQHGVYLLRDHVVTLMEAALHDVSIMEGMLA
+Equine_foamy_virus_env_AF20190      SMNQAISTLAKISDLNDENLAAGIHLLQEHIVTLMEATVHDISMLEAAHG
+Feline_foamy_virus_Y08851           GLANAITTVAKISDLNDQKLAKGVHLLRDHVVTLMEANLDDIVSLGEGIQ
+                                    .:  *: *:::***:**:.*  *::**::*::***** :.*:  :     
+
+
+HSRV_env_AF033816                   VQHLHTHLNHLKTMLLERRIDWTYMSSTWLQQQLQKSDDEMKVIKRIARS
+Simian_Foamy_Virus_type_1_env_      IQHVHTHLNHLKTMLLMRKIDWTFIRSDWIQQQLQKTDDEMKLIRRTARS
+Equine_foamy_virus_env_AF20190      LQILHTHLSTLRLLLTENRVDWNLIDSTWIQQQLQADEALMNVIRRTARS
+Feline_foamy_virus_Y08851           IEHIHNHLTSLKLLTLENRIDWRFINDSWIQEELGVSDNIMKVIRKTARC
+                                    :: :*.**. *: :   .::**  : . *:*::*   :  *::*:: **.
+
+
+HSRV_env_AF033816                   LVYYVKQTHSSPTATAWEIGLYYELVIPKHIYLNNWNVVNIGHLVKSAGQ
+Simian_Foamy_Virus_type_1_env_      LVYYVTQTSSSPTATSWEIGIYYEIVIPKHIYLNNWQVINVGHLLESAGH
+Equine_foamy_virus_env_AF20190      MTYRVIQQINRPDMTLWELGIYYELIIPKKVWLTNWKIQNIGHLIKNAGH
+Feline_foamy_virus_Y08851           IPYNVKQTRNLNTSTAWEIYLYYEIIIPTTIYTQNWNIKNLGHLVRNAGY
+                                    : * * *  .    * **: :***::**. ::  **:: *:***:..** 
+
+                                    <TM2>           <TM4>                   
+HSRV_env_AF033816                   LTHVTIAHPYEIINKECVETIYLHLEDCTRQDYVICDVVKIVQPCGNSSD
+Simian_Foamy_Virus_type_1_env_      LTHVKVKHPYEIINKECSDTQYLHLEECIREDYVICDIVQIVQPCGNATE
+Equine_foamy_virus_env_AF20190      LARVELQHPYEIVNQDCEQLTYLELKGCQELDYLVCEEILQHEPCGNQTG
+Feline_foamy_virus_Y08851           LSKVWIQQPFEVLNQECGTNIYLHMEECVDQDYIICEEVMELPPCGNGTG
+                                    *::* : :*:*::*::*    **.:: *   **::*: :    **** : 
+
+
+HSRV_env_AF033816                   TSDCPVWAEAVKEPFVQVNPLKNGSYLVLASSTDCQIPPYVPSIVTVNET
+Simian_Foamy_Virus_type_1_env_      LSDCPVTALKVKTPYIQVSPLKNGSYLVLSSTKDCSIPAYVPSVVTVNET
+Equine_foamy_virus_env_AF20190      -SDCPVTAQKIKDPYVWIYPLKNGSYLIMSSHTDCAIPPYEPVLVTVNDT
+Feline_foamy_virus_Y08851           -SDCPVLTKPLTDEYLEIEPLKNGSYLVLSSTTDCGIPAYVPVVITVNDT
+                                     ***** :  :.  :: : ********:::* .** **.* * ::***:*
+
+
+HSRV_env_AF033816                   TSCFGLDFKRPL-VAEERLSFEPRLPNLQLRLPHLVGIIAKIKGIKIEVT
+Simian_Foamy_Virus_type_1_env_      VKCFGVEFHKPL-YAETKTSYEPQVPHLKLRLPHLTGIIASLQSLEIEVT
+Equine_foamy_virus_env_AF20190      VRCFGTTLKKPLRTSLETFTFQPHIPQLQVRLPHLVGLIAKIKGLKIEIT
+Feline_foamy_virus_Y08851           ISCFDKEFKRPLKQELKVTKYAPSVPQLELRVPRLTSLIAKIKGIQIEIT
+                                      **.  :::**       .: * :*:*::*:*:*..:**.::.::**:*
+
+
+HSRV_env_AF033816                   SSGESIKEQIERAKAELLRLDIHEGDTPAWIQQLAAATKDVWPAAASALQ
+Simian_Foamy_Virus_type_1_env_      STQENIKDQIERAKAQLLRLDIHEGDFPDWLKQVASATRDVWPAAASFIQ
+Equine_foamy_virus_env_AF20190      STWENIKDQIKRSEAELLRLDLHEGDYAEWTKQLGKALEDIWPAAAQTVS
+Feline_foamy_virus_Y08851           SSWETIKEQVARAKAELLRLDLHEGDYPEWLQLLGEATKDVWPTISNFVS
+                                    *: *.**:*: *::*:*****:**** . * : :. * .*:**: :. :.
+
+                                                              <TM5>
+HSRV_env_AF033816                   GIGNFLSGTAQGIFGTAFSLLGYLKPILIGVGVILLVILIFKIVSWIPTK
+Simian_Foamy_Virus_type_1_env_      GVGNFLSNTAQGIFGSAVSLLFYAKPILIGIGVILLIALLFKIISWLPGK
+Equine_foamy_virus_env_AF20190      KIGDFLGKIADGIFGTTFSLLTYAKPVIIGIVVIVLLILIIRILSWLAAL
+Feline_foamy_virus_Y08851           GIGNFIKDTAGGIFGTAFSFLGYVKPVLLGFVIIFCIILIIKIIGWLQNT
+                                     :*:*:   * ****::.*:* * **:::*. :*. : *:::*:.*:   
+
+
+HSRV_env_AF033816                   KKNQ--------
+Simian_Foamy_Virus_type_1_env_      PKKN--------
+Equine_foamy_virus_env_AF20190      GPRRRRREDKGE
+Feline_foamy_virus_Y08851           RKKDQ-------
+                                      .         
+::

@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>Puteinview</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <h2>Puteinview</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <p>This <a href="Executors.html">Executor</a> shows a
+Putein, XXon or Xon file
+for inspection. It is normally run by selecting the file with the
+'Choose script' button, and executing it. </p>
+            <p>A Putein file is an <a
+ href="ParameterFile.html#ExecutorScript">executor script</a> created
+by <a href="ORFID.html">ORFID</a> (XXon and Xon files by <a
+ href="XonID.html">XonID</a>), with Puteinview as Executor. It
+should be noted that though ORFID forms an opinion about where the
+putein starts and ends, it usually constructs a longer putein than
+that, in case its opinion is wrong.<br>
+            </p>
+            <p>A Putein, XXon or Xon file&nbsp;has two or three
+parameters
+actually used by Puteinview: </p>
+            <ul>
+              <li> 'FontSize'. A singleparameter specifying the size of
+the displayed characters. Default = 14.</li>
+              <li>Hits: (in Puteins) A multiparameter with
+descriptions, one per
+line, of the MotifHits ORFID used to make this Putein.</li>
+              <li> 'Putein', or 'Xon' in a XXon or Xon file. A
+multiparameter with five (very long)
+lines. The second of these shows the Putein (Xon) sequence with
+standard
+amino acid symbols. 'z' means stop codon, 'x' ambiguous acid (because
+of ambiguous base in the DNA). Uppercase characters (in a Putein) mark
+acids which
+were exactly matched in the <a href="AlignmentFiles.html">Alignment</a>.
+The third
+line shows the reading frame used at each acid. The first line (in a
+Putein)
+indicates where the Motif hits in the 'Hits' parameter (numbered from 1
+upwards) are
+relative to the second line. In the fourth line '&gt;' and '&lt;' are
+used to indicate ORFID's opinion about start and end of the putein (the
+arrows are at the acid before and after the estimated first and last
+acid, respectively). '!'
+indicate hits by the Kozak consensus motif. The fifth line shows base
+position
+in the DNA at intervals of approximately 90.</li>
+            </ul>
+Puteinview shows a window with two frames, the upper one showing the
+contents of the file, the lower he contents of 'Putein' or 'Xon', using
+a
+fixed-width
+font.
+            <p>If you should want to run Puteinview interactively, the
+parameter window has two parameters, 'FontSize' (see above) and
+'PuteinFile', with obvious meaning.<br>
+            </p>
+            <hr size="2" width="100%">
+            <p>There are also a number of parameters not used by
+Puteinview, but for documentation. They are (most of them are not
+present in XXon or Xon files):<br>
+            </p>
+            <ul>
+              <li>NumberOfHits: The number of MotifHits ORFID could
+localize in the Alignment.</li>
+              <li>LeadingInfo: A somewhat cryptic description of the
+leading putein segment.</li>
+              <li>LeadingInfo2, LeadingInfo3 etc: Similar descriptions
+of all the possible leading putein segments considered by ORFID. Only
+if ORFID was run with the Debugging option.</li>
+              <li>TrailingInfo: A somewhat cryptic description of the
+trailing putein segment.</li>
+              <li>TrailingInfo2,&nbsp;TrailingInfo3 etc: Similar
+descriptions of all the possible&nbsp;trailing putein segments
+considered by ORFID. Only if ORFID was run with the Debugging option.</li>
+              <li>Trouble: Copied from the Trouble parameter in the
+ORFID script. If present, it describes some problem (eg BrokenChain)
+encountered by RetroVID, suggesting that the output of ORFID may not be
+meaningful.</li>
+              <li>Gene: Gag, Pro, Pol or Env</li>
+              <li>Genus: A character describing the <a
+ href="VirusGenus.html">virus genus</a>.</li>
+              <li>DNAFile: The relevant <a href="DNAFiles.html">DNA
+file</a>.<br>
+              </li>
+              <li>EstimatedStartPosition: The base position of the
+start of the putein, in the opinion of ORFID.</li>
+              <li>EstimatedLastPosition: The base position of the end
+of the putein (third base of last codon), in the opinion of ORFID.</li>
+              <li>LengthInside: (Length in XXon or Xon files) Number of
+acids in the putein between
+the suggested start and end.</li>
+              <li>LengthTotal: Overall number of acids in the putein.</li>
+              <li>AlignedAcids: Number of acids determined in
+accordance with the Alignment.</li>
+              <li>AverageScoreInside: A number between 0 and 1,
+indicating the quality of the putein between the suggested start and
+end.</li>
+              <li>AverageScoreTotal: A number between 0 and 1,
+indicating the quality of the overall putein.</li>
+              <li>MostUsedRow: The number and description of the row in
+the Alignment ORFID came to rely most on.</li>
+              <li>StopCodonsInside (Stops in XXon or Xon files): The
+number of stop codons in the putein between the suggested start and
+end. In parentheses, the number of stop codons in each reading frame
+over the same region.</li>
+              <li>StopCodonsTotal: The number of stop codons in the
+overall putein.</li>
+              <li>AmbiguousAcidsInside: Number of ambiguous acids
+between the suggested start and end.</li>
+              <li>AmbiguousAcidsTotal: Number of ambiguous acids in the
+overall putein.</li>
+              <li>ShiftsInside(Shifts in XXon or Xon files): Number of
+frame shifts in the putein between the suggested start and end.</li>
+              <li>ShiftsTotal: Number of frame shifts in the overall
+putein.</li>
+              <li>LongestRun: The length of the longest run of acids in
+the
+same reading frame between the suggested start and end, and its start
+position.</li>
+              <li>LongestORF: The starting position and content of the
+codon
+sequence common between the putein and the longest ORF having at least
+one codon in common with
+the putein. If the ORF extends beyond this sqeuence at either end, it
+is marked with
+'&lt;&lt;' or '&gt;&gt;' respectively.</li>
+              <li>CodonSequence: The bases actually corresponding to
+the acids
+between the suggested start and end,</li>
+            </ul>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2008 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2008-02-07</font><!-- #EndDate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

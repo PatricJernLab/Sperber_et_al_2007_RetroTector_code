@@ -1,0 +1,62 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright ((c)) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+                      <MA1>
+LPDV_gag_U09568       MDTVKRVLKTLAQDQR--TSVRSKDVVSCIERLIAEGAIKRPSDIFARDIWPHCTATLTQ
+RSV_Gag_AF033808      MEAVIKVISSACKTYCGKTSPSKKEIGAMLSLLQKEGLLMSPSDLYSPGSWDPITAALSQ
+                      *::* :*:.: .:     **  .*:: : :. *  ** :  ***::: . *   **:*:*
+
+LPDV_gag_U09568       RAMTG-SAGELRTWGTIMRILQTAKEEKQAWKEARAALGLSSSVASQTFAEAASLIDTAE
+RSV_Gag_AF033808      RAMILGKSGELKTWGLVLGALKAAREEQVTSEQAKFWLGLGGGRVSPPGPE---------
+                      ***   .:***:*** ::  *::*:**: : ::*:  ***... .* . .*         
+
+LPDV_gag_U09568       AMNDLSQEGAETERNVTEIRESSQNDTVDSESDPPAALPVRPLRDSQDWRGGSGAGESYT
+RSV_Gag_AF033808      -----CIEKPATERRIDKGEEVGETTVQRDAKMAPEETATPKTVGTSCYHCGTAIGCNCA
+                           . * . ***.: : .* .:. .  . . .*   ..    .:. :: *:. * . :
+
+                                         <MA2>  
+LPDV_gag_U09568       ASSGSGAESSMETFREVPTAPPPPVMGPGQEPPPNYPWEELRAAFERMGTGGRTTQGHQD
+RSV_Gag_AF033808      TAS----------------APPPPYVGSGLYP-------SLAGVGEQQGQGGDTPPGAEQ
+                      ::*                ***** :*.*  *       .* .. *: * ** *. * ::
+
+LPDV_gag_U09568       SLKNSTRISGGSQQQQEMAAVKPKKEVSWGQPLKTSDASMGDGSSDTESGDDEDLLDWLP
+RSV_Gag_AF033808      SRAEPG------------------------------------------------------
+                      *  :.                                                       
+
+LPDV_gag_U09568       GKPIKKSRRRDYKQEMGGAEKSPKFEQEGEELLELLKRVKQEVERQSAAIQGSRQISRAT
+RSV_Gag_AF033808      ---------------------------------------------------------HAG
+                                                                               :* 
+
+                                                       <CA0>
+LPDV_gag_U09568       KITPIPLTDWGLVATECKLGGLKLEVPLPRVA-PVRQMAGGQIEWTPLDPKMVKQLKEAIQ
+RSV_Gag_AF033808      QAPGPALTDWARVREELASTGP------PVVAMPVVIKTEGP-AWTPLEPKLITRLADTVR
+                      : .  .****. *  *    *       * **    :       ****:**::.:* ::::
+
+LPDV_gag_U09568       EEGTTGPLASVLLDQVHQIALTPSDLRQLARIVLSPVMAALWKSEWTERLQARVTTATHD
+RSV_Gag_AF033808      TKGLRSPITMAEVEALMSSPLLPHDVTNLMRVILGPAPYALWMDAWGVQLQTVIAAATRD
+                       :*  .*:: . :: : . .* * *: :* *::*.*.  *** . *  :**: :::**:*
+
+LPDV_gag_U09568       RRDPLHG------VTVAVLKGSDP-AMATPQLQAARMR-GREIQASCQASVSICGGRTVG
+RSV_Gag_AF033808      PRHPANGQGRGERTNLNRLKGLADGMVGNPQGQAALLRPGELVAITASALQAFREVARLA
+                       *.* :*      ..:  ***     :..** *** :* *. :  :..*  ::     :.
+
+                            <CA1>                                    <CA2>
+LPDV_gag_U09568       KRTDPWTKVTQGLGEPFLSFAERLLNAYEKSQLPEAAKNAVFRDCVKQQGNMLTQQYMLG
+RSV_Gag_AF033808      EPAGPWADIMQGPSESFVDFANRLIKAVEGSDLPPSARAPVIIDCFRQKSQPDIQQLIRT
+                      : :.**:.: ** .*.*:.**:**::* * *:** :*: .*: **.:*:.:   ** :  
+
+LPDV_gag_U09568       APSTENT-AELVKYLLKRENEGAAQGNAAAIVAALKEARAGANCFKCGAVGHMRRDCPSL
+RSV_Gag_AF033808      APSTLTTPGEIIKYVLDR------QKTAPLTDQGIAAAMSSAIQPLIMAVVNRERDGQTG
+                      **** .* .*::**:*.*      * .*.    .:  * :.*      ** : .**  : 
+
+                              <NC1>                     <NC2>
+LPDV_gag_U09568       NKRDGGARCWSCGGAGHLARDCRKRRGENARRGALAPMQGNGGAAAGRRGPAAPRFVHPR
+RSV_Gag_AF033808      SGGRARGLCYTCGSPGHYQAQCPKKRKSGNSRERCQLCNGMGHNAKQCRKRDGNQGQRPG
+                      .   . . *::**..**   :* *:* ..  *      :* *  *   *   . :  :* 
+
+LPDV_gag_U09568       ETTATDGVPRSPWSSA
+RSV_Gag_AF033808      KGLSSGPWPGPEPP--
+                      :  ::.  * .  .  
+::

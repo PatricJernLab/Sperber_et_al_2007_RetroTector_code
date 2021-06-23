@@ -1,0 +1,60 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+                                   <SU1>                    
+HTLV-I_Seiki_env      -----MGKFLATLILFFQFCPLIFGDYSPSCCTLTIGVSSYHSKPCNPAQPVCSWTLDLL
+HTLV2_K02024_env      -----MGNVFFLLLFSLTHFPLAQ----QSRCTLTVGISSYHSSPCSPTQPVCTWNLDLN
+BLV_CG_env            MPKERRSRRRPQPIIRWVSLTLTLLALCRPIQTWRCSLSLGNQQWMTAYNQEAKFSISID
+                            ..     ::     .*       .  *   .:*  :..  .. :  ..:.:.: 
+
+
+HTLV-I_Seiki_env      ALSADQALQPPCPNLVSYSSYHATYSLYLFPHWTKKPNRNGGGYYSASYSDPCSLKCPYL
+HTLV2_K02024_env      SLTTHQRLHPPCPNLITYSGFHKTYSLYLFPHWIKKPNRQGLGYYSPSYNDPCSLQCPYL
+BLV_CG_env            QILEAHNQSPFCAKSPRYT--LDSVNGYPKIYWPPPQGRRRFGARAMVTYD-CEPRCPYV
+                       :   :   * *.:   *:    : . *   :*    .*.  *  :    * *. :***:
+
+
+HTLV-I_Seiki_env      GCQSWTCPYTGAVSSPYWKFQHDVNFTQEVSRLNINLHFSKCGFPFSLLVDAPGYDPIWF
+HTLV2_K02024_env      GCQSWTCPYTGPVSSPSWKFHSDVNFTQEVSQVSLRLHFSKCGSSMTLLVDAPGYDPLWF
+BLV_CG_env            GADRFDCPHWDNAS-------QADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLIT
+                      *.: : **: . .*          : :  *.:  : **:.:*   ::*  :  ****:  
+
+
+HTLV-I_Seiki_env      LNTEPSQLPPTAPPLLPHSNLDHILEPSIPWKSKLLTLVQLTLQSTNYTCIVCIDRASLS
+HTLV2_K02024_env      ITSEPTQPPPTSPPLVHDSDLEHVLTPSTSWTTKILKFIQLTLQSTNYSCMVCVDRSSLS
+BLV_CG_env            FSLHKIPDPPQP----DFPQLNSDWVPSVRSWALLLNQTARAFP----DCAICWEPSPPW
+                      :. .    ** .      .:*:    **    : :*.    ::      * :* : :.  
+
+
+HTLV-I_Seiki_env      TWHVLYSPNVSVPS-SSSTPLLYPSLALPAPHLTLPFNWTHCFDPQIQAIVSSPCHNSLI
+HTLV2_K02024_env      SWHVLYTPNISIPQQTSSRTILFPSLALPAP-PSQPSLWTHCYQPRLQAITTDNCNNSII
+BLV_CG_env            APEILVYN---KTISSSGPGLALPDAQIFWVNSSSFNTTQGWHHPSQRLLFNVSQGNALL
+                      : .:*       .  :*.  :  *.  :     :        ..*  : : .    *:::
+
+                                          <SU3>
+HTLV-I_Seiki_env      LPPFSLSPVPTLG----SRSRRAVPVAVWLVSALAMGAGVAGGITGSMSLASGKSLLHEV
+HTLV2_K02024_env      LPPFSLAPVPPLA----TRRRRAVPIAVWLVPALAAGTGIAGGVTGSLSLASSKSLLLEV
+BLV_CG_env            LPPISLVNLSTASSAPPTRVRRSPVAALTLGLALSVGLTGINVAVSALSHQRLTSLIHVL
+                      ***:**  :.. .    :* **:   *: *  **: *    .  ..::*    .**:  :
+
+                                              <TM3>
+                                               <TM2>              <TM4>       
+HTLV-I_Seiki_env      DKDISQLTQAIVKNHKNLLKIAQYAAQNRRGLDLLFWEQG--GLCKALQEQCRFPNITNS
+HTLV2_K02024_env      DKDISHLTQAIVKNHQNILRVAQYAAQNRRGLDLLFWEQG--GLCKAIQEQCCFLNISNT
+BLV_CG_env            EQDQQRLITAINQTHYNLLNVASVVAQNRRGLDWLYIRLGFQSLCPTINEPCCFLRIQND
+                      ::* .:*  ** :.* *:*.:*. .******** *: . *  .** :::* * * .* * 
+
+                                                              <TM5>
+HTLV-I_Seiki_env      HVPILQERPPLENRVLTGWG--LNWDLGLSQWAREALQTGITLVALLLLVILAGPCILRQ
+HTLV2_K02024_env      HVSVLQERPPLEKRVITGWG--LNWDLGLSQWAREALQTGITILALLLLVILFGPCILRQ
+BLV_CG_env            SIILRGDLQPLSQRVSTDWQWPWNWDLGLTAWVRETIHSVLSLFLLALFLLFLAPCLIKC
+                       : :  :  **.:** *.*    ******: *.**:::: :::. * *:::: .**::: 
+
+
+HTLV-I_Seiki_env      LRHLPSRVRYPH--YSLIKPESSL--------------------------------
+HTLV2_K02024_env      IQALPQRLQNRHNQYSLINPETML--------------------------------
+BLV_CG_env            LTSRLLKLLRQAPHFPEISLTPKPDSDYQALLPSAPEIYSHLSPVKPDYINLRPCP
+                      :     ::      :. *.  .                                  
+::

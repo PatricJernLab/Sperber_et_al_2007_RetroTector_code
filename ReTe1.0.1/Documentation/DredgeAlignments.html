@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>DredgeAlignments</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body bgcolor="#ffffff" text="#000000" class="rededge" leftmargin="0"
+ topmargin="0" marginwidth="0" marginheight="0">
+<table width="640" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="160" rowspan="2" valign="top">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0"
+ height="401" bgcolor="#990000">
+        <tbody>
+          <tr>
+            <td width="160" height="135" valign="top"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ width="160" height="160" border="0" alt="Uppsala universitet"> </a> </td>
+          </tr>
+          <tr>
+            <td valign="top" height="160" class="sidomenyVIT"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td width="480" valign="top" height="329">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0"
+ class="normal">
+        <tbody>
+          <tr>
+            <td width="464" valign="top" height="198">
+            <div class="normal">
+            <div align="center">
+            <h2>DredgeAlignments</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr width="100%" size="2">This <a href="Executors.html">Executor</a>
+in <a href="Plugins.html">plugins</a> is part of the package to <a
+ href="OwnDatabase.html">make new Databases</a>.
+It checks the consistency of all the <a href="AlignmentFiles.html">alignment
+files</a> in a <a href="Database.html">Database</a> subdirectory and
+constructs putative <a href="MotifGroups.html">MotifGroups.txt</a>
+(MotifGroupsCandidate.txt) and <a href="Genes.html">Genes.txt</a>
+(GenesCandidate.txt) files from them, and a MakeSubGenesScript.txt file
+from which <a href="MakeSubGenes.html">MakeSubGenes</a> can generate a
+putative <a
+ href="file:///Macintosh%20HD/Users/gsper/RetroTector010/Documentation/SubGenes.html">SubGenes.txt</a>
+(SubGenesCandidate.txt). It also generates Dredge.txt with detailed
+findings.<br>
+            <br>
+The Database subdirectory where this is done must first be selected<br>
+as working directory.<br>
+            <br>
+DredgeAlignments&nbsp;should be run from a script looking something
+like this (second column in SubGenes is hotspot MotifGroup):<br>
+            <br>
+Executor: DredgeAlignments<br>
+SmallLimitFactor: 0.75<br>
+BigLimitFactor: 1.25<br>
+SubGenes::<br>
+5LTR 5LT<br>
+PBS&nbsp; PBS<br>
+MA&nbsp;&nbsp; MA1<br>
+CA&nbsp;&nbsp; CA1<br>
+NC&nbsp;&nbsp; NC1<br>
+DU&nbsp;&nbsp; DU1<br>
+Prot PR2<br>
+RT&nbsp;&nbsp; RT3<br>
+DL&nbsp;&nbsp; DL1<br>
+IN&nbsp;&nbsp; IN4<br>
+SU&nbsp;&nbsp; SU3<br>
+TM&nbsp;&nbsp; TM2<br>
+PPT&nbsp; PPT<br>
+3LTR 3LT<br>
+::<br>
+Genes::<br>
+Gag&nbsp; MA CA NC<br>
+Pro&nbsp; DU Prot<br>
+Pol&nbsp; RT DL IN<br>
+Env&nbsp; SU TM<br>
+::<br>
+            <br>
+            <br>
+The range of distances between any two MotifGroups in all the alignment
+files (disregarding Suspect parts) is found. The distance ranges
+employed in the generated files are in principle calculated by
+multiplying the upper limit of this range by a factor and the lower
+limit by another.<br>
+            <br>
+These factors are the two parameters:<br>
+            <br>
+            <ul>
+              <li>SmallLimitFactor: Lower limit factor. Default: 0.75.</li>
+              <li>BigLimitFactor: Upper limit factor. Default: 1.25.<br>
+              </li>
+            </ul>
+            <br>
+            <hr width="100%" size="2">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td width="464" height="41" valign="top">
+            <hr size="1" color="#000000" noshade="noshade"><font
+ face="verdana" size="-2"> &copy; 2002-2005 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated:
+2005-05-25</font></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

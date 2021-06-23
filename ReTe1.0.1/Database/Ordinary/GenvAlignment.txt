@@ -1,0 +1,74 @@
+{CLUSTAL W (1.8) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2005 02 02
+{
+Alignment::
+                                                             <SU1>
+D_subobscura_gypsy_ORF3_env_an      ----------------------MPTIIPVLDGEVLVYDQRSYLRHSSNIS
+Gypsy_envputein                     SRFTLMMFIPLVVANARITDFSHANYIPVLDGDVLVFEQRDLLKHSSNLS
+G_max_SIRE1_env_annot               -------------------CFTRPSTFLIQTHIFVVISFSAFPNSSQRFT
+Osvaldo_env                         -----------------------------GTGRYRSESACLEVSNCGGCA
+                                                         : ..            .       .   :
+
+D_subobscura_gypsy_ORF3_env_an      EFSSMIDETEKLSDSFPQSHMRKLLDVDTDHLRTMLSVLQVHHRFARSLD
+Gypsy_envputein                     EYASMIDETQKLSESFPHSHMRKLLEVDTDHLRTLLSVLKVHHRIARSLD
+G_max_SIRE1_env_annot               KPFQRLCFSMATSPKDTSSPGSPSVPSSPSSTKAPSNQEQPEFHIQPIQM
+Osvaldo_env                         RAGRRAYPVRRZRAYDAGSEAAGVKNASTLRDGLLFGIMRTKEKLKFNNV
+                                    .               . *        ..       .  : . ::     
+
+D_subobscura_gypsy_ORF3_env_an      FLGTALKVVAGTPDASDFLKVRITEAQLVESNSKQIIINSETQKQINRLT
+Gypsy_envputein                     FLGTALKVVAGTPDATDLFKIKITEAQLVESNSRQIAINSETQKQINKLT
+G_max_SIRE1_env_annot               IPGQAPVPEKLVPKRQ--QGVKISENPSIATSPREVDTEMDKKIRSIVSS
+Osvaldo_env                         LEGTPGRSATAGRDSSG----AASEHAVYQPGRGHDEPSAPATGQASVPP
+                                    : * .        .         :*     ..  .   .     :    .
+
+D_subobscura_gypsy_ORF3_env_an      DTINKIISSRKGDLVDTPHLFETLLARNRILNTEIQNLILTITLAKANIV
+Gypsy_envputein                     DTINKVINARKGDLVDTPHLYEALLARNRMLSTEIQNLILTITLVKSNII
+G_max_SIRE1_env_annot               ILKNASVPDADKDVPTSSTPNAEVLSSSSKEESTEEEEQATEETPAPRAP
+Osvaldo_env                         ATTHSPEPEAASAVSGAGAIFQRGIEVAGQLQRHRAEDVFGGDARZMARR
+                                       :         :  :       :      .    :             
+
+D_subobscura_gypsy_ORF3_env_an      NPTILDHADLKSLIEQDTPIVSLLEASKIKVLQSENIIHILIAYPKVEFK
+Gypsy_envputein                     NPTILDHADLKPLVEQDTPIVSLIEASKIRVLQSENSIHILIAYPRVKFS
+G_max_SIRE1_env_annot               EPAPGDLIDLEEVESDEEPIANKLAPGIAERLQSRKGKTPITRSGRIKTM
+Osvaldo_env                         GGPIGDAARGKGQQSDRAHHLGERREHRIRRTRLGCRVFTQRYDVGCCWS
+                                      .  *    :   .:     .       .  :                 
+
+D_subobscura_gypsy_ORF3_env_an      CQKV-SVYPVSHQQTILRLDEDTLAECERD-TFAVTGCTVTTHNTFCERA
+Gypsy_envputein                     CKKV-AVYPVSHQHTILRLDEDTLAECEHD-TFAVTGCTDTTHFTFCERS
+G_max_SIRE1_env_annot               AQKK-STP---ITPTTSRWSKVAIPSKKRK-EFSSSDSDDDVELDVPDI- 
+Osvaldo_env                         TESVGACHAAGRGNWRDGWRKGLWQILVHWPAIPLELCEDEESVVIAISQ
+                                     :.  :              :       :   :.   .       .    
+
+                                    <SU3>
+D_subobscura_gypsy_ORF3_env_an      RRETCASSLHAGNTANCHTQPSHLNAIMPIDDGVVVINEATARVRTDDGA
+Gypsy_envputein                     RRETCVRSLHAGNAAQCHTQPSHLREINPVDDGVVIINEAAAHVSTDGSP
+G_max_SIRE1_env_annot               KRAKKSGKKVPGNVPDAPLDNISFHSIGNVERWKFVYQRRLALERELG--
+Osvaldo_env                         RHDAVDRFANDADTNQSPTATQESDGVVPSRSPEGHPEPISSQEHNRSSA
+                                    * .         :. :.         :          :   :     .  
+
+                                                                        <TM4>
+D_subobscura_gypsy_ORF3_env_an      EVTVSGTFLIT-FERSAAINGTEFINLRKASSKQPGTVRSPLLTSSDMTR
+Gypsy_envputein                     ETLIEGTYLVPSSERQPSTALNSZIZGKHZASSQASCVHHYLTSSATTLC
+G_max_SIRE1_env_annot               ---------------RDALDCKEIMDLIKAAG-LLKTVTKLGDCYESLVR
+Osvaldo_env                         E--------------GRGVPIERFGHLTCAPAPQPPGGCNHERSVCSSAR
+                                                     .            ..                  
+
+D_subobscura_gypsy_ORF3_env_an      HZ--AYHSCIVZTSTTCSQLWTSRRRZLRLAHLNIGSQLVQSZTSDZFAH
+Gypsy_envputein                     SVYLCYTGZVTKTYIPSKTLWMTWN---LKARPDSGSWLVWSZTSAZLAL
+G_max_SIRE1_env_annot               EFIVNIPSDITNRKSDEYQKVFVRGKCVRFSPAVINKYLGRP--TEGVVD
+Osvaldo_env                         RVGRGGGRSIGSRGIN---KASTRAGGVEVNVKNTQEKIKKKHHIHLPAT
+                                             :                          . :         . 
+
+D_subobscura_gypsy_ORF3_env_an      SSFLWYZGEGEHHZRYRRLWTTLIZPRTV---------------------
+Gypsy_envputein                     SPFIWHZGEDEPLGRYSAPSILSTZPRTVINLRGEZLTTNNVLLRSNZVA
+G_max_SIRE1_env_annot               IAVSEHQIAKEITAKQVQHWPKKGKL------------------------
+Osvaldo_env                         HGVASSERETAGEQRGAVNRALX---------------------------
+                                      .           :                                   
+
+D_subobscura_gypsy_ORF3_env_an      --------------------------------------------------
+Gypsy_envputein                     LYEQCZRARIGFNAPREECLAAESZHFLPGVLLHAARNAESACRLVAARC
+G_max_SIRE1_env_annot               --------------------------------------------------
+Osvaldo_env                         --------------------------------------------------
+
+::

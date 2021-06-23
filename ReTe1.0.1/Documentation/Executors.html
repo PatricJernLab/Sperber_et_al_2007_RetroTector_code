@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>Executors</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <h2> </h2>
+            <center>
+            <h2> Executors</h2>
+            </center>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%"><br>
+Executors are modules that actually do something. A selection of
+them are defined through classes (package builtins) in RetroTector.jar,
+others may be as .class files in the <a href="Plugins.html"> plugins</a>
+directory.<br>
+            <br>
+In general, the performance of an Executor will depend on a number of
+named parameters, which are typically read from a <a
+ href="ParameterFile.html"> parameter file</a>, usually the <a
+ href="ParameterFile.html#ExecutorScript">executor script</a> that
+started it. Singleparameters will as a rule have default values, while
+multiparameters (which really define data rather than parameters) do
+not. The default values may be changed at startup as specified in <a
+ href="Configuration.html"> Configuration.txt</a> .<br>
+            <br>
+If the Executor is not started from a script, but interactively, there
+will be an opportunity to change parameter values (see below).<br>
+            <br>
+            <hr width="100%">
+            <p>Executors may be activated in several ways: </p>
+            <ul>
+              <li> By executing, using the Script file name field and
+the 'Execute script' button in the RetroTector window, an <a
+ href="ParameterFile.html#ExecutorScript"> executor script</a> which
+specifies the Executor in its 'Executor' parameter.</li>
+              <li> Interactively, through the Execute menu belonging to
+the <a
+ href="file:///Users/gsper/RetroTector011/Manual/Documentation/RetroTectorWindow.html">RetroTector
+window</a> .</li>
+              <li> From another executor. This is an important way only
+in the case of <a href="SweepScripts.html"> SweepScripts</a> .</li>
+              <li>Using startup parameters for <a
+ href="RetroTector.html">RetroTector</a>.</li>
+              <li>Using a command to <a href="RetroTector.html">RetroTector</a>
+through the standard input.</li>
+            </ul>
+Of these, the interactive ones have the limitation that many Executors
+require information which is provided by the script. At interactive
+start, a window of this general character appears: <br>
+            <font size="-1"><br>
+            <a name="ExecWindow"></a> <br>
+            <img src="ExWindow.gif" alt="Image of Executor window"
+ height="199" width="501"> <br>
+            </font>
+            <p>The most notable feature is the (possibly scrolled) list
+of named parameters and their current values, which may be edited at
+this stage. </p>
+            <p>You may want a look at this window just to get this
+list of parameters, in which case you may have use for the 'Cancel'
+button. </p>
+            <p>By entering text in the 'Key' and 'Value' fields and
+then
+clicking the 'Add parameter' button, you may extend the list, but with
+most Executors this is not meaningful. </p>
+            <p>If you want a file name as the value for some parameter,
+click in the value field in question and then use the 'Select a file'
+button. The name of the file you select should appear in the field,
+though this does not work in all implementations. </p>
+            <p>Clicking the 'Run' button will start the Executor with
+the
+parameters at present in the window. However, often there is a
+parameter specifying an input file to get more information from.
+Parameter values given by this file will override those in the window!<br>
+            </p>
+            <p>There may another field below the buttons for specific
+purposes. At present, this is implemented only in <a
+ href="CollectGenome.html">CollectGenome</a> and <a
+ href="ModifierCurve.html">ModifierCurve</a>.<br>
+            </p>
+            <hr width="100%">
+            <p>At startup, all the classes in '<a href="Plugins.html">plugins</a>'&nbsp;
+are absorbed into RetroTector. It is therefore possible to write your
+own Executor classes and drop them into the plugins directory. See <a
+ href="ProgOwn.html"> Programming on your own</a> . </p>
+            <hr width="100%">
+            <p>The Executors at present included in RetroTector.jar
+are: </p>
+            <ul>
+              <li> The ones doing the heavy work:</li>
+              <ul>
+                <li><a href="LTRID.html">LTRID</a> </li>
+                <li><a href="RetroVID.html">RetroVID</a><br>
+                </li>
+                <li> <a href="ORFID.html">ORFID</a></li>
+                <li><a href="XonID.html">XonID</a></li>
+                <li><a href="PseuGID.html">PseuGID<br>
+                  </a></li>
+              </ul>
+              <li> The ones coordinating the work:</li>
+              <ul>
+                <li><a href="SweepDNA.html"> SweepDNA</a> </li>
+                <li><a href="SweepScripts.html"> SweepScripts</a> </li>
+              </ul>
+              <li> The ones displaying results graphically:</li>
+              <ul>
+                <li><a href="Chainview.html"> Chainview</a></li>
+                <li><a href="LTRview.html">LTRview</a><br>
+                </li>
+                <li><a href="ModifierCurve.html"> ModifierCurve</a> </li>
+                <li> <a href="ORFIDview.html">ORFIDview</a></li>
+                <li><a href="Puteinview.html"> Puteinview</a> </li>
+                <li><a href="Sequenceview.html"> Sequenceview</a></li>
+                <li><a href="ShowPseudoKnot.html">ShowPseudoKnot</a></li>
+              </ul>
+              <li>The ones cooperating with an SQL database:</li>
+              <ul>
+                <li><a href="CollectGenome.html">CollectGenome</a></li>
+                <li><a href="Genomeview.html">Genomeview</a></li>
+                <li><a href="SQLUser.html">SQLUser<br>
+                  </a></li>
+              </ul>
+              <li> Various utilities, some of them in a somewhat liquid
+state:</li>
+              <ul>
+                <li><a href="CheckDatabase.html"> CheckDatabase</a> </li>
+                <li> <a href="CollectMotifHits.html">CollectMotifHits</a></li>
+                <li><a href="DredgeAlignments.html">DredgeAlignments</a></li>
+                <li><a href="FindStringInFiles.html">FindStringInFiles</a></li>
+                <li><a href="MakeSubGenes.html">MakeSubGenes</a></li>
+                <li><a href="RawScoreStatistics.html">RawScoreStatistics</a></li>
+                <li><a href="RenameFiles.html">RenameFiles</a></li>
+              </ul>
+            </ul>
+            <br>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of
+Neuroscience, Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-10-16</font><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

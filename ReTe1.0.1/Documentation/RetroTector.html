@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>RetroTector</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <div align="center">
+            <h2>RetroTector</h2>
+            </div>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <h1>
+            <center>
+            <h2> General description</h2>
+            </center>
+            </h1>
+RetroTector is a program package
+designed to identify and analyze possible endogenous retroviruses in
+DNA sequences. It is highly flexible, but is in its present form
+somewhat slanted towards primate genomes.<br>
+            <br>
+RetroTector has four main functions:
+            <ul>
+              <li> To search for possible Long Terminal Repeats, both
+paired and single (performed by the <a href="LTRID.html"> LTRID</a>
+module).</li>
+              <li> To search for evidence of endogenous retroviruses,
+or possibly other elements, in DNA sequences, and characterize the
+findings (mainly performed by the <a href="RetroVID.html">RetroVID</a>
+module).</li>
+              <li> To construct putative proteins ("puteins") similar
+to those originally encoded by the virus (mainly performed by the <a
+ href="ORFID.html">ORFID</a> module).</li>
+              <li>To identify other possible exons (performed by the <a
+ href="XonID.html">XonID</a> module).<br>
+              </li>
+            </ul>
+Besides these main modules, there are a number of others for
+presentation of the results, storage in an SQL database etc.<br>
+            <br>
+            <hr width="100%">
+            <center>
+            <h2> Files in RetroTector</h2>
+            </center>
+The RetroTector package includes
+a considerable number of files, which may be subdivided thus:
+            <blockquote><b>Java Bytecode files</b>. These have been
+generated
+by the Java compiler. They consist of Java classes, which are organized
+in two ways:
+              <ul>
+                <li> .jar files. These contain a number of classes, in
+a format related to .zip. The central module, RetroTector.jar
+(or possibly RetroTector|version number|.jar)is of this type.</li>
+                <li> .class files. These contain one class each. If you
+are a Java programmer, you can <a href="ProgOwn.html">make your
+own ones</a>. They are not necessary but constitute a convenient way
+of adding modules. They are contained in the <a href="Plugins.html">'plugins</a>'&nbsp;
+directory.</li>
+              </ul>
+              <b>Text files</b>. These have the .txt extension. Most of
+them conform to the <a href="ParameterFile.html"> Parameter file</a>
+format. You may view them using any text editing program and if you
+feel that you know what you are doing, you may alter them yourself.
+Just make sure that you save them in simple text format, not for
+example Word
+format. There is also a rudimentary text editing facility in
+RetroTector.<br>
+              <br>
+              <span style="font-weight: bold;">forretrotector.sql</span>.
+This is an SQL script which, when presented to an SQL database manager
+(preferably MySQL) generates tables used by RetroTector.<br>
+              <br>
+            </blockquote>
+            <hr width="100%">
+            <center>
+            <h2> Directory organization</h2>
+            </center>
+The main directory may be named anything, but here it will be assumed
+to have the name
+            <blockquote><b>Retrotector</b><br>
+            </blockquote>
+It <b>must</b> contain<br>
+            <blockquote> RetroTector.jar<br>
+            </blockquote>
+(though you may change its name, as long as you change the start
+command
+accordingly) and a directory named<br>
+            <blockquote> <a href="Database.html">Database</a> <br>
+            </blockquote>
+and may also contain a directory named
+            <blockquote>
+              <p><a href="Plugins.html">plugins</a> </p>
+            </blockquote>
+            <p>It is recommended that you collect your work in a
+subdirectory of the Retrotector directory. It may have any name, but we
+will assume </p>
+            <blockquote><b>Workplace</b><br>
+            </blockquote>
+It in turn should have a subdirectory named <br>
+            <blockquote>NewDNA<br>
+              <br>
+            </blockquote>
+This is where you put your new DNA files (see <a href="SweepDNA.html">SweepDNA</a>
+about file formats), whereupon the <a href="SweepDNA.html">SweepDNA</a>
+command will distribute them in
+individual subdirectories of Workplace. After that, the <a
+ href="SweepScripts.html">SweepScripts</a> command will typically be
+invoked, to process them automatically.<br>
+            <br>
+            <hr width="100%">
+            <center>
+            <h2><small> Running RetroTector</small></h2>
+            </center>
+RetroTector is written in strict Java 2, and should therefore run on
+any computer equipped with a Java Runtime Environment. For all features
+to operate, Java 1.4.2 or later is recommended.<br>
+            <br>
+            <blockquote>
+              <h3> The start command</h3>
+            </blockquote>
+The command to actually start RetroTector is implementation dependent
+and usually rather complex. <b>Before it is applied, the current
+directory should be set to Retrotector</b>.&nbsp;
+The command will have to specify <br>
+&nbsp;
+            <blockquote><b>Class path</b>. This tells the Java Runtime
+Environment where to look for classes. It should specify
+              <ul>
+                <li> RetroTector.jar</li>
+                <li>The path to the SQL Java driver, if you use <a
+ href="SQLUser.html">SQLUser</a> or any of its subclasses.<br>
+                </li>
+                <li> The path to the class files in the 'plugins'
+directory, if present. Normally this will be the Retrotector directory.</li>
+              </ul>
+              <b>Starting class.</b> This is 'retrotector/RetroTector'.
+Be careful with character case!</blockquote>
+There may also be a need
+to specify<br>
+            <blockquote> <b>Optional parameters for RetroTector</b>.
+These may be
+(and will be handled in consecutive order when RetroTector starts up):
+              <ul>
+                <li>'L:' followed by the first part of a file name.
+Provided it is the first parameter, it will be extended with a
+version number and '.txt' to form the name of the log file, instead of <a
+ href="LatestErrorLog.html">LatestErrorLog</a>.</li>
+                <li> The name of an executor, e g 'SweepDNA'. It will
+be executed.</li>
+                <li> 'D:' followed by the full name of a directory. It
+will be made the working directory.</li>
+                <li> 'E:' followed by the name of an executor script.
+It will be executed.</li>
+                <li>'F:' followed by the name of a file, from
+which parameters according to this list will be fetched.</li>
+                <li> 'Quit'</li>
+              </ul>
+              <b>Implementation dependent parameters.</b> For example,
+the
+amount of memory to occupy may have to be specified. We tend to use 768
+MB (though twice as much is nice if you have it). Thus, a likely
+command line to start
+RetroTector
+under Sun Java for Windows could be (one line, though it may not look
+so here)<br>
+              <br>
+            </blockquote>
+java -mx768m -cp
+C:\Retrotector\RetroTector.jar;C:\Retrotector\sqldriver.jar;C:\Retrotector
+retrotector/RetroTector<br>
+            <blockquote> <br>
+Under MacOS X (ie Unix)<br>
+              <br>
+            </blockquote>
+java -Xmx768m -classpath "RetroTector.jar:sqldriver.jar:."
+retrotector/RetroTector<br>
+            <blockquote>(again on a single line) is a possibility.<br>
+            </blockquote>
+            <span style="font-weight: bold;">Please note</span> that if
+you specify too much memory relative to the actual RAM in you computer
+(for example 768 MB on a 512 MB computer) much of the work will still
+go smoothly, but some operations (in particular <a href="ORFID.html">ORFID</a>
+and <a href="CollectGenome.html">CollectGenome</a>) may resort to
+unsettling and very time-consuming swapping. On the other hand, if you
+specify less, you may get OutOfMemoryErrors instead. In the
+end, you may just have to get more RAM.<br>
+            <blockquote> </blockquote>
+When RetroTector starts, the <a href="RetroTectorWindow.html">
+RetroTector window</a> appears, and you carry on from there.<br>
+            <br>
+At first startup, a Notice, 'Properties file could not be read' may
+appear. Don't worry; the Properties file (Properties.txt) will be
+generated automatically.<br>
+            <br>
+Though it is platform-dependent, in general it is possible to have more
+than one instance of RetroTector running simultaneously, but the above
+warning about sufficient RAM applies even more.<br>
+            <br>
+            <hr style="width: 100%; height: 2px;">
+            <h4>&nbsp;&nbsp;&nbsp; Control via standard input</h4>
+It is also possible to give commands to RetroTector at any time, via
+the standard input. The commands should have the same syntax as the
+'Optional parameters' above. Normally, the standard input is the text
+window, but under a suitable operating system, it may be reassigned,
+offering the possibility of control of RetroTector by another program,
+via a "pipeline".<br>
+            <br>
+            <hr style="width: 100%; height: 2px;"><br>
+            <h2 style="text-align: center;"><small><small>&nbsp; .zip
+files and RetroTector</small></small></h2>
+The output from a major RetroTector job may stretch to gigabytes. You
+may reduce that by about 70% by compressing it into one or more .zip
+files. In most situations where text files are to be accessed
+read-only, RetroTector can reach inside a .zip file and use its
+contents without actually decompressing it. <br>
+.zip files will then appear in the file choice dialogs as roughly
+equivalent to directories.<br>
+            <br>
+This function depends on the Java package java.util.zip. At
+this date, it seems that it cannot handle all .zip files, in particular
+not files zipped by Windows. WinZip works, however, at least as long as
+only one computer is involved.<br>
+            <br>
+            <hr style="width: 100%; height: 2px;"><br>
+            <h2 style="text-align: center;"><small><small>RetroTector
+and computer clusters<br>
+            </small></small></h2>
+            <a name="ClusterMode"></a>If available, it may be
+advantageous to run big RetroTector jobs on
+multiple processors, eg one processor per chromosome. However, the
+finishing work by <a href="CollectGenome.html">CollectGenome</a>
+cannot be conveniently distributed. It may then be advantageous to add
+a line<br>
+            <br>
+ClusterMode: Yes<br>
+            <br>
+to <a href="Configuration.html">Configuration.txt</a>. This will cause
+            <a href="RetroVID.html">RetroVID</a> and <a
+ href="ORFID.html">ORFID</a> to take over some tasks normally performed
+by CollectGenome.<br>
+            <br>
+For this kind of work, a stripped version, RetroTectorEngine, is
+available. It has no user interface and does not require any Java
+graphics.<br>
+            <br>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-11-12</font>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

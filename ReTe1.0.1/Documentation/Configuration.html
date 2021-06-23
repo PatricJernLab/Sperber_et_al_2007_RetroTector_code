@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>The file Configuration.txt</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <h2> </h2>
+            <center>
+            <h2> The file Configuration.txt</h2>
+            </center>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <div align="left"><br>
+This is a <a href="ParameterFile.html">parameter file</a> in
+Retrotector/<a href="Database.html">Database</a>. It contains
+information used at startup. Here is an example of its contents:
+            <p>WorkingDirectory:
+/Users/gsper/RetroTector10/Workplace <br>
+Executormenu::<br>
+&nbsp;SweepDNA<br>
+&nbsp;SweepScripts<br>
+&nbsp;Genomeview<br>
+&nbsp;CollectGenome<br>
+&nbsp;Sequenceview<br>
+&nbsp;CollectMotifHits<br>
+&nbsp;RenameFiles<br>
+::<br>
+ORFIDdefaults::<br>
+&nbsp;MinSSScore: 700<br>
+::<br>
+LTRIDdefaults::<br>
+&nbsp;SingleLTRThreshold: 0.185<br>
+::<br>
+            <br>
+There are two parameters that should always be defined: </p>
+            <ul>
+              <li> WorkingDirectory: a singleparameter specifying the
+directory of DNA files and results</li>
+              <li> Executormenu: a multiparameter partly or wholly
+specifying the look of the Execute menu of the <a
+ href="RetroTectorWindow.html">RetroTector window</a>. The
+menu will begin as specified, (except lines whose corresponding class
+cannot
+be found either in RetroTector.jar or in the <a href="Plugins.html">'plugins</a>'
+directory). Executor classes not included here will appear lower down
+in
+the menu, typically in alphabetical order.</li>
+            </ul>
+The default values of parameters of <a href="Executors.html">Executors</a>,
+            <a href="Motifs.html">Motif classes</a>, <a
+ href="Brooms.html">Brooms</a> and <a href="ChainProcessors.html">ChainProcessors</a>
+may be set using
+multiparameters as can be seen above. The leading blanks in the lines
+inside the parameters are not required but enhance readability. The
+executor ORFID has
+a parameter 'MinSSScore', whose normal default value is 600, but will,
+using this Configuration.txt, be set to 700 at startup. Similarly, the
+executor&nbsp;LTRID
+has (among many others) the parameter 'SingleLTRThreshold' which will
+receive a new default value.<br>
+            <br>
+There is nothing wrong with setting a default value to the same as the
+one already existing, just to make sure.<br>
+            <p>The parameters available for the various Executors,
+Motif classes, Brooms and ChainProcessorsare documented with them. In
+the case
+of the Executors, they may also be inspected after starting them from
+the Execute menu. </p>
+            </div>
+A line 'ClusterMode: Yes' may improve efficiency when running on
+multiple processors, see <a href="RetroTector.html#ClusterMode">main
+page</a>.<br>
+            <br>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-10-12</font>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

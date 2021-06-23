@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>CheckDatabase</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <center>
+            <h2> CheckDatabase</h2>
+            </center>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <p>This <a href="Executors.html">Executor</a> in <a
+ href="Plugins.html">plugins</a> is a utility
+used to check that a subdirectory of&nbsp; RetroTector/<a
+ href="Database.html">Database</a> is correct, which it may not be
+after
+editing; there are a number of pitfalls. </p>
+            <p>CheckDatabase is usually invoked interactively. There is
+one parameter: </p>
+            <ul>
+              <li>'Database': the name of the <a href="Database.html">Database</a>
+subdirectory to use. Default is 'Ordinary'.<br>
+              </li>
+            </ul>
+CheckDatabase does roughly the following (errors are normally output to
+the text window and to <a href="LatestErrorLog.html">LatestErrorLog.txt</a>):<br>
+            <ul type="circle">
+              <li>All files are checked that they contain 'Last changed
+yy mm dd', and that the date specified agrees with the date the file
+was actually last changed. If not, a 'Modification date mismatch:'
+error is output.<br>
+              </li>
+              <li>All files with names ending in 'Alignment.txt' are
+checked:</li>
+              <ol>
+                <li>That all MotifGroup anchors correspond to actual
+MotifGroups, or an 'Unrecognised MotifGroup name' is reported.</li>
+                <li>That the distances between the MotifGroup anchors
+(not calculated using sections marked Suspect) are consistent with the
+distance ranges specified in Motifs.txt, or an 'outside' error is
+reported.</li>
+              </ol>
+              <li>SubGenes.txt is checked for symmetry of the distance
+ranges, or a 'Distance mismatch' error is reported.</li>
+              <li>MotifGroups.txt is checked for internal consistency
+of distances, or an 'Invalid distance' or 'Distance mismatch' error is
+reported.</li>
+            </ul>
+These messages in the text window are really objections rather than
+error messages. You may or may not take them to heart. There may also
+be genuine 'red' errors, usually because of syntax errors in the files.
+These are very likely to recur when the files are put to use, and must
+be taken seriously.<br>
+            <br>
+            <hr size="2" width="100%">
+            <ul type="circle">
+            </ul>
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-10-16</font>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

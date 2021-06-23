@@ -1,0 +1,70 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+Alignment::
+                     <MA1>
+WEHV_type_1_Gag      MGNTKTKP---LTEDQSKYLKLVETEHCEKIPLSKIHKEFRSFCPTWPKDGTCETKKWEC
+WEHV_type_2_Gag      MGNKSAKP---STEDEVRYNKMIQTEYCDKVDLGKIHKEFKSFCPAWPDKGSCDTKKWQS
+WDSV_Gag             MGNSSSTPPPSALKNSDLFKTMLRTQYSGSVKTRRINQDIKKQYPLWPDQGTCATKHWEQ
+                     ***..:.*     ::.  : .::.*::. .:   :*:::::.  * **..*:* **:*: 
+ 
+
+WEHV_type_1_Gag      LVQSKKDTKLTPEAIKLYGFIKNRLQIRKAVTAKQLATHAVRQMVVKQKDTIPSAPLEDD
+WEHV_type_2_Gag      LILLRGNTKITPEASKLHGFINCKLQARRATTAKQLAAQAVKQMVVRKVIPVPRKEEEAL
+WDSV_Gag             AVLIPLDS-VSEETAKVLNFLRVKIQARKGETARQMTAHTIKKLIVGTIDKNKQQTEILQ
+                      :    :: :: *: *: .*:. ::* *:. **:*::::::::::*              
+
+
+WEHV_type_1_Gag      QS-SEDEDRLNSYMMLRRNRAEKEQIARHT--------------RKKQDEQRKLDLI---
+WEHV_type_2_Gag      TSDSEDDEVFDNHMVIRQRKVRRDQIAEHT--------------RAKL-ERKARELK---
+WDSV_Gag             KTDESDEEMDTTNTMLFIARNKRERIAQQQQADLAAQQQVLLLQREQQREQREKDIKKRD
+                      : ..*::   .  ::   : .:::**.:               * :  *::  ::    
+
+
+WEHV_type_1_Gag      EKEKSSVVKPSQKTTKADV--------SSPLVVRQR-----------TGATAELFP----
+WEHV_type_2_Gag      EKQQ----RETELLASTPE--------KDFQYIKPD-----------GKQKDKRVH----
+WDSV_Gag             EKKKKLLPDTTQKVEQTDIGEASSSDASAQKPISTDNNPDLKVDGVLTRSQHTTVPSNIT
+                     **::      ::   .:          .    :                     .     
+
+                                 <CA0>
+WEHV_type_1_Gag      ----------QKPVRHYPTGNGADTVPIHSAFKATDLHMLRKDCPSIPEDIAKVGAWLTQ
+WEHV_type_2_Gag      ----------QLPIRNYPSGLGNDTVPVHSAFKAADLNTLRKDCPTIPENINQVKRWLEQ
+WDSV_Gag             IKKDGTSVQYQHPIRNYPTGEGNLTAQVRNPFRPLELQQLRKDCPALPEGIPQLAEWLTQ
+                               * *:*:**:* *  *. ::..*:. :*: ******::**.* ::  ** *
+
+
+WEHV_type_1_Gag      TYEIYDCNPLDLLQLARAIFPVAVVERATNLAGWPGSPVRDKIDTLMAELRAHYPPICDW
+WEHV_type_2_Gag      TCEIYHCNNLDLTQLSRALFPPNVIVAAEATAGWANAALQVRIDRLMELLQAEYPQICDW
+WDSV_Gag             TMAIYNCDEADVEQLARVIFPTPVRQIAGVINGHAAANTAAKIQNYVTACRQHYPAVCDW
+                     *  **.*:  *: **:*.:**  *   *    * . :    :*:  :   : .** :***
+
+                                                              <CA1>   
+WEHV_type_1_Gag      GAIQNFQYKTGQTAHEYVSEAEKLFRASSGLQWEHALVPFLNMLVQGLPAKLAYSLKSST
+WEHV_type_2_Gag      GAIQSHQYKTGQSAHDYVQAAEKLFRNNSGLPWEHSLVPFLNMVIQGLPTKAAYSLKSAN
+WDSV_Gag             GTIQAFTYKPPQTAHEYVKHAEIIFKNNSGLEWQHATVPFINMVVQGLPPKVTRSLMSGN
+                     *:** . **. *:**:**. ** :*: .*** *:*: ***:**::****.* : ** *..
+
+                                  
+WEHV_type_1_Gag      YDWAEKTIPQMTSLIQHHLSLQEKKEGKNKQHPVVVQLAVP-------------------
+WEHV_type_2_Gag      VDWAQKTVPQITSLIQHHLNLQDKKDIKQKQSPIVVQLAIP-------------------
+WDSV_Gag             PDWSTKTIPQIIPLMQHYLNLQSRQDAKIKQTPLVLQLAMPAQTMNGNKGYVGSYPTNEP
+                      **: **:**: .*:**:*.**.::: * ** *:*:***:*                   
+
+                                            <NC1>
+WEHV_type_1_Gag      --NLTDMQRPAPYAP--RNPEDVCFYCKQPGHWKDECPNR-RGGRGRGRGNSFRGFGFRG
+WEHV_type_2_Gag      --NMTEQT-PPTYG---KGPQDVCFYCKQLGHWKDECPNR-RQMRGRGQ----RGIPFRG
+WDSV_Gag             YYSFQQQQRPAPRAPPGNVPSNTCFFCKQPGHWKADCPNKTRNLRNMGN-----------
+                       .: :   *.. .   . *.:.**:*** **** :***: *  *. *.           
+
+
+WEHV_type_1_Gag      FQRGMGRGRGMLRG-NGGGGRHSFQYDQIEGQLPPPQQYNQQRYFQQHHEPVYQQSHMQA
+WEHV_type_2_Gag      SYRGLQRGRSLMRGGYRGPDRRSDMYHQIEQQLPPP---DPQQYFRQYHEPVYRQSQMQA
+WDSV_Gag             ----MGRG-----GRMGGPPYRSQPYPAFIQ---PP-----QNHQNQYNGRMDR-SQLQA
+                         : **     *   *   :*  *  :     **     *.: .*::  : : *::**
+
+
+WEHV_type_1_Gag      SAQEWYPNQGPSA
+WEHV_type_2_Gag      AAIPWYPNQGPQE
+WDSV_Gag             SAQEWLPGTYPA-
+                     :*  * *.  *  
+::

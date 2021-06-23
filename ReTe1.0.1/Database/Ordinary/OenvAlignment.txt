@@ -1,0 +1,85 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+
+                                     <SU1>
+SIRE1_env_like_Lotus_japonicus      --------------------------------------------------
+SIRE1_env_like_Medicago_trunca      --------------------------------------------------
+G_Max_Sire1_env                     TLIARSLLGQNKFDRCFTRPSTFLIQTHIFVVISFSAFPNSSQRFTKPFQ
+SIRE1_env_like_Arabidopsis_tha      --------------------------------------------------
+SIRE1_env_like_Methanosarcina_      --------------------------------------------------
+SIRE1_env_like_Drosophila           --------------------------------------------------
+                                                                                      
+
+SIRE1_env_like_Lotus_japonicus      ----------------SGSSQPSSMSKKAPEKTKTRNPTRKTYMSKVQNK
+SIRE1_env_like_Medicago_trunca      --------------------------------------------------
+G_Max_Sire1_env                     RLCFSMATSPKDTSSPGSPSVPSSPSSTKAPSNQEQPEFHIQPIQMIPGQ
+SIRE1_env_like_Arabidopsis_tha      --------------------------------------------------
+SIRE1_env_like_Methanosarcina_      --------------------------------------------------
+SIRE1_env_like_Drosophila           --------------------------------------------------
+                                                                                      
+
+SIRE1_env_like_Lotus_japonicus      EPTNVPHCEDVTDEEEINDEDSPVKSPPDVVPGVETSVSQEISDQENPGK
+SIRE1_env_like_Medicago_trunca      --------------------------------------------------
+G_Max_Sire1_env                     APVPEKLVPKRQQGVKISENPSIATSPREVDTEMDKKIRSIVSSILKNAS
+SIRE1_env_like_Arabidopsis_tha      ----------------------------RVRSSMKSLLSGLQRLVQZKAE
+SIRE1_env_like_Methanosarcina_      --------------------------------------------------
+SIRE1_env_like_Drosophila           ----------------------SKKDTQSVLPSVGKKETVVEKSVIKKTV
+                                                            ...    .   .              
+
+SIRE1_env_like_Lotus_japonicus      DSTSLEDSGNATQPDVSVSSSSKDTDPKNGNSEDTNSAEPLQAPTPVQDI
+SIRE1_env_like_Medicago_trunca      --------------------------------------------------
+G_Max_Sire1_env                     VPDADKDVPTSSTPNAEVLSSSSKEESTEEEEQATEETPAPRAPEPAPGD
+SIRE1_env_like_Arabidopsis_tha      SASSADMFGAQSSDSLPEISRPTATECQEVKSDEALTEPNPDWALVLVKD
+SIRE1_env_like_Methanosarcina_      ------SGSVSPIDSVSTVSPSSPSSSAIIKEPEELKPPG----------
+SIRE1_env_like_Drosophila           EPSVEPVEPVPVPSKREKKHKPVKEKETPQSDEPVLEVSPVAPTRKEKKQ
+                                     .            .      .   .    ..           .      
+
+SIRE1_env_like_Lotus_japonicus      SDDVLLTSSIPDSVAAMMKRKRRVSTPEVTPTPPKRSKSCPVTYKSRQAT
+SIRE1_env_like_Medicago_trunca      --------------------------------------------------
+G_Max_Sire1_env                     LIDLEEVESDEEPIANKLAPGIAERLQSRKGKTPITRSGRIKTMAQKKST
+SIRE1_env_like_Arabidopsis_tha      PSPPLIIEVEDETLP------SIDSVQNPKPKDPEATPSQPSVASRLRKR
+SIRE1_env_like_Methanosarcina_      ---------------------AAEEIENPKPAG-----------------
+SIRE1_env_like_Drosophila           VKTVVKNVETTIRNEPLIEKETSKPADVPKTQVKQTKSVVETVVEKKVLQ
+                                                                 .                    
+                                                     <SU3> 
+SIRE1_env_like_Lotus_japonicus      VKGKGKQKVVKTPSEKKKRKVPVDVEDSESDAEADVQDIRPSEKKKYSGK
+SIRE1_env_like_Medicago_trunca      --------------------------------------------------
+G_Max_Sire1_env                     PITPTTSRWSKVAIPSKKRKE-FSSSDSDDDVELDVPDIKRAKK---SGK
+SIRE1_env_like_Arabidopsis_tha      KSSAADPRI--------KRMK--------------------------QGK
+SIRE1_env_like_Methanosarcina_      --------------------------------------------------
+SIRE1_env_like_Drosophila           PVVTEDAELAKSVTP-----------------------------------
+                                                                                      
+                                                                <TM3>
+SIRE1_env_like_Lotus_japonicus      RIPQNVPVVPIDRVSFHLEESVQKWKFVCKIRMAKVREVGPDVLECKDVI
+SIRE1_env_like_Medicago_trunca      ------------------------------------RKSGCYTLECKZVM
+G_Max_Sire1_env                     KVPGNVPDAPLDNISFHSIGNVERWKFVYQRRLALERELGRDALDCKEIM
+SIRE1_env_like_Arabidopsis_tha      GVTG---SSSFDGIRFVSTEAEKRYAQFSQRNFIEEVELSRKTNEAAR--
+SIRE1_env_like_Methanosarcina_      ------------VTEFTAAVAAKSETLMPPVRIQRSESLNESLNKIFEKH
+SIRE1_env_like_Drosophila           -------AAPSKKDKKKNKTVVEPEVIKKPTEIVIEKEVVTPTVIETTDV
+                                             . .          .              .            
+
+                                                               <TM5>
+SIRE1_env_like_Lotus_japonicus      VLIEKAGLMKTIQNVGRCYEKLVREFLVNLSVDVGLPESDEFRKVFVRVE
+SIRE1_env_like_Medicago_trunca      ELVDETGIRRSVSGFGHSYEMMIKEFIVYIPKDCDSPLNKEYRKVFVRGK
+G_Max_Sire1_env                     DLIKAAGLLKTVTKLGDCYESLVREFIVNIPSDITNRKSDEYQKVFVRGK
+SIRE1_env_like_Arabidopsis_tha      EFIKQAGLIRTVTKFNPFTQNLVFEFWANLP---TMKVDTYMVKVLVRNR
+SIRE1_env_like_Methanosarcina_      DVVPES--PETAGSIAGSVETAVEDEISKVTPDSGVITAPQSSSPVSFSD
+SIRE1_env_like_Drosophila           SQVQEQPTSPTSSKKEKKQSKKIVETSVIVTENVEPAVQLEAAPPLPTKK
+                                      :       :        .  : :    :. .            .    
+
+
+SIRE1_env_like_Lotus_japonicus      CVVFSPAVINQALGRSAIEFADKEVSMDDVAKELTAGHVKKWPSK---
+SIRE1_env_like_Medicago_trunca      CVDFSPIVINRFLGRSEDEYTEVEVTDNTVCKEITSGQVTQWHIKGKL
+G_Max_Sire1_env                     CVRFSPAVINKYLGRPTEGVVDIAVSEHQIAKEITAKQVQHWPKKGKL
+SIRE1_env_like_Arabidopsis_tha      EYELSPGKINEMYGLPSVDARQQRMDIAGLVDEQVAEFLTGGKV----
+SIRE1_env_like_Methanosarcina_      NSQTGFSAISPPESIPSPEILK-ENSEADADEKPVDGKLS--------
+SIRE1_env_like_Drosophila           DKKRSKKEPKEDIEISLPSEPLVSVQETVESVETLSETIPESKLE---
+                                        .    .     .                :     :     .   
+::
+Suspect::
+SIRE1_env_like_Medicago_trunca<START><SU3>
+SIRE1_env_like_Methanosarcina_<START><SU1>
+::

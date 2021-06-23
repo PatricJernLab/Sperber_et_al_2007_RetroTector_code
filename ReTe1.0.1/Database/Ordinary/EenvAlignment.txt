@@ -1,0 +1,192 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+                                          <SU1>
+WDHV_type_1_env_AF133051      MGPSGFLQAVTFLLLIAAGRARTGFHPEHYGFGEEAPYTVTSPQFQRLCT
+WDHV_type_2_AF133052          MDSSRLLQ-IAAIIICAAGRARGTLTPQLYGLGEEAPPTNSSPRLQDLCT
+WDSV_D033822_env              MDTPGSLQVIAIISLLLVGGASQPATFLEKALPTDGPSLETIEHKTEMVN
+                              *...  ** :: : :  .* *         .:  :.*   :  :   : .
+
+
+WDHV_type_1_env_AF133051      LAWLYHAAEKHPTLQQ-EEIEVQAARLYEDTGEGYAVIFIIKDVAYPMSE
+WDHV_type_2_AF133052          LAWLFHAATEHPNLGENQEITLSEGQIYEASGEGYSALIMINNLQFQVKE
+WDSV_D033822_env              TTRSEEQSPVRPSKTRQQLIDETP--------------------------
+                               :   . :  :*.  . : *                              
+
+
+WDHV_type_1_env_AF133051      RSGHCSMIRPDAKGTFECSPVECKEVPLRIHTCTAKQASFLLFQPDYQSL
+WDHV_type_2_AF133052          KTGHCSMVSPETVGTYECNHLGCRKPLPEDKRCTAAHARFLLFNPEIPDN
+WDSV_D033822_env              --------------------------------------------------
+                                                                                
+
+
+WDHV_type_1_env_AF133051      AEEKEKLPSPSLTNSLPPGSTLNETQIRCSVSWVIQLASQH-KHIG-HKH
+WDHV_type_2_AF133052          YVFTTSPPTTTLSASPPR----SEELVKCSISWVIQFILEN-PHLGKMRQ
+WDSV_D033822_env              --------------------------EICANAWVIRLITEFPTELGNMSQ
+                                                          *: :***::  :   .:*   :
+
+
+WDHV_type_1_env_AF133051      SDGTVTITIEKAMHRSSMDGGKVQAVVNGVQYETTTRVGACAYFKLGTGT
+WDHV_type_2_AF133052          GKLEKNLRITEPLHLFDGKVGRVRAKIDGVVFDISAKVGPCARSALFKGT
+WDSV_D033822_env              KQKTIAIQVHNTTMTMEETVFSLVSHVNKKNYEIHNVSGICTKYQLVPGN
+                               .    : : :.    .     : : ::   ::     * *:   *  *.
+
+
+WDHV_type_1_env_AF133051      YTYDGITRWYLTPYPEYGVDPHMKKLVLKKVRRTR-----RDTSAITTIL
+WDHV_type_2_AF133052          YFCDGNNNCFMENDPDTKVKIHQARMNLKRPRKGRKRYRIRDKRMVQTTL
+WDSV_D033822_env              FTCS----------------------------------------------
+                              :  .                                              
+
+
+WDHV_type_1_env_AF133051      G----VRSMDVVWTCAVKLAEYQAITQLSAVIVEETCFIYWVQKDASGAD
+WDHV_type_2_AF133052          PQALTLKQLDNVWNCVFTISEFQAVKNLQAEIENETCFIYWTQT-IQGKL
+WDSV_D033822_env              -----------TRKCISQTKEKRIISTTVKDTYEVYLPFAWSQKPTGGDK
+                                         . .*     * : :.       :    : * *.   *  
+
+
+WDHV_type_1_env_AF133051      QDYRVAEETSCCLRSDSSDSCCSSTPETYEPTHYVNVPCEETFRGKIKHL
+WDHV_type_2_AF133052          VSYRTTEDPKCCIRHSRISGCCKSTPMEMPRVILEN-PCTKSLIAKGAKI
+WDSV_D033822_env              YPE-----------------------------------------------
+                                                                                
+
+
+WDHV_type_1_env_AF133051      PPYSPEREWAHGACSYSWFPRGGYVQSIRVEDYCCLDLLPPVPTTEPPPS
+WDHV_type_2_AF133052          PPYVPEEEWTRNVCIFSWYPRAGFSQALAVPQKCCDKLRGVLPSPPPITV
+WDSV_D033822_env              ----PQIGYNTGTGRLNQWNK-----------------------------
+                                  *:  :  ..   . : :                             
+
+
+WDHV_type_1_env_AF133051      TTS----------------IGKSTASPLIKT-KRAVVTLAPSTTSTTIAA
+WDHV_type_2_AF133052          STTGVKIMDGISSGDYEEYIPARTSLPVKTAPKQVTESTLPLTSVTTLST
+WDSV_D033822_env              -----------------------DEFVIKQCRKKRGKRQITVPNSTLSPT
+                                                         :    *:      . .. *  .:
+
+
+WDHV_type_1_env_AF133051      KITPIEKTTSTTVGTTGTVTVAATTTTSTVKTSTDSS---------PDPY
+WDHV_type_2_AF133052          TTFPLPAPAPPTIEERTKRSETIVLTPGPTNTEETSYNETLEYNDFSDPH
+WDSV_D033822_env              GTTDFTKFTPNPISPNSTALNELEQKTTPIG-----------------TE
+                                  :   :. .:    .       .. .                   . 
+
+
+WDHV_type_1_env_AF133051      ETFDGEQWEKLIMGLTKTQIKATCIGEIKEKTMIPEDLTQLEFKLTGRGD
+WDHV_type_2_AF133052          EVFDEDLWNRLTMGNIKTQIKMTCVGQISEDLYLPTDVIQAEVKLTGRGD
+WDSV_D033822_env              QPFNNEKWQNLIFGNIVTKMDPQCEAELFQQFNISDKTVQVEFKVTSLPG
+                              : *: : *:.* :*   *::.  * .:: :.  :. .  * *.*:*.  .
+
+
+WDHV_type_1_env_AF133051      KVVECQVVYNPAYGTSYINTSCSIQLNRTKSVVSVYVPYIKVGEYDWHHL
+WDHV_type_2_AF133052          DKIECQVVYSPKNGLAYVNTSCQIEFQITTEKIKIKVPKIKEGQYDWHHK
+WDSV_D033822_env              QNISCQAIYNTEHGINIENKNCVISLIKENRKIKAHAYITRTGSYEWYAQ
+                              . :.**.:*..  *    *..* *.:   .  :.  .   : *.*:*:  
+
+
+WDHV_type_1_env_AF133051      ITTSGGLSGNK-YTLIVENCTCPNLSPLLLGGIVATSNPRPVLYDPSPIL
+WDHV_type_2_AF133052          TTSSAGVTGNK-YTLIIENCTCPQLTQLPLGGIVVTSAPLTILYHPSSIL
+WDSV_D033822_env              QVTSKGIIQEVRNLVTIVECECPIVKPLPQGGIIPLTMPMRVLTNPSPIL
+                               .:* *:  :    : : :* ** :. *  ***:  : *  :* .**.**
+
+                                                                            <SU3
+WDHV_type_1_env_AF133051      VHTTLTYDLKAFKDTKLCGFSNTEWNTYISRPINTAIGVFKRPRKMKRDL
+WDHV_type_2_AF133052          VYTALHFDLKVFKDQSHCAFTDTDWNAYILKPLAQAIGALR-PR-NKRDL
+WDSV_D033822_env              IHSALKFDLSKFG-LSPCSFSPMEWQTYITKPLKRAMHGFEVHQRKKRDL
+                              ::::* :**. *   . *.*:  :*::** :*:  *:  :.  :  ****
+
+
+                              > 
+WDHV_type_1_env_AF133051      --GLHSSLNSWWNFENTLGLGLEAHNRQEYDERMLNILTDISTQQALDVK
+WDHV_type_2_AF133052          --GIHSSLNSWWNLENSMGLGLESYQRQDYDERMLNLLADISKQQALDTR
+WDSV_D033822_env              GIGLHSTLNSWWNGANSLGLTVESADRQKYDQKILKVLQNLAVQQRTDVK
+                                *:**:******  *::** :*: :**.**:::*::* ::: **  *.:
+
+
+WDHV_type_1_env_AF133051      NQLSIGKALTVPSYRVSLSLTSKVTEAIMAHEKDQNFRNHCYNMVMMAVS
+WDHV_type_2_AF133052          NQLSLGKALTTPAYKISINLARAITKATLAHEKDQNLKGHCRHMAGQIST
+WDSV_D033822_env              NQQTLGKALETPIYTITLQLADSLTAAILKHEQQQNVGITCKDIAILTVT
+                              ** ::**** .* * :::.*:  :* * : **::**.   * .:.    :
+
+
+WDHV_type_1_env_AF133051      SITLNLRDIEHDHLPWWLLSGIQTKLKLPKGMKLVPSHQSPPVVTPQIGW
+WDHV_type_2_AF133052          QIQMDLRDISHAHLPWWLLEGIQEKLKLPKGLKLVPSHYSPTLLAPQIGW
+WDSV_D033822_env              QIATYLRDIQHEHLPVWFIEQITNQILLPVGQVIMPEITAPPILNPLIGW
+                              .*   ****.* *** *::. *  :: ** *  ::*.  :*.:: * ***
+
+                                                      <TM2>
+WDHV_type_1_env_AF133051      NSTTLIVGLTHQLQAATELSALMRGQNMGRFQDWTPIPAVVMFNATHVLP
+WDHV_type_2_AF133052          NSSTLVIGLTHQLQAAKQLPKMMKGRNMGRFQQWTPLPPTVFVNTTHVLP
+WDSV_D033822_env              NQSVLVIGLTHQLTITTVQQPLYKAANMGNFQDWTPFPPFILANKTHGFS
+                              *.:.*::******  :.    : :. ***.**:***:*. :: * ** :.
+
+                                <TM4>
+WDHV_type_1_env_AF133051      TECPLVQGVFVCDELPAMIPLTQWESNTTTIYKHTPQIWLTPEGQVCINV
+WDHV_type_2_AF133052          IDCPEQNGMFICDEIPLMVPLDTWEKNTTVLYRHTPQVWLTPSGQACTNV
+WDSV_D033822_env              IDCPIMRNSFLCHTLPTPVKLSEWERSTSTIYQTSPQVWITPEGKACLNH
+                               :**  .. *:*. :*  : *  ** .*:.:*: :**:*:**.*:.* * 
+
+
+WDHV_type_1_env_AF133051      KRISYQGLQCNLKQAGCFGPTHFWEAGRLNIIPTQLAQVNFTYDLPNEDK
+WDHV_type_2_AF133052          KQISYQGLKCPLPMPGCFGPTHYWRAGDLNIVPVQQAQINVSYELPEHNQ
+WDSV_D033822_env              RNITVQDRTCLINKPGCFIPKHPWSAGKQTIVPTQYIQQNFVPDTIDTED
+                              :.*: *.  * :  .*** *.* * **  .*:*.*  * *.  :  : :.
+
+
+WDHV_type_1_env_AF133051      NQTDKLQEALDKAIMAAEKEYGNLHDVQLALVKDHGIKAKLLSQKALQSV
+WDHV_type_2_AF133052          NQTDELEQALDKAITMAEREFGDVLEIQMALVHDHETKAKLLEGKALKSI
+WDSV_D033822_env              NQTRVLQKEMIEAISKAKRDYGVLKQGQIALIRHHEAITTILGQEATYSI
+                              ***  *:: : :**  *::::* : : *:**::.*   :.:*  :*  *:
+
+                                                              <TM5>
+WDHV_type_1_env_AF133051      SDTEAVLIKLDTERWLNSFFSWYDGGWLSKVQLLVAALTLSVPLLWVVTL
+WDHV_type_2_AF133052          QDTEAVLFKLDTEKWLNSFYSWYDGGWLSRIQLIVACLTLTVPILWLMNL
+WDSV_D033822_env              KETQALISSIEQEAWYNNLFSWYDGSVWSQLQLIIVVITCTIPLLWVLNT
+                              .:*:*:: .:: * * *.::*****.  *::**::. :* ::*:**::. 
+
+
+WDHV_type_1_env_AF133051      CLACRLKKKIGRQGNQQNTMIVRTDS----YPMSSYTPVPLRTPLRRDMR
+WDHV_type_2_AF133052          VLCCYLKKKIRKP-ARQHTIVVQPDTN--HLPMTTYKSIPALNRVLPFTD
+WDSV_D033822_env              CLFFKLRRAIRRERDNNIVVEYQAQTRGRRTHMTEPITKKQRAKLLRHAK
+                               *   *:: * :   .: .:  :.::      *:   .      :     
+
+
+WDHV_type_1_env_AF133051      S-------------------------------------------------
+WDHV_type_2_AF133052          N-------------------------------------------------
+WDSV_D033822_env              TNRRLPRSLRATPAVSAFEMVTFDPQEETVEINRIDPSHENNDHGGPMNM
+                              .                                                 
+
+
+WDHV_type_1_env_AF133051      ------------MPYISIDLSASFMTERLVQTFPRFTGQMKDWFNLATLV
+WDHV_type_2_AF133052          ------------VPYIAVNLSKHLMAERLVFTLPRFSPEMKEMFNKGTLT
+WDSV_D033822_env              APIISADSYALPTPYITIMLDRELLNQGMRKVITLLNDPAREVFNKAYNL
+                                           ***:: *.  :: : :  .:. :.   :: ** .   
+
+
+WDHV_type_1_env_AF133051      KIHPHVTLAYGQEEVAEWRELHPFILGHSVPVTVTGIIVGKLGSAWVLNV
+WDHV_type_2_AF133052          TRDPHVTLAYGKEECARWKEQNPFTIGHGIAVTISGIVTSPVGTMWVLNV
+WDSV_D033822_env              VTTNHFTLAYGCDESAGWVNQHAEYMGKPVIVTLAGLVITPVGLAWIPLP
+                                  *.***** :* * * : :.  :*: : **::*::   :*  *:   
+
+
+WDHV_type_1_env_AF133051      NQHSVQDLYEVPGSIPHISIAIAEGHEQKELGWHLSQLQHLDMVPLSPGV
+WDHV_type_2_AF133052          QQPDLFDIFEVPGSVPHISVSVSPDHEPKDLGIYLAQLQHHEMHPVSPGL
+WDSV_D033822_env              QQEPLEKLFMVPNSMPHVTVAMADYHETKEMGKIVKDINNEELLLVKPQL
+                              :*  : .:: **.*:**::::::  ** *::*  : :::: ::  :.* :
+
+
+WDHV_type_1_env_AF133051      FSWGPDTIFMTSAFVCQGIVAEN---------------------------
+WDHV_type_2_AF133052          FRWGKNAWFLTANFAAQGIITEN---------------------------
+WDSV_D033822_env              FKWDRRVFCSLSPCYKRSCHWTQFAAYRMPCYGSTGRRDLTQSASTLCII
+                              * *.  .    :    :.    :                           
+
+
+WDHV_type_1_env_AF133051      --------------------------------------------------
+WDHV_type_2_AF133052          --------------------------------------------------
+WDSV_D033822_env              SLFILFKVILFQFMLIPMIYQHLLLLLVLYFFYFLSLYFIFYFFLIFLTY
+                                                                                
+
+
+WDHV_type_1_env_AF133051      -----
+WDHV_type_2_AF133052          -----
+WDSV_D033822_env              VYTNV
+                                   
+::

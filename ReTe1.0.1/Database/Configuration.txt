@@ -1,0 +1,11 @@
+WorkingDirectory: ~/ReTe1.0.1/Workplace
+Executormenu::
+SweepDNA
+SweepScripts
+Sequenceview
+CollectGenome
+Genomeview
+::
+SQLUserdefaults::
+User: root
+::

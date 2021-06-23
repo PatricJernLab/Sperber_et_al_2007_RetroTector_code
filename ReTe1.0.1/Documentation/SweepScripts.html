@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>SweepScripts</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body bgcolor="#ffffff" text="#000000" class="rededge" leftmargin="0"
+ topmargin="0" marginwidth="0" marginheight="0">
+<table width="640" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="160" rowspan="2" valign="top">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0"
+ height="401" bgcolor="#990000">
+        <tbody>
+          <tr>
+            <td width="160" height="135" valign="top"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ width="160" height="160" border="0" alt="Uppsala universitet"> </a> </td>
+          </tr>
+          <tr>
+            <td valign="top" height="160" class="sidomenyVIT"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td width="480" valign="top" height="329">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0"
+ class="normal">
+        <tbody>
+          <tr>
+            <td width="464" valign="top" height="198">
+            <div class="normal">
+            <div align="center">
+            <h2>SweepScripts</h2>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr width="100%" size="2">
+            <p>This <a href="Executors.html">Executor</a> handles
+batch execution. </p>
+            <p>Unlike most other Executors, SweepScripts does not show
+a parameter
+window when started interactively, but rather goes right ahead. All the
+information
+required is the current Working directory. </p>
+            <p>In executing, SweepScripts goes through the Working
+directory and all directories inside it, searching for <a
+ href="ParameterFile.html#Sweepable">sweepable scripts</a>. Whenever
+one is encountered, it will be executed. After execution, its file name
+will be
+changed so that it is no longer a sweepable script, ie the terminal
+'Script_.txt' is changed into 'Script.txt'. </p>
+            <p>If new sweepable scripts are created in this process,
+they will also be found and executed. </p>
+            <p>You should not depend on SweepScripts executing the
+sweepable scripts in any particular order. </p>
+If a script was not successfully executed because of an internal
+RetroTector error, SweepScripts will normally continue with the next
+script. Before exiting, a list of such unprocessed scripts will be
+presented.<br>
+            <br>
+If a Java runtime error occurs when executing a script, SweepScripts
+will normally abort.<br>
+            <br>
+There are two ways to interrupt execution of SweepScripts from the
+'Control'
+menu of the <a href="RetroTectorWindow.html">RetroTector window</a>.
+The
+Abort command will terminate abruptly (though not always
+instantaneously)
+which may leave files half finished. The 'Stop SweepScripts' command
+will
+terminate after allowing the current script to be executed in good
+order.<br>
+            <br>
+            <hr width="100%" size="2">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td width="464" height="41" valign="top">
+            <hr size="1" color="#000000" noshade="noshade"><font
+ face="verdana" size="-2"> &copy; 2002-2004 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2004-11-19</font><font
+ face="verdana" size="-2"></font><!-- #EndDate --><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

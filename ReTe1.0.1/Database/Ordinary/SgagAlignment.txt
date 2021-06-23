@@ -1,0 +1,96 @@
+{CLUSTAL W (1.8) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+                                    <MA1>
+HSRV_Gag_U21247                -----MASGS-N--------VEEYELDVEALVVILRDRNIPRNPLHGEVI
+SFV1_Gag                       SLGTFVHCGRYNSTALIEMAAIEGDLDVQALANLFNDLGINRNPRHREVI
+Feline                         ---------------------MARELNPLQLQQLYINNGLQPNPGHGDII
+Equine_Foamy_Gag_AF201902      -------------------MAQNETFDPVALQGYYPAGGILADN---DII
+                                                        ::   *       .:  :    ::*
+
+                                <MA2>
+HSRV_Gag_U21247                GLRLTEGWWGQIERFQMVRLILQD-DDNEPLQRPRYEVIQRAVNPHTMFM
+SFV1_Gag                       ALRMTGGWWGPATRYNLVSLLLQD-DQGQPLPQPRWRAEGRAANPAVMFT
+Feline                         AVRFTGGPWGPGDRWARVTIRLQD-NTGQPLQVPGYDLEPGIINLREDIL
+Equine_Foamy_Gag_AF201902      NIRFTSGQWGIGDRWLQVRLRLVDPNTGQPLAQPEYEDTG-LPAENRGIV
+                                :*:* * **   *:  * : * * : .:**  * :            : 
+
+
+HSRV_Gag_U21247                ISGPLAELQLAFQDLDLPEGPLRFGPLANGHYVQGDPYSSSYRPVTMAET
+SFV1_Gag                       LEAPWQDLRLAFDNIDVGEGTLRFGPLANGNYIPGDEFSLEFLPPAMQEI
+Feline                         IAGPYNLIRTAFLDLEPARGPERHGPFGDGRLQPGDGLSEGFQPITDEEI
+Equine_Foamy_Gag_AF201902      VAVSHNAARNIFNNVQPAGGPNRHGPLHDGQFQVGDDPSEHFVPIEENLI
+                               :  .    :  * :::   *. *.**: :*.   **  *  : *      
+
+
+HSRV_Gag_U21247                AQMTRDELEDVLNTQSEIEIQMINLLELYEVETRALRRQLAERSSTGQGG
+SFV1_Gag                       TQMQRDELEEVLDVVGQITMQMNDLIGMQDAQIRGLEGQLR-----GLRG
+Feline                         QAEVG-----------------T--IGAARNEIRLLREALQR--------
+Equine_Foamy_Gag_AF201902      PQEIVN----------------LGAARREVRLLREMCVRLLHVRRQMMGM
+                                                                * :   *          
+
+HSRV_Gag_U21247                ISPGAPRSRPPVSSFSGLPSLPSIPGIHPRAPSPPRATSTPGNIPWSLGD
+SFV1_Gag                       NLPVAGTPPPPPPSLDLQPAAASSPYVAP-APSAPAASAAAADLGWFAGG
+Feline                         -LQAGGVGRPIPG-------------------------------------
+Equine_Foamy_Gag_AF201902      GMPGAIQPQPPVGPLP-APAQPPIPG------------------------
+                                   .    *                                        
+
+HSRV_Gag_U21247                DSPPSSSFPGPSQPRVSFHPGNP-FVEEEGHRPRSQSRERRREILPAPVP
+SFV1_Gag                       PGPGS---LDPRLARVAYNPFLPGPSDGSGAAPAQPSAPPVASPLPSLLP
+Feline                         ----------------------------------------------AVLQ
+Equine_Foamy_Gag_AF201902      --------------------------------------PPVPPPVPPPAP
+                                                                             .   
+                                             
+HSRV_Gag_U21247                SAP--PMIQYIPVPPPPPIGTVIPIQHIRSVTGEPPRNPREIPIWLGRNA
+SFV1_Gag                       AQPMQPVIQYVHPPPINPAQQVIPIQHIRAVTGNAPSNPREIPMWIGRNA
+Feline                         PQP--------------VIGPVIPINHLRSVIGNTPPNPRDVALWLGRST
+Equine_Foamy_Gag_AF201902      PAP------VNPPVPPVQPIHHLPITHIRAVIGETPAQIRDVPLWLAQSI
+                               . *                   :** *:*:* *:.* : *::.:*:.:. 
+
+                                      <CA0>
+HSRV_Gag_U21247                PAIDGVFPVTTPDLRCRIINAILGGNIGLSLTPGDCLTWDSAVATLFIRT
+SFV1_Gag                       SAIEGVFPIPTSDIRSRVINALLGRQLGLNLDPQHCITWASAIATLYVRT
+Feline                         AAIEGVFPIVDQVTRMRVVNALVASHPGLTLTENEAGSWNAAISALWRKA
+Equine_Foamy_Gag_AF201902      PALTGVYPAMDAGTLTRLVNAITARHPGLALGMNEAGSWHEAVHLIWQRT
+                               .*: **:*        *::**: . : ** *   .. :*  *:  :: ::
+
+HSRV_Gag_U21247                HGTFPMHQLGNVIKGIVDQEGVATAYTLGMMLSGQNYQLVSGIIRGYLPG
+SFV1_Gag                       HGSYPLHQLAEVLRRVSNSEGAAAAWQLGMMLTNQDYNLVWGMVRPLLPG
+Feline                         HGAAAQHELAGVLSDINKKEGIQTAFNLGMQFTDGNWSLVWGIIRTLLPG
+Equine_Foamy_Gag_AF201902      FGATALHALSDVLKGIAQRNGVVMALEMGLMFTNDDWDLTWSVIRRCLPG
+                               .*: . * *. *:  : . :*   *  :*: ::. ::.*. .::*  ***
+
+                                                             <CA1>
+HSRV_Gag_U21247                QAVVTALQQRLDQEIDNQTRAETFIQHLNAVYEILGLNARGQSIRAS---
+SFV1_Gag                       QAVVTAMQHRLDQEVSDAARIVSFVNHLNAVYELLGLNARGQNLRVS---
+Feline                         QALVTNAQSQFDLMGDDIQRAENFPRVINNLYTMLGLNIHGQSIRPR---
+Equine_Foamy_Gag_AF201902      QASVVTIQARLDALPNNQARIIQAGFIIREVYEVLGLDPLGRPLNFPGGL
+                               ** *.  * ::*   .:  *       :. :* :***:  *: :.     
+
+                                                                 <CA2>
+HSRV_Gag_U21247                VTPQ--PRPSRGRG-RGQNTSR---------PSQGPANSGRG---RQRPA
+SFV1_Gag                       TGGQTTARTSAGRGARGRRSQQ---------GTPGRQSSGQAPPQGRRSS
+Feline                         VQTQPLQTRPRNPG-RSQQGQL---------NQPRPQNRANQS--YRPPR
+Equine_Foamy_Gag_AF201902      TQRDTAVPVTRGRG-RGRTGPRRGPVLPVSSNQRRQETAGGNQPQTQPQQ
+                               .  :     . . * *.:                   . .      :   
+
+HSRV_Gag_U21247                SGQSNRGSSTQNQN-----QDNLNQGGYNLRPRTYQPQRYGGGRGRRWND
+SFV1_Gag                       QGQQPRQSESGDQNNQRQLQGGNNRGGYNLRPRTYQPQRYGGGRGRRWND
+Feline                         QQQQHSDVPEQRDQRGPSQPPRGSGGGYNFRRNPQQPQRYGQGPPGPNPY
+Equine_Foamy_Gag_AF201902      QNTFSNQTNQRGNQRQWQNRGTDSQRRYFFRPRPSQPQRYGSNQGPDNPN
+                               .           ::         .   * :* .. ****** .       
+
+HSRV_Gag_U21247                NTNNQESRPSDQGSQTPRPNQAGSGVRGNQSQTPRPAAGRGGRGNHNRNQ
+SFV1_Gag                       QTARADNQ---QRSQSQQPQ---SEARGEQSRTSGAGREQGGRGNQNRNQ
+Feline                         RRFGDGGN---PQQQGPPPN-----RGPDQGPRPGGNPRGGGRGQGPRN-
+Equine_Foamy_Gag_AF201902      PYRGRDST-----NQSGQER--------QLPQQQQGSRRGPGRNTNSGN-
+                                     .      .*    .        :            **.    * 
+
+HSRV_Gag_U21247                RSSGAGDSRAVNTVTQSATSSTD---ESSSAVTAASG-GDQRD
+SFV1_Gag                       RSAGENTDRSVNTVTATSASISASGQNGSSTTPPASGSGNQGN
+Feline                         ---GGGSAAAVHTVKASENETKN----GSAEAVDGGKKGGKD-
+Equine_Foamy_Gag_AF201902      -------N-TVHTVRQVESSQLQQN--ASPTASPSTNQGQQP-
+                                        :*:**     .       .*. .  .   * :  
+::

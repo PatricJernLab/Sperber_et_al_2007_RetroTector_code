@@ -1,0 +1,64 @@
+{CLUSTAL W (1.83) multiple sequence alignment
+{ Copyright (©) 2000-2006, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2006 10 16
+{
+
+Alignment::
+                                                                    <PR2>
+HML-6p                              ----------QPIAYN-RPTCVVQSKGKKLYGLMDTGADVSVISSKDWPP
+HERV-K10                            -----------------RPVCKAIIQGKQFEGLVDTGADVSIIALNQWPK
+IAPm                                MGSSGNDSAYLVVSLNDRPKLRLKINGKEFEGILDTGADKSIISTHWWPK
+MMTV                                --GSTSHVHWVQEISDSRPMLHIYLNGRRFLGLLDTGADKTCIAGRDWPA
+MPMV                                -SFGSSDIYWVQPITCQKPSLTLWLDDKMFTGLIDTGADVTIIKLEDWPP
+HERV_E_4_1_Trolig_POL_M10976        --------GGLGSRTSKEPMVRMTVGGKDIDFLVDTSAEHSVVTA----S
+Human_chromosome_18_AC022030_1      --------------------VSVEIGGQQMDFMVDTGAEHSVVMQ----P
+MuLV_Rauscher_Pol_U94692            ---TLDDQGGQGQEPPPEPRITLKVGGQPVTFLVDTGAQHSVLTQ----N
+FeLV_Pro_                           -------QESQGQDPPPEPRITLKIGGQPVTFLVDTGAQHSVLTR----P
+Human_chromosome_10_AC073174_1      --------------------VTATLGGQPIRFLIDTGAEHLVLQI----P
+NewGypsyPro_annot                   -----------LRGRSRLPFIERRLAGRTLKMLIDTDAAKNYIRPVKELK
+D_Subobscura_gypsy_pro_appr_an      -----------LRGRSRLPFIERRLAGRTLKMLIDTGAAKNYVKPLTELR
+                                                              .: .  ::**.*    :       
+
+HML-6p                              AWPLRLTSTSLVGVGAAKSVQQSAEILPCLGPDGQSCTFQPYDAN-IAIN
+HERV-K10                            NWPKQKAVTGLVGIGTASEVYQSMEILHCLGPDNQESTVQPMITS-IPLN
+IAPm                                AWPTTESSHSLQGLGYQSCPTISSVALTWESSEGQQGKFIPYVLP-LPVN
+MMTV                                NWPIHQTESSLQGLGMACGVARSSQPLRWQH-EDKSGIIHPFVIPTLPFT
+MPMV                                NWPITDTLTNLRGIGQSNNPKQSSKYLTWRDKENNSGLIKPFVIPNLPVN
+HERV_E_4_1_Trolig_POL_M10976        VAPLSKKTIDIIGAMGVSAKQAFCL-PQTCTIGGHKVIHQFLYMPDCPLP
+Human_chromosome_18_AC022030_1      IGPLSRNYTTIIGATGVSERRPFCQ-SRRCIIGG-EVQHEFLYLPNCPVP
+MuLV_Rauscher_Pol_U94692            PGPLSDKAAWVQGATGG-KRYRWTT-DRKVHLATGKVTHSFLHVPDCPYP
+FeLV_Pro_                           DGPLSDRTALVQGATGS-KNYRWTT-DRRVQLATGKVTHSFLYVPECPYP
+Human_chromosome_10_AC073174_1      LGSVSNKKVAVQGSMGAIQEYPVTH-SREVSLGQKRVTHSFLAVPECPFP
+NewGypsyPro_annot                   NVMPVASPFSVSSIHGSTEIKHKCL----MKVFKHISPFFLLDSLNAFDA
+D_Subobscura_gypsy_pro_appr_an      TITPVAKSFSVNSIHGSTEIKRKCL----MNIFKHTSPFFLLDTLNSFDA
+                                              : .                                     
+
+                                    <PR3>
+HML-6p                              LWGQELLT-ADMRLTN----ENFHNPG-FKMLKDMGYQSGEGLGKFLQGN
+HERV-K10                            LWGRDLLQ-QGAEITMP---APLYSPTSQKIMTKMGYIPGKGLGKNEDGI
+IAPm                                LWGRDIMQHLGLILSNENAPSGGYSAKAKNIMAKMGYKEGKGLGHQEQGR
+MMTV                                LWGRDIMKDIKVRLMTDS--------------------------------
+MPMV                                LWGRDLLSQMKIMMCSPND-------IVTAQMLAQGYSPGKGLGKKENGI
+HERV_E_4_1_Trolig_POL_M10976        LLGRDLLSKLRATISFTEHGSLLLKLPGTGVIMTLM--------------
+Human_chromosome_18_AC022030_1      LLGRDLLQKLQVQISFELQG------------------------------
+MuLV_Rauscher_Pol_U94692            LLGRDLLTKLKAQIHFEGSG------------------------------
+FeLV_Pro_                           LLGRDLLTKLKAQIHFTGEG------------------------------
+Human_chromosome_10_AC073174_1      LLRRDLLHKLQTSISF----------------------------------
+NewGypsyPro_annot                   IIGLDLLTQAGVKLNLAEDSLEYQGIAE----------------------
+D_Subobscura_gypsy_pro_appr_an      IIGFDLLTQAGVKLNLEKNTLEYQGISEKLQYYQCADVNFTDVN------
+                                    :   :::      :                                    
+
+HML-6p                              PNPISITGETEKGKDVRISDGDH
+HERV-K10                            KVPVEAKINQER-EGIGYPF---
+IAPm                                IEPISPNGNQDR-QGLGFP----
+MMTV                                ----PDDSQDL------------
+MPMV                                LHPIPNQGQSNKKGFGNF-----
+HERV_E_4_1_Trolig_POL_M10976        -----------------------
+Human_chromosome_18_AC022030_1      -----------------------
+MuLV_Rauscher_Pol_U94692            -----------------------
+FeLV_Pro_                           -----------------------
+Human_chromosome_10_AC073174_1      -----------------------
+NewGypsyPro_annot                   -----------------------
+D_Subobscura_gypsy_pro_appr_an      -----------------------
+                                                           
+::

@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>Own Database subdirectory</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body bgcolor="#ffffff" text="#000000" class="rededge" leftmargin="0"
+ topmargin="0" marginwidth="0" marginheight="0">
+<table width="640" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="160" rowspan="2" valign="top">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0"
+ height="401" bgcolor="#990000">
+        <tbody>
+          <tr>
+            <td width="160" height="135" valign="top"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ width="160" height="160" border="0" alt="Uppsala universitet"> </a> </td>
+          </tr>
+          <tr>
+            <td valign="top" height="160" class="sidomenyVIT"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td width="480" valign="top" height="329">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0"
+ class="normal">
+        <tbody>
+          <tr>
+            <td width="464" valign="top" height="198">
+            <div class="normal">
+            <div align="center">
+            <center>
+            <h2>Generate your own Database subdirectory</h2>
+            </center>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr width="100%" size="2">
+            <p>Let's say you are not satisfied with the available <a
+ href="Database.html">Database</a>. Perhaps you want to extend the use
+of
+RetroTector to a new retrovirus genus. You may then make a new
+subdirectory
+in Database. It is laborious but possible. The only tool needed is a
+simple
+text editor that can, and does, generate simple text files (Word .doc
+files,
+for example contain hidden code bytes and are banished).<br>
+            </p>
+            <p>The sequence of operations (which is likely to be
+iterated a <b>lot</b> of times) is this:<br>
+            </p>
+            <ol>
+              <li>Make a new <a href="Motifs.html#Motifs.txt">Motifs.txt</a>
+file - probably by editing a copy of an old one.</li>
+              <li>Similarly make new <a href="AlignmentFiles.html">Alignment</a>
+files. Take care with the Suspect parameter - it is in this context it
+is important.</li>
+              <li>Make a script for <a href="DredgeAlignments.html">DredgeAligments</a>.</li>
+              <li>Start RetroTector and make your subdirectory the
+current directory.</li>
+              <li>Execute the DredgeAlignments script. If all is well,
+you will get a green notice about it.</li>
+              <li>Take a good look at the GenesCandidate.txt
+file&nbsp;just
+generated and see if it makes sense as <a href="Genes.html">Genes.txt</a>.
+If it does, you may rename it to Genes.txt. If it does not, the
+Dredge.txt file may give a hint about why. Minor flaws may be edited
+away.</li>
+              <li>Similarly
+inspect&nbsp;MotifGroupsCandidate.txt.&nbsp;It
+is rather sure to contain '??????' instead of a few distance range
+specifications. Use the editor to substitute something sensible. If you
+are satisfied, rename
+it to <a href="MotifGroups.html">MotifGroups.txt</a>.&nbsp;</li>
+              <li>With the editor, complete MakeSubGenesScript.txt into
+a valid script for <a href="MakeSubGenes.html">MakeSubGenes</a>.
+Execute it.</li>
+              <li>This will have generated a SubGenesCandidate.txt
+file.
+Give it too a good critical look and if satisfied, rename it <a
+ href="SubGenes.html">SubGenes.txt</a>.&nbsp;</li>
+              <li>Run <a href="CheckDatabase.html">CheckDatabase</a>
+on your subdirectory. If its comments are more than you can bear, you
+will
+have to try again from somewhere above - most likely 2.</li>
+              <li>If you get here, add other files as required (see <a
+ href="Database.html">Database</a> for a list). Keep in mind that if
+you
+want the files to be identical to those in Ordinary, you need not add
+them
+(missing files are automatically picked from Ordinary instead).</li>
+              <li>Try to run RetroTector with the new Database and some
+real DNA.<br>
+              </li>
+            </ol>
+            <hr width="100%" size="2">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td width="464" height="41" valign="top">
+            <hr size="1" color="#000000" noshade="noshade"><font
+ face="verdana" size="-2"> &copy; 2002-2005 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2005-09-27</font><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

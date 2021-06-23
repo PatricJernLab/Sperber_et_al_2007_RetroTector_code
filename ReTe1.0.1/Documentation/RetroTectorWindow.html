@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>The RetroTector window</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <h2> </h2>
+            <center>
+            <h2> The RetroTector window</h2>
+            </center>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <div align="left"><br>
+The RetroTector window, which appears on successful startup, has a
+platform-dependent look, but should be something like this:
+            <p><font size="-1">&nbsp; &nbsp; <img src="RTWindow.gif"
+ alt="Picture of RetroTector window" height="140" width="861"> </font></p>
+            <p>It has the following components (in top-bottom
+left-right,&nbsp; order): </p>
+            <ul>
+              <li> The Working directory field. To begin with, it is
+set according to the 'WorkingDirectory' parameter in <a
+ href="Configuration.html"> Configuration.txt</a>. It specifies where
+RetroTector is allowed to do work at the moment. It may be changed using</li>
+              <li> The Choose directory button. Clicking it produces a <a
+ href="FileDialogs.html">file dialog</a> window where
+you may search out and select any directory.</li>
+              <li>The Directory^ button. Clicking it will take you one
+step up in the working directory hierarchy.<br>
+              </li>
+              <li> The Script file field. This should contain, if
+anything, the file path of an <a
+ href="ParameterFile.html#ExecutorScript"> Executor script</a> in the
+Working directory. It may be changed with the</li>
+              <li> Choose script button. When it is clicked, any text
+file (not necessarily a script) within the Working directory may be
+choosen through a <a href="FileDialogs.html">file dialog</a>. It
+should not allow you to go outside the Working directory,
+though this does not seem to work in all implementations.</li>
+              <li> The Execute script button. When it is clicked, the
+file whose path is in the Script file field (hopefully a script) is
+executed.</li>
+              <li> The View file button. When it is clicked, a window
+appears where you may inspect the file whose path is in the Script file
+field. You may also do some <b>rudimentary</b> editing (details are
+implementation-dependent, but the usual Paste, Copy and Cut
+key assignments should work) and also save the result with the Save
+button. You are <b>not</b> asked if you really want to save!</li>
+              <li> The Current executor field. It shows the name of the
+currently running <a href="Executors.html">Executor</a>, preceded by
+'SweepScripts&gt;' if it running under the auspices of <a
+ href="SweepScripts.html"> SweepScripts</a>.</li>
+              <li> The Progress indicator. This little field should
+move a couple of times per second when lengthy work is in progress, but
+the programmer has been known to forget to provide for this.</li>
+              <li> The Information field. This displays auxiliary
+information from the current Executor.</li>
+            </ul>
+            <br>
+            </div>
+            <div align="left">
+            <hr width="100%">
+            <p>There are two menus belonging to the RetroTector
+window.
+Their location and appearance is platform-dependent. </p>
+            <ul>
+              <li> The 'Control' menu. It has four items:</li>
+              <ul>
+                <li>'Clear error messages'. See below.<br>
+                </li>
+              </ul>
+              <ul>
+                <li> 'Abort' will terminate the current task within a
+reasonable time (though this is coupled to the movements of the
+Progress indicator and similarly dependent on the programmer).</li>
+                <li>'Stop SweepScripts' is enabled only when <a
+ href="SweepScripts.html">SweepScripts</a> is running. It will
+'soft-stop'
+it, so that a new call to SweepScripts may continue the work done.<br>
+                </li>
+                <li> 'Quit' will terminate RetroTector, without asking
+permission.</li>
+              </ul>
+              <li> The 'Execute' menu. This contains the names of all
+the <a href="Executors.html">Executors</a> found in Retrotector.jar
+and the <a href="Plugins.html">'plugins</a>' directory, in an order
+partly or wholly determined by the 'Executormenu' parameter in <a
+ href="Configuration.html"> Configuration.txt</a>. Choosing one of them
+will start that Executor interactively, unless an Executor is already
+running, in which case the 'Execute' menu is not in operation.</li>
+            </ul>
+            <hr width="100%">
+            <p>At the bottom of the RetroTector window there are two
+scrolling panels (invisible if empty). The upper one displays Warning
+(on blue) and Notice (on green) messages, the lower Error (on
+red) messages.
+The messages
+are also written to <a href="LatestErrorLog.html"> the error log file</a>.
+NB that the error log file will be <span style="font-weight: bold;">properly
+closed only</span> if you
+terminate RetroTector with the Quit menu command (see above), not
+through
+closing the text window or something.</p>
+            <p>To remove the messages from the window, use the command
+'Clear error
+messages' in the Control menu.<br>
+            </p>
+            </div>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2007 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2007-08-21</font><!-- #EndDate --><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

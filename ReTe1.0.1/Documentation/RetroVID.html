@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>RetroVID</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <div align="center">
+            <h2>RetroVID</h2>
+            </div>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%"><br>
+RetroVID is an <a href="Executors.html">Executor</a> which collects
+chains of <a href="SubGenes.html">SubGene</a> hits through fragment
+threading. These chains are considered as possible ERVs.<br>
+            <br>
+It is not normally meaningful to run RetroVID interactively. It needs
+the LTR information put by <a href="LTRID.html">LTRID</a>
+into a RetroVID script.<br>
+            <br>
+The first step in RetroVID operation is to refresh all the <a
+ href="Motifs.html">Motifs</a> defined in the 'Motifs' parameter
+in the current <a href="Database.html">Database</a>.
+Thereafter all SubGene hits compatible with the distance requirements
+in <a href="MotifGroups.html">MotifGroups.txt</a> are constructed from
+the
+detection Motifs. Both these procedures are fairly fast.<br>
+            <br>
+Thereafter, chains (ie, potential ERVs) are constructed from the
+SubGene hits, in accordance
+with the distance constraints in <a href="SubGenes.html">SubGenes.txt</a>.
+This
+procedure
+could in some cases take very long if unchecked. Therefore, this search
+is not exhaustive, but limited by the parameters SubGeneHitsMax (see
+below) which limits the number of SubGene hits tried
+at each stage. and MaxSubGeneSkip which limits the number of sequential
+SubGenes not represented in the chain. Still, the number of chains
+tried is often in the
+millions. Therefore, most of the chains are thrown out at an early
+stage as obviously worse than some other chain or having too low score.<br>
+            <br>
+            <a name="Breaks"></a>Next, <span style="font-weight: bold;">broken</span>
+chains, ie chains that violate one (or rarely more) distance constraint
+but could be explained as containing a deletion or
+insertion are constructed by pairing among the remaining chains. Since
+useful parts
+may already have been discarded, this search is necessarily incomplete.<br>
+            <br>
+The above procedure is normally repeated for both DNA strands.
+Thereafter, a set of highscoring, non-overlapping chains is extracted.
+Thereafter, each of these selected chains is subjected to a refinement
+procedure, essentially a rebuild from scratch, but including
+characterization Motifs. Since, with the standard structure of
+Motifs.txt, this means that two more SubGenes (PBS and PPT) are used,
+this step may in some cases
+become very time-consuming. Therefore, it has its own counterpart to
+SubGeneHitsMax, ImproveHitsMax, which may be set to less than than
+SubGeneHitsMax. The refinement procedure also makes an extra try
+to get both LTRs into the chain, possibly by introducing a chain break
+(this may make previously nonoverlapping chains overlap).<br>
+            <br>
+            <a name="ChainProcess"></a> This improvement is performed
+by the default <a href="ChainProcessors.html">ChainProcessor</a>. The
+complete procedure is that each chain is tried with each ChainProcessor
+available. If the isEligible method of the ChainProcessor returns true,
+the chain is subjected to the processChain method. After all this is
+done, the postProcess method of each ChainProcessor is called. Thus,
+the actual processing will depend on which ChainProcessors are actually
+present in the <a href="Plugins.html">plugins</a> directory.<br>
+            <br>
+The <a href="VirusGroups.html#RVectors">RVectors</a> of the
+SubGene hits in a chain are summed to an RVector for the entire chain,
+which determines the <a href="VirusGenus.html">virus genus</a> of the
+chain. From its modulus, the score of the chain is calculated with some
+corrections (see below).<br>
+            <br>
+The output from RetroVID consists of<br>
+            <ul>
+              <li>A file with selected chains (a <a
+ href="Chainview.html">Chainview</a> script)</li>
+              <li>Optionally, similar files with topscoring chains,
+irrespective of selection, for each strand.</li>
+              <li>For each selected chain, up to four ordinary <a
+ href="ORFID.html">ORFID</a> scripts (one for each <a href="Genes.html">Gene</a>)
+plus an ORFID
+"superscript" with suffix 'MScript_.txt' or 'NScript.txt', containing
+the names of ORFID scripts to be executed in
+conjunction (see FitPuteins parameter below). If the genus of the chain
+is ambiguous, ORFID scripts will be generated for each possible genus.<br>
+              </li>
+              <li>For each selected chain without LTRs or with total
+LTR length less than 200 bases, a <a href="PseuGID.html">PseuGID</a>
+script.<br>
+              </li>
+              <li>For each selected chain, a <a href="XonID.html">XonID</a>
+script.</li>
+              <li>Possibly other files created by tje <a
+ href="ChainProcessors.html">ChainProcessors</a> called.<br>
+              </li>
+            </ul>
+            <hr width="100%">The parameters of RetroVID are:<br>
+            <ul>
+              <li>InputFile: Name of file to get parameters from. Only
+used in interactive mode.</li>
+              <li>DNAFile: The name of the DNA file in the current
+directory to search in. Default: name of current directory + '.txt'.</li>
+              <li>Database: Database subdirectory to use.<br>
+Default: Ordinary.<br>
+              </li>
+              <li>ConservationFactor: Bonus factor for highly conserved
+positions in <a href="AcidMotif.html">AcidMotifs</a> and <a
+ href="BaseMotif.html">BaseMotifs</a>. Default: 2.0.</li>
+              <li>FrameFactor: Bonus factor for a chain with no
+disturbing frame shifts. Default: 1.5.</li>
+              <li>LengthBonus: Bonus factor applied for each
+SubGeneHit. Default: 1.02.</li>
+              <li>SDFactor: To multiply SD with when setting threshold
+for <a href="Motifs.html#OrdinaryMotif">OrdinaryMotifs</a>. Default:
+5.5.</li>
+              <li>SubGeneHitsMax: Maximum number of SubGeneHits tried
+in one SubGene when making a Chain. Default: 5.</li>
+              <li>ImproveHitsMax: Maximum number of SubGeneHits tried
+in one SubGene when improving a Chain. Default: 5.</li>
+              <li>SelectionThreshold: Chains with less score than this
+before improving cannot be selected. Default: 150.0.</li>
+              <li>FinalSelectionThreshold: Chains with less score than
+this are not selected after improvement. Default: 250.0.</li>
+              <li>KeepThreshold: Chains with less score than this are
+discarded early. Default: 25.0.</li>
+              <li>MaxSubGeneSkip: Largest number of SubGenes skipped in
+forming Chains. Default: 2.</li>
+              <li>BrokenPenalty: Penalty factor applied to score of
+broken Chain. Default: 0.9.</li>
+              <li>BrokenPasses: If this is set &gt;1, Chains with more
+breaks may be constructed. Default: 1.</li>
+              <li>FitPuteins: If this is Yes, ordinary ORFID scripts
+are
+generated non-sweepable, and an ORFID superscript listing the names of
+these
+scripts is generated. Default: Yes.</li>
+              <li>Strand: May be Both, Primary or Secondary, depending
+on which DNA strand should be analyzed. Default: Both.</li>
+              <li>ORFIDMinScore: For Chains with less score than this,
+ORFID scripts are not generated <a href="ParameterFile.html#Sweepable">sweepable</a>.
+Default: 200.</li>
+              <li>MakeChainsFiles. If this is &gt;0, Chain output files
+are generated for each strand, with up to this many Chains,
+irrespective of selection. Default: 0.</li>
+              <li>Debugging: If this is Yes, a lot of extra information
+is written to Standard Output. Default: No.<br>
+              </li>
+            </ul>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-11-12</font><!-- #EndDate --><!-- #EndDate --><!-- #EndTemplate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

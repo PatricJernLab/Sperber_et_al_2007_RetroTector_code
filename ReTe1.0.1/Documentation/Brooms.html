@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>Brooms</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body class="rededge" leftmargin="0" topmargin="0" bgcolor="#ffffff"
+ marginheight="0" marginwidth="0" text="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr>
+      <td rowspan="2" valign="top" width="160">
+      <table bgcolor="#990000" border="0" cellpadding="0"
+ cellspacing="0" height="401" width="100%">
+        <tbody>
+          <tr>
+            <td height="135" valign="top" width="160"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ alt="Uppsala universitet" border="0" height="160" width="160"> </a> </td>
+          </tr>
+          <tr>
+            <td class="sidomenyVIT" height="160" valign="top"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="329" valign="top" width="480">
+      <table class="normal" border="0" cellpadding="8" cellspacing="0"
+ width="100%">
+        <tbody>
+          <tr>
+            <td height="198" valign="top" width="464">
+            <div class="normal">
+            <div align="center">
+            <h2> </h2>
+            <center>
+            <h2> Brooms</h2>
+            </center>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr size="2" width="100%">
+            <div align="left"><br>
+Brooms are Java classes to be included as needed in the <a
+ href="Plugins.html">plugins</a> directory. They are used by <a
+ href="SweepDNA.html">SweepDNA</a>
+to remove elements (mainly transposons) which may interfere with the
+later analysis.<br>
+            <br>
+All Brooms implemented so far are subclasses of StandardBroom. A
+StandardBroom is built around a consensus base sequence and
+(optionally) a variable length poly-A tail. Given a consensus, a custom
+StandardBroom is very easy to program, and may be requested from the
+author.<br>
+            <br>
+A Standard Broom selects a number of equidistant n-mers from the
+consensus and searches for identical sequences in the DNA. If one is
+found, it is extended by a moderately fault-tolerant dynamic
+programming algorithm (similar to that used by <a href="LTRID.html">LTRID</a>
+to compare LTR candidates) and if it is thus extended over at least 100
+positions it may be extended with a poly-A tail, and marked as an <a
+ href="DNAFiles.html#Inserts">insert in the DNA file</a>.<br>
+            <br>
+All Brooms have the parameter:<br>
+            <ul>
+              <li>BroomPriority. Brooms are applied in descending order
+of this.</li>
+            </ul>
+A StandardBroom has the following parameters:<br>
+            <ul>
+              <li>MerSize: The length of the n-mers in the initial
+search.<br>
+              </li>
+              <li>MerStep: The distance between n-mers in the consensus.</li>
+              <li>Tolerance: A measure of the fault tolerance in the
+dynamic programming algorithm.</li>
+              <li>TailMinLength (if poly-A tail is included): The
+shortest acceptable distance between consecutive non-A in the tail.</li>
+            </ul>
+So far, these StandardBrooms have been implemented:<br>
+            <br>
+For primate genomes:<br>
+            <ul>
+              <li>L1Broom, which is included in RetroTector.jar and is
+applied by <a href="SweepDNA.html">SweepDNA</a> by default, to search
+for LINE L1 fragments.</li>
+            </ul>
+For other genomes, with names directly related to the names of the
+respective transposons:<br>
+            <br>
+&nbsp;&nbsp;&nbsp; For the canine genome:<br>
+            <ul>
+              <li>SINEC_CfBroom</li>
+            </ul>
+&nbsp;&nbsp;&nbsp; For the chicken genome:<br>
+            <ul>
+            </ul>
+            <ul>
+              <li>CR1_BBroom</li>
+              <li>CR1_B2Broom</li>
+              <li>CR1_FBroom</li>
+              <li>CR1_YBroom</li>
+            </ul>
+&nbsp;&nbsp;&nbsp; For the mouse genome:<br>
+            <ul>
+              <li>B1Broom</li>
+              <li>B2Broom</li>
+              <li>L1_MMBroom</li>
+              <li>L1MA9_5Broom</li>
+              <li>L1MC3Broom</li>
+              <li>L1MDA_5Broom</li>
+              <li>L1MEC_5Broom</li>
+              <li>L1P_MA2Broom</li>
+              <li>L2ABroom</li>
+            </ul>
+            <br>
+            </div>
+            <hr size="2" width="100%">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table border="0" cellpadding="8" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td height="41" valign="top" width="464">
+            <hr color="#000000" noshade="noshade" size="1"><font
+ face="verdana" size="-2"> &copy; 2002-2006 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2006-10-11</font>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

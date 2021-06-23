@@ -1,0 +1,53 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+                         <MA1>
+HTLV_1_Gag_Seiki         MGQIFSRSASPIPRPPRGLAAHHWLNFLQAAYRLEPGPSSYDFHQLKKFLKIALETPARI
+HTLV_2_Gag_AF139382      MGQIHGLSPTPIPKAPRGLSTHHWLNFLQAAYRLQPGPSDFDFQQLRRFLKLALKTPIWL
+BLV_Gag_BLVCG            MGN------SPSYNPPAGISPSDWLNLLQSAQRLNPRPSPSDFTDLKNYIHWFHKTQKKP
+                                . :*  ..* *::. .***:**:* **:* **  ** :*:.:::   :*    
+
+
+HTLV_1_Gag_Seiki         CPINYSLLASLLPKGYPGRVNEILHILIQTQAQIPSRPAPPP-PSSPTHDPPDSDP----
+HTLV_2_Gag_AF139382      NPIDYSLLASLIPKGYPGRVVEIINILVKNQVSPSAPAAPVPTPICPTTTPPPPPPPSPE
+BLV_Gag_BLVCG            WTFTSGGPTSCPPGRFG-----RVPLVLATLNEVLSNEGGAPGASAPEEQPPPYDP----
+                          .:  .  :*  *  :       : ::: .  .  :  .  * . .*   **   *    
+
+                           <MA2>         <CA0>
+HTLV_1_Gag_Seiki         -QIPPPYVEPTAPQVLPVMHPHGAPPNHRPWQMKDLQAIKQEVSQAAPGSPQFMQTIRLA
+HTLV_2_Gag_AF139382      AHVPPPYVEPTTTQCFPILHPPGAPSAHRPWQMKDLQAIKQEVSSSAPGSPQFMQTLRLA
+BLV_Gag_BLVCG            ------------PAILPIIS-EGNRNRHRAWALRELQDIKKEIENKAPGSQVWIQTLRLA
+                                     .  :*::   *    **.* :::** **:*:.. ****  ::**:***
+
+
+HTLV_1_Gag_Seiki         VQQFDPTAKDLQDLLQYLCSSLVASLHHQQLDSLISEAETRG-ITGYNPLAGPLRVQANN
+HTLV_2_Gag_AF139382      VQQFDPTAKDLQDLLQYLCSSLVVSLHHQQLNTLITEAETRG-MTGYNPMAGPLRMQANN
+BLV_Gag_BLVCG            ILQADPTPADLEQLCQYIASPVDQTAHMTSLTAAIAAAEAATPSRVLTPKTGTLTQQSAQ
+                         : * ***. **::* **:.*.:  : *  .* : *: **:       .* :*.*  *: :
+
+                                                       <CA1>
+HTLV_1_Gag_Seiki         PQQQGLRREYQQLWLAAFAALPGSAKDPSWASILQGLEEPYHAFVERLNIALDNGLPEGT
+HTLV_2_Gag_AF139382      PAQQGLRREYQNLWLAAFSTLPGNTRDPSWAAILQGLEEPYCAFVKRLNVALDNGLPEGT
+BLV_Gag_BLVCG            PNAGDLRSQYQNLWLQAGKISLLVLQLQPWSTIVQGPAESSVEFVNRLQISLADNLPDGV
+                         *   .** :**:*** *        :  .*::*:**  *.   **:**:::* :.**:*.
+
+                                    <CA2>
+HTLV_1_Gag_Seiki         PKDPILRSLAYSNANKECQKLLQARG-----------HTNSPLGDMLRACQTWTPKDKTK
+HTLV_2_Gag_AF139382      PKEPILRSLAYSNANKECQKILQARG-----------HTNSPLGEMLRTCQAWTPKDKTK
+BLV_Gag_BLVCG            LRNPLLTPLVMQMLTESVSKFCRGEASGRGGAKTAGLRTIGPPRMKQPALLVHTPGPKMP
+                          ::*:* .*. .  .:. .*: :...           :* .*      :  . **  *  
+
+                                       <NC1>                    <NC2>
+HTLV_1_Gag_Seiki         VLVVQPKKPPPNQPCFRCGKAGHWSRDCTQPR--PPPGPCPLCQDPTHWKRDCPRLKPTI
+HTLV_2_Gag_AF139382      VLVVQPRKPPPTQPCFRCGKIGHWSRDCTQPR--PPPGPCPLCQDPSHWKRDCPQLKP--
+BLV_Gag_BLVCG            GPRQPAPKRPPPGPCYRCLKEGHWARDCPTKATGPPPGPCPICKDPSHWKRDCPTLKS--
+                              . * **  **:** * ***:***.     *******:*:**:******* **.  
+
+
+HTLV_1_Gag_Seiki         PEPEPEEDALLLDLP--ADIPHPKNFIGGEV
+HTLV_2_Gag_AF139382      --PQEEGEPLLLDLSSTSGITEEKNSLGGEI
+BLV_Gag_BLVCG            -----------------------KN------
+                                                **      
+::

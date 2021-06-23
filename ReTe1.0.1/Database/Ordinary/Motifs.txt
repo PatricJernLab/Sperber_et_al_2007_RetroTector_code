@@ -1,0 +1,344 @@
+{ For RetroTector 1.0.2 and 1.1
+{ Copyright ((c)) 2000-2009, Jonas Blomberg & Göran Sperber. All Rights Reserved.
+{  Last changed 2011 08 18
+{          !    ! !                        !    !         !    !    !    !                                                      !
+Motifs::
+          1ANN  C ABCDELSGO                     CA        CA0  050  0.75 CAStartNNData.txt                                      CA Start NN
+        101P    D A                             CA        CA1  100       adImQGPsESFvdFAnRlikav                                 RSV
+        102P    D B                             CA        CA1  100       ntVRQGSKEPYpDFVaRLqdVa                                 HERV-K10
+        103P    D B                             CA        CA1  100       tkIvQGPqEPFsdFVaRmteaa                                 IAPcri
+        104P    D B                             CA        CA1  100       agLKQGNEESYeTFIsRLeeAv                                 MMTV
+        105P    D B                             CA        CA1  100       tgVKQGPDEPFaDFVhRLitTa                                 MPMV
+        106P    D C                             CA        CA1  100       rtITQGkDESPAaFMERLlEGF                                 BAEV
+        107P    D C                             CA        CA1  100       seVIQGkEESPAkFHERLcEAY                                 HERV E (4-1)
+        108P    D C                             CA        CA1  100       kgITQGPNESPsAFLeRLkeAy                                 MuLV
+        109P    D C                             CA        CA1  100       fdIQQEKDEGPiRFLdRLkeQm                                 RTVL-I =HERV-I
+        110P    D C                             CA        CA1  100       teVVQGPGEXPGaFLECLqEAY                                 S71
+        111P    D D                             CA        CA1  100       asIlQGLeEPYhaFVeRlnial                                 HTLV-I
+        112P    D L                             CA        CA1  100       ldIrQGPkEPFrdYVdRfyktl                                 HIV-1
+        113P    D G                             CA        CA1  100       llNaEVraDALhaFIsGLkkal                                 Gypsy
+        114P    D G                             CA        CA1  100       akktlydevcLnAFIsRIrepl                                 Zam
+        115P    D G                             CA        CA1  100       vffapptsvrsselHIGLseip                                 RIRE3
+        116P    D S                             CA        CA1  100       vYeILGLNarGQsIr                                        HSRV
+        201P    D A                             CA        CA2  075       aksQpdiQ                                               RSV
+        202P    D B                             CA        CA2  075       eQATqECR                                               IAPcr
+        203P    D B                             CA        CA2  075       EnANslCq                                               MMTV
+        204P    D B                             CA        CA2  075       EdANpaCq                                               MPMV
+        205P    D C                             CA        CA2  075       qaaldigK                                               BaEV
+        206P    D C                             CA        CA2  075       QsAPdiGr                                               MuLV
+        207P    D C                             CA        CA2  075       aQASdirK                                               S71
+        208P    D D                             CA        CA2  075       SnANkeCq                                               HTLV-I
+        209P    D L                             CA        CA2  075       QnANpdCk                                               HIV-1
+        210P    D G                             CA        CA2  075       REAEASIE                                               Gypsy
+        301P    D L                             DL        DL1  100       GVIDEgyrGEI                                            FIV
+        401P    D L                             DL        DL2  100       rqKIAqlii                                              FIV
+        501P    D B                             DU        DU0  100       LPegtvglILGR                                           HERVK10
+        601P    D B                             DU        DU1  100       SvVDSDykGEI                                            HERVK10
+        602P    D B                             DU        DU1  100       GiIDSDytGEI                                            HML1
+        603P    D B                             DU        DU1  100       GvIDSDfQGEI                                            MMTV
+        701P    D B                             DU        DU2  100       rDRIAqllll                                             HERVK10
+        702P    D B                             DU        DU2  100       gERIAvvavt                                             HML1
+        703P    D B                             DU        DU2  100       gERIAqllll                                             MMTV
+        801P    D A                             IN        IN1  100       lHvRsHSeVPG                                            RSV
+        802P    D B                             IN        IN1  100       gHiRAHStLPG                                            JSRV
+        803P    D B                             IN        IN1  100       tHiRAHTpLPG                                            HML3
+        804P    D B                             IN        IN1  100       sHicshiqLPG                                            HML6
+        901P    D A                             IN        IN2  075       dlHtalHig                                              RSV
+        902P    D B                             IN        IN2  075       elHaltHvn                                              HERVK10
+        903P    D B                             IN        IN2  075       efHkrfHvt                                              IAPha
+        904P    D B                             IN        IN2  075       esHalhHqn                                              MMTV
+        905P    D C                             IN        IN2  100       ldflHqltHlsfskt                                        MLV
+        906P    D D                             IN        IN2  100       paelHsftHcg                                            HTLV-1
+        907P    D L                             IN        IN2  100       AqedHekyHsn                                            HIV-1
+        908P    D S                             IN        IN2  100       vlqaHnlaHtg                                            HSRV
+        909P    C G                             IN        IN2  100       lqeahraPyaiHpggtkm                                     Ananas comosus
+       1001P    D A                             IN        IN3  100       lvksCshCqkt                                            LPDV
+       1002P    D A                             IN        IN3  100       vvqtCphCnsa                                            RSV
+       1003P    D B                             IN        IN3  100       ivqhCtqCqvl                                            HERVK10
+       1004P    D B                             IN        IN3  100       ivtqCqnCcef                                            IAPha
+       1005P    D B                             IN        IN3  100       ivksCstCpqf                                            JSRV
+       1006P    D B                             IN        IN3  100       ivklCpnCpdw                                            MMTV
+       1007P    D B                             IN        IN3  100       ivkqCpiCvty                                            MPMV
+       1008P    D C                             IN        IN3  100       vtsaCkvCqqvnaga                                        BAEV
+       1009P    D C                             IN        IN3  100       itetCkaCaqv                                            MLV
+       1010P    D D                             IN        IN3  100       patlCetCqkl                                            BLV
+       1011P    D L                             IN        IN3  100       ivasCdkCqlk                                            HIV-1
+       1012P    D S                             IN        IN3  100       qlgrCqqClit                                            HSRV
+       1013P    C G                             IN        IN3  100       ltplCteqkvqadlgt                                       Gypsy
+       1100SPA  C ABCDELSGO                     IN        IN4  020       !(4)D(51-58)D(35)E                                     DDE (Integrase)
+       1201P    D A                             IN        IN4  100       lWQtDfTlep                                             RSV
+       1202P    D B                             IN        IN4  100       lWQmDvTHvp                                             HERVK10
+       1203P    D B                             IN        IN4  100       llQkDlTHvp                                             HML7
+       1204P    D B                             IN        IN4  100       lWQmDvTHvs                                             MMTV
+       1205P    D C                             IN        IN4  075       hWeidfte                                               MuLV, motif C
+       1206P    D D                             IN        IN4  100       iWQaDiTHyk                                             BLV
+       1207P    D D                             IN        IN4  100       IWQgditH                                               HTLV, motif C
+       1208P    D L                             IN        IN4  100       iWqlDcTHle                                             HIV-1
+       1209P    C G                             IN        IN4  100       kitmDFVtGlPrSQa                                        Ananas comosus
+       1301P    D A                             IN        IN5  100       kTDNgscft                                              RSV
+       1302P    D B                             IN        IN5  100       kTDNgpgyc                                              HERVK10
+       1303P    D B                             IN        IN5  100       kTDNtpght                                              HML3
+       1304P    D B                             IN        IN5  100       kTDNglaya                                              HML5
+       1305P    D B                             IN        IN5  100       kiDNgpayt                                              HML6
+       1306P    D B                             IN        IN5  100       kTDNapayv                                              MMTV
+       1307P    D B                             IN        IN5  100       ktDNgpgY                                               MPMV, motif D
+       1308P    D C                             IN        IN5  100       gSDNGPafvSQv                                           BAEV
+       1309P    D C                             IN        IN5  050       gTDNgpafv                                              MLV
+       1310P    D C                             IN        IN5  050       gtDNgpaF                                               MuLV, motif D
+       1311P    D D                             IN        IN5  050       nTDQganyt                                              BLV
+       1312P    D D                             IN        IN5  050       ntDNgpaY                                               HTLV-I,motif D
+       1313P    D L                             IN        IN5  075       hTDNgsnft                                              HIV-1
+       1314P    C G                             IN        IN5  100       vSDRDtrFvSh                                            Ananas comosus
+       1315P    D S                             IN        IN5  050       hSDQgaaft                                              HSRV
+       1401P    D A                             IN        IN6  100       PgNSQGqamVERanrl                                       RSV
+       1402P    D B                             IN        IN6  100       PYNSQGqaiVERtnrt                                       HERVK10
+       1403P    D B                             IN        IN6  100       LYNPQGqaiVDhthst                                       HML5
+       1404P    D B                             IN        IN6  100       PYNPrGqgiiEwahqt                                       HML6
+       1405P    D B                             IN        IN6  100       PYNPQGqaiVERahrt                                       IAP
+       1406P    D B                             IN        IN6  100       PYHPQGqaiVERthqn                                       MMTV
+       1407P    D C                             IN        IN6  100       AYqPQSsgKVERmnrt                                       HERV-E
+       1408P    D C                             IN        IN6  100       AYrPQSsgqVERmnrt                                       MLV
+       1409P    D D                             IN        IN6  100       PYNPtSsgldERtngl                                       BLV
+       1410P    D L                             IN        IN6  100       PYNPQSqgvVESmnke                                       HIV-1
+       1411P    D S                             IN        IN6  100       PYHPQSgskVERknsd                                       HSRV
+       1412P    C G                             IN        IN6  100       afHPQSdgqsERtiqtl                                      Ananas comosus
+       1501P    D C                             IN        IN7  100       eprWkGPyiVLlttpt                                       BAEV
+       1601P    D A                             MA        MA1  100       MeaVikVissacktycgkTS                                   RSV
+       1602P    D C                             MA        MA1  075       MGQTvtTpls                                             MuLV, start of MA
+       1603P    D C                             MA        MA1  100       MGNTprKten                                             RTVL-Ia, start of MA
+       1604P    D C                             MA        MA1  100       MtlgLQThqpk                                            HERV-H, RTVLH2, 6 aa before pr
+       1605P    D E                             MA        MA1  075       MGNssstp                                               WDSV
+       1700ANN  C ABCDELSGO                     MA        MA1  025  0.87 GagStartNNData.txt                                     Gag start NN Changed from 0.90 050531
+       1801P    D A                             MA        MA2  100       APPPPyvGsGlyP                                          RSV
+       1802P    D D                             MA        MA2  100       iPPPYvepta                                             HTLV, end of MA
+       1803P    D S                             MA        MA2  100       LRLTeGwWGqieRFqmV                                      HSRV
+       1900SPA  C ABCDESLGO                     MA        MA3  040       K(1-5)K(10-25)!PPPY                                    Exp Wills acid motif
+       2001P    D A                             NC        NC1  100       CytCgspGHyqaQC                                         RSV
+       2002P    D B                             NC        NC1  100       CfnCgrmGHlkkDC                                         IAP
+       2003P    D B                             NC        NC1  100       CfsCgktGHirkDC                                         MMTV
+       2004P    D B                             NC        NC1  100       CfkCgkkGHfakNC                                         MPMV
+       2005P    D C                             NC        NC1  100       CayrkeiGYwknkC                                         HERV-E.4-1
+       2006P    D C                             NC        NC1  100       CayCkerGHwikDC                                         BAEV
+       2007P    D C                             NC        NC1  100       CyqCgllGHfkkDC                                         ERV9
+       2008P    D C                             NC        NC1  100       CayCkekGHwakDC                                         MLV
+       2009P    D C                             NC        NC1  100       CtyCkqiGHwkkEC                                         S71
+       2010P    D D                             NC        NC1  100       CyrClkeGHwarDC                                         BLV
+       2011P    D D                             NC        NC1  100       CfrCgkaGHwsrDC                                         HTLV-I
+       2012P    D E                             NC        NC1  100       CFFCKQpGHWKadCPNK                                      WDSV
+       2013P    D L                             NC        NC1  100       CynCgkpGHlssQC                                         EIAV
+       2014P    D L                             NC        NC1  100       CfnCgkeGHtarNC                                         HIV-1
+       2015P    D G                             NC        NC1  200       CrvCgqeGHravRC                                         Osvaldo, D buzzatti
+       2016P    D G                             NC        NC1  200       CyrCgepGHragAC                                         MarY1, T matsutake
+       2017P    D G                             NC        NC1  200       CfpCgklVHaiaDC                                         peabody, P sativum
+       2101P    D G                             NC        NC2  200       CwqCgriGVrtvAC                                         Osvaldo, D buzzatti
+       2102P    D G                             NC        NC2  200       CfyCkkeGHrlnEC                                         TY3, S cerevisiae
+       2103P    D G                             NC        NC2  200       CfnCgeeGHigsQC                                         peabody, P sativum
+       2104P    D G                             NC        NC2  200       CheCqgyGHikaEC                                         Endovir1, A thaliana
+       2105P    D G                             NC        NC2  200       CfrCnemGHiawNC                                         Cer1, C elegans
+       2106P    D A                             NC        NC2  100       CqlcngmghnakQC                                         RSV
+       2107P    D B                             NC        NC2  100       CyrCgkgyHrasEC                                         IAP
+       2108P    D B                             NC        NC2  100       CprCkkgyHwksEC                                         MMTV
+       2109P    D B                             NC        NC2  100       CprCkrgkHwanEC                                         MPMV
+       2110P    D D                             NC        NC2  100       CpiCkdpsHwkrDC                                         BLV
+       2111P    D D                             NC        NC2  100       CplCqdptHwkrDC                                         HTLV-I
+       2112P    D L                             NC        NC2  100       CfkCkqpGHfskQC                                         EIAV
+       2113P    D L                             NC        NC2  100       CwkCgkeGHqmkDC                                         HIV-1
+       2114P    D S                             NC        NC2  100       rprtyQPQRYG                                            HHSRV
+       2115P    D G                             NC        NC2  100       CyrCgepGHragAC                                         MarY1, T matsutake
+       2201N    C B                             PBS       PBS  200       TGGcgcccaacgtggggc                                     tRNALys12-HSRV,MPMV,SRV1,VILV,
+       2202N    C BC                            PBS       PBS  200       TGGcccatatggggattg                                     tRNAIle-RTVLI, RRHERV-I,HML5,ver020308
+       2203N    C BC                            PBS       PBS  200       TGAtggcccgcatgagga                                     tRNAIle-HERV-I,HML5
+       2204N    C BL                            PBS       PBS  200       TGGcgcccgaacagggac                                     tRNALys3-MMTV,HIV,EIAV,FIV,NMW
+       2205N    C C                             PBS       PBS  200       TGGtgagccagccaggag                                     tRNAArg-ERV3, ver020308, Snakehead RV
+       2206N    C C                             PBS       PBS  200       TGGttccctggccaggaa                                     tRNAGlu-HERVE
+       2207N    C C                             PBS       PBS  200       TGGtgctgtgactcagat                                     tRNAHis-RTVLH, ERVfrd
+       2208N    C C                             PBS       PBS  200       TGGtgtcagaagtgggat                                     tRNALeu-HERVL
+       2209N    C C                             PBS       PBS  200       TGGtgccgaaacccggaa                                     tRNAPhe-HERV.F
+       2210N    C C                             PBS       PBS  200       TGGtgctgagacccggga                                     tRNAPhe-IAPm
+       2211N    C G                             PBS       PBS  200       TGGcgcagccggaaaact                                     tRNASer-ZAM,D melanogaster
+       2212N    C C                             PBS       PBS  200       TGGtgtagtcgtcaggat                                     tRNASer-HERV.S
+       2213N    C C                             PBS       PBS  200       TGGaggccccgctgggat                                     tRNAThr-HERV-T
+       2214N    C C                             PBS       PBS  200       TGGaggccccagcgagat                                     tRNAThr, MERVG2 JB probable
+       2215N    C C                             PBS       PBS  200       TGGcaaccacgaacggac                                     tRNATrp-HERV-W
+       2216N    C C                             PBS       PBS  200       TTGgcgaccacgaaggga                                     tRNAArg-ERV9
+       2217N    C C                             PBS       PBS  200       TGGcgaccacgaaggga                                      tRNAArg, vs110818
+       2218N    C CD                            PBS       PBS  200       TGGgggctcgtccgggat                                     tRNAPro-MLV,HTLV,HuersP
+       2219N    C C                             PBS       PBS  200       TGGtgcattggccgggaa                                     tRNAPro-BaEV
+       2220N    C C                             PBS       PBS  200       TGGgggcttgccctagat                                     tRNAPro-HERV-PT47D
+       2221N    C C                             PBS       PBS  200       TGGgggaccacctgggat                                     tRNAThrPro-HERV.ADP
+       2222N    C O                             PBS       PBS  200       TGGtatcagagcgggcactcta                                 tRNAxxx-SIRE1/Copia/TY1
+       2223N    C G                             PBS       PBS  200       TGGcgccgttgccgggga                                     tRNAxxx-Cyclops2, P sativum
+       2224N    C G                             PBS       PBS  200       TGGcgctagaaggagggg                                     tRNAAsn-Tat1-3, A Thaliana
+       2225N    C G                             PBS       PBS  200       TGGtatcagaacaggtcg                                     tRNAMet-Peabody, P sativum
+       2226N    C G                             PBS       PBS  200       TGGtatcagattttcagg                                     tRNAxxx-Cereba, H vulgare
+       2227N    C G                             PBS       PBS  200       TGGtatcagagccccctt                                     tRNAMet-RIRE3, O sativa
+       2228N    C G                             PBS       PBS  200       TGGtatcagagcaggcatc                                    tRNAMet-Endovir1, A thaliana
+       2229N    C G                             PBS       PBS  200       TGGttcaattccggctcgaagga                                tRNATyr, homo sapiens
+       2230N    C G                             PBS       PBS  200       TGGaggttccaccgagat                                     tRNAGln-1, Ribet et al, Jern et al 
+       2231N    C G                             PBS       PBS  200       TGGaggtcccaccgagat                                     tRNAGln-2, Ribet et al, Jern et al 
+       2232N    C G                             PBS       PBS  200       TGGtgcattggctgggaa                                     tRNAGly, tRNAdb, JB
+       2301P    D C                             Prot      PR1  100       QGCQGSGAPPEPRLTLVL                                     BAEV
+       2401P    D A                             Prot      PR2  100       llDSGAdiTi                                             RSV, motif A
+       2402P    D B                             Prot      PR2  100       llDTGAdkTc                                             MMTV, motif A
+       2403P    D B                             Prot      PR2  100       liDTGAdvTi                                             MPMV, motif A
+       2404P    D C                             Prot      PR2  100       TFLVDTGAQHSVLTKAN                                      BAEV
+       2405P    D C                             Prot      PR2  100       lvDTGAqhSv                                             MuLV, motif A
+       2406P    D L                             Prot      PR2  100       llDTGAddTv                                             HIV-1, motif A
+       2407P    D S                             Prot      PR2  100       hwDSGAtiTc                                             HSRV, motif A
+       2501P    D A                             Prot      PR3  075       ilGRdclq                                               RSV, motif B
+       2502P    D B                             Prot      PR3  075       lwGRdimk                                               MMTV, motif B
+       2503P    D C                             Prot      PR3  100       qilGRdvlsrlqasisi                                      BAEV
+       2504P    D C                             Prot      PR3  075       llGRdllt                                               MuLV, motif B
+       2505P    D D                             Prot      PR3  075       iiGRdalq                                               HTLV, motif B
+       2506P    D L                             Prot      PR3  075       iiGRnllt                                               HIV-1, motif B
+       2507P    D S                             Prot      PR3  075       vkGRkvea                                               HSRV, motif B
+       2601P    D B                             RT        RT1  100       wNSlVsvIqK                                             HML4
+       2602P    D B                             RT        RT1  100       wNSPVFvIqK                                             HERVK10
+       2603P    D B                             RT        RT1  100       wNSPVFvIKK                                             HML1
+       2604P    D B                             RT        RT1  100       wNSPVFvIKK                                             HML6
+       2605P    D B                             RT        RT1  100       wNtPVFvIKK                                             MMTV
+       2606P    C G                             RT        RT1  100       yNSPtWVVdK                                             Gypsy
+       2607P    D B                             RT        RT1  100       wNtPIFvIKK                                             MPMV
+       2608P    D C                             RT        RT1  100       wNtPllpVKK                                             MLV
+       2609P    D D                             RT        RT1  100       gNnPVFpVRK                                             BLV
+       2610P    D D                             RT        RT1  075       gNnPVfpv                                               HTLV-I, motif ax
+       2611P    D L                             RT        RT1  100       yNtPVFaIKK                                             HIV-1
+       2612P    D S                             RT        RT1  100       mNtPVYpVpK                                             HSRV
+       2701P    D A                             RT        RT2  100       iamDIsDcFFsiPL                                         LPDV
+       2702P    D B                             RT        RT2  100       iiiDLkDcFFtipl                                         HERVK10
+       2703P    D B                             RT        RT2  100       iviDLkDcFFtipl                                         HML1
+       2704P    D B                             RT        RT2  100       vviDLkDcFFttpl                                         HML6
+       2705P    D B                             RT        RT2  100       iiiDLqDcFFnikL                                         MMTV
+       2706P    D C                             RT        RT2  100       svlHLkDaFFtiPL                                         HERV-H
+       2707P    D C                             RT        RT2  100       svlDfkNFFciPL                                          ERVfrd
+       2708P    D C                             RT        RT2  100       tviDLkvdFgmpPg                                         ERVftd
+       2709P    D C                             RT        RT2  100       tvlDLkDaFFclrL                                         MLV
+       2710P    D D                             RT        RT2  100       iclDLkDaFFqiPL                                         BLV
+       2711P    D D                             RT        RT2  100       qtiDlrDaFF                                             HTLV-I,motif A
+       2712P    C G                             RT        RT2  100       ttLDlKsgYHqiYL                                         Gypsy
+       2713P    D E                             RT        RT2  100       tviDlsNaFFsvPi                                         WDSV
+       2714P    D L                             RT        RT2  100       tvlDVgDaYFsvPL                                         HIV-1
+       2715P    D S                             RT        RT2  100       ttlDlaNgFWahPI                                         HSRV
+       2716P    D S                             RT        RT2  100       aaiDLaNgllpiPa                                         HERV-L
+       2801P    D A                             RT        RT3  100       rFqWkVLPQGmtcSP                                        RSV
+       2802P    D B                             RT        RT3  100       rFqWkVLPQGmlnSP                                        HERVK10
+       2803P    D B                             RT        RT3  100       kYhWkVLPQGmlnSP                                        HML1
+       2804P    D B                             RT        RT3  100       hyqWrVLPQGmlnSl                                        HML6
+       2805P    D B                             RT        RT3  100       rFqWkVLPQGmknSP                                        MMTV
+       2806P    D C                             RT        RT3  100       qltWtrLPQGfknSP                                        MLV
+       2807P    D C                             RT        RT3  100       tismdsLaQGftdSP                                        ERVftd
+       2808P    D L                             RT        RT3  100       rYqYnVLPQGwkgSP                                        HIV-1
+       2809P    D S                             RT        RT3  100       qycWtrLPQGflnSP                                        HSRV
+       2810P    D S                             RT        RT3  100       qciFTvLlQGyinSP                                        HERV-L
+       2811P    D G                             RT        RT3  100       kyeFcrLPfGlrnas                                        Gypsy
+       2901P    D A                             RT        RT4  100       lhYmDDLlla                                             RSV
+       2902P    D B                             RT        RT4  100       ihYiDDILca                                             HERVK10
+       2903P    D B                             RT        RT4  100       ihYmDDILca                                             HML1
+       2904P    D B                             RT        RT4  100       ihYmDDILla                                             HML6
+       2905P    D B                             RT        RT4  100       vhYmDDILla                                             MMTV
+       2906P    D C                             RT        RT4  100       lqYvDDLlla                                             MLV
+       2907P    D D                             RT        RT4  100       vsYmDDIlya                                             BLV
+       2908P    D L                             RT        RT4  100       yqYmDDLyvg                                             HIV-1
+       2909P    D S                             RT        RT4  100       qvYvDDIyls                                             HSRV
+       2910P    C G                             RT        RT4  100       yvYvDDIyls                                             Gypsy
+       3001P    D A                             RT        RT5  100       GlkineaKtQ                                             LPDV
+       3002P    D A                             RT        RT5  100       GftispdKvQ                                             RSV
+       3003P    D B                             RT        RT5  100       GlaiasdKiQ                                             HERVK10
+       3004P    D B                             RT        RT5  100       GlviapdKiQ                                             HML1
+       3005P    D B                             RT        RT5  100       GleiaseKvQ                                             IAPha
+       3006P    D B                             RT        RT5  100       GlvvsteKiQ                                             MMTV
+       3007P    D B                             RT        RT5  100       GlhiapeKvQ                                             MPMV
+       3008P    D C                             RT        RT5  100       GyrasakKaQ                                             MLV
+       3009P    D D                             RT        RT5  100       GfqvaseKtS                                             BLV
+       3010P    D L                             RT        RT5  100       GlttpdkKhQ                                             HIV-1
+       3011P    D S                             RT        RT5  100       GyvvslkKse                                             HSRV
+       3012P    C G                             RT        RT5  100       nmrvsqeKtrFFke                                         Gypsy
+       3101P    D B                             RT        RT6  100       TLNDFQKLLgDInW                                         MMTV
+       3102P    D B                             RT        RT6  100       TLwDvQKLvgslqW                                         RSV
+       3103P    C G                             RT        RT6  100       DPeKVkAIQEYPeP                                         Gypsy
+       3200SPA  C C                             RT        RT7  010       !DG(25-50)E(5-30)DS(35-70)N(3)D                        RNaseH
+       3301P    D B                             SU        SU2  100       WmdnpteVYvndsvW                                        HERVK10
+       3302P    D B                             SU        SU2  100       WsdalseIYhdqgaW                                        HML-6.29
+       3303P    D B                             SU        SU2  100       WdreivpVYvndtsL                                        JSRV
+       3304P    D L                             SU        SU2  025       YkGiflWR                                               CAEV
+       3401P    D B                             SU        SU3  100       KRdfgItAAMIIAI                                         IAPm
+       3402P    D C                             SU        SU3  100       RRalgmiifaiv                                           HML6.17
+       3403P    D C                             SU        SU3  100       KRgiviGnWkdnew                                         HERV-E
+       3404P    C C                             SU        SU3  100       KRepvsltlalllg                                         MuLV
+       3405P    C C                             SU        SU3  100       Krviplitlmvglgl                                        HERV-H RGH2 VIPLITLMVGLGL
+       3406P    D D                             SU        SU3  100       RRavpvAVwLvsAL                                         HTLV-1
+       3407P    D E                             SU        SU3  100       KRdlGlHStLNSWWN                                        WDSV
+       3501P    D C                             TM        TM1  050       SQMAWENKIAL                                            HERV I
+       3601P    D B                             TM        TM2  100       rqtviwmgdrlmslehrfqlqC                                 HERV K10
+       3602P    D B                             TM        TM2  100       ydvvrvlgeqvqsinfrmkiqC                                 JSRV
+       3603P    D B                             TM        TM2  100       eevvlelgqdvanlktrmstrC                                 MMTV
+       3701P    D A                             TM        TM3  100       lqnraAIDFLllahghgC                                     ASLV
+       3702P    D B                             TM        TM3  100       LksmVlwlgEqV                                           HML6.17
+       3703P    D B                             TM        TM3  100       LdlaeEqIGVLhqmaQLgC                                    IAPm
+       3704P    D C                             TM        TM3  100       yQNRLALDYLLA                                           HERV E/ERV3
+       3705P    D C                             TM        TM3  100       lQNhRGLDlLTAekGGLCIfLE                                 HERV H/ERV9
+       3706P    D C                             TM        TM3  100       lQNrRGLDmLTAaqGGICLaLD                                 HERVES02A
+       3707P    D E                             TM        TM3  100       GCFiPkHpWsAG                                           WDSV
+       3708P    D L                             TM        TM3  100       lQaRvLAVERYLKDQQL                                      HIV-1 MN
+       3709P    D S                             TM        TM3  100       vnPLKNGSYLvlas                                         HSRV
+       3800SPA  C ABCDELSGO                     TM        TM4  025       L(6)L(6)L(6)L(0-5)!C(4-15)C                            Heptad repeat-CC
+       3900HYF  C ABCDESLGO                     TM        TM5  065       X                                                      hydrophobic motif, changed from 60 050531
+       4000LTR  D ABCDESLGO                     5LTR      5LT  300       X                                                      5'LTR
+       4001LTR  D ABCDESLGO                     3LTR      3LT  300       X                                                      3'LTR
+       4100PPT  C ABCDESLGO                     PPT       PPT  050       X                                                      PPT motif
+::
+LTR1Motifs::
+       5001N    D B                             ????      ???? 100       AATGGATTAAGGGCGGTGCAaGATGTGCTT                         HERV-K, U3
+       5002N    D B                             ????      ???? 100       TTGGCAAAAGCCAAAGCCTAGGACAAATAC                         JSRV, U3 (NF-1 like)
+       5003N    D C                             ????      ???? 100       CTTTGTTtcCTgcTTTCAAgGCcagACTTC                         RTVL Ia, U3
+       5004N    D C                             ????      ???? 100       TAYACRtCCAGATGGCCagAAGTAACTGAA                         RTVL-H consensus, U3
+       5005N    D S                             ????      ???? 100       CTTGATTGtATtGAAgGATGCAAAGcATTG                         HERV-L, 5'and 3'versions of U3
+       5006N    D S                             ????      ???? 100       GCAGCCAGGCAGGCATAGGCTGAAGTAAAC                         HERV-S U5
+       5007N    D C                             ????      ???? 100       TTCACCTTGATCAAAAACCACCAAAATCCA                         HERV-F U3
+       5008N    D C                             ????      ???? 100       CCAgGAATgTCAGGTGACCATcAGgTGAT                          HERV-FRD U3
+       5009N    D B                             ????      ???? 100       TTATAGAAAGAAGCAAACCTTCTTGGAATG                         HML5 U3
+       5010N    D C                             ????      ???? 100       TAAGTACTGGCAGCCAGCCTGCGGATGTGA                         HERV.ADP U3
+::
+LTR2Motifs::
+       5101N    D B                             ????      ???? 100       CCACCTtACGAGAAACACCCACAGGTGTGt                         HERV-K, U5
+       5102N    D B                             ????      ???? 100       TTCTCTCCCTGTGCAGGTGCGACTCTTGTT                         JSRV, U5
+       5103N    D C                             ????      ???? 100       yTTrTTGCTCACACAAAGCCTGTTTGGTCT                         HERV-H consensus, U5
+       5104N    D C                             ????      ???? 100       TTCTGCAaAAGTAAATTTGCCTTGCTGAGA                         RTVL Ia, U5
+       5105N    D S                             ????      ???? 100       TACTAGTTCTGTCCTTcTAGAGAACCTTGA                         HERV-L, U5
+       5106N    D S                             ????      ???? 100       CATCTACCTGCTGTCTCTCTCAAGTGTTC                          HERV-S U3
+       5107N    D C                             ????      ???? 100       TTTGACTGTTGAGCCATTTTTCATGTT                            HERV-F U3
+       5108N    D C                             ????      ???? 100       ACTCTgCCTTATACAAgTaAGaTgAATTCT                         HERV-FRD U5
+       5109N    D B                             ????      ???? 100       AACTCTTTACAGCACACTcTTTgGGTGT                           HML5 U5
+       5110N    D C                             ????      ???? 100       GAGTCCATTCcTTGgGTTTGGttggGTGAA                         HERV.ADP U5
+::
+KozakMotif::
+       8000N    D ABCDESLGO                     ????      ???? 100       gccaccATGg                                             Kozak consensus
+::
+SpliceAcceptorMotif::
+       8100SPL  C ABCDESLGO                     ????      ???? 100       tttnctag                                               Splice acceptor consensus
+::
+SpliceDonorMotif::
+       8110SPD  C ABCDESLGO                     ????      ???? 100       caggtaagt                                              Splice donor consensus
+::
+SlipperyMotif::
+       8200SLI  C ABCDESLGO                     ????      ???? 100       xxxyyy                                                 Slippery sequence
+::
+ProteaseCleavageMotif::
+       8300PCS  C ABCDESLGO                     ????      ???? 100       wPf fPv yPi                                            Protease cleavage site
+::
+PseudoKnotMotif::
+       8400PKN  C ABCDESLGO                     ????      ???? 100       X                                                      Pseudoknot motif
+::
+ComponentMotifs::
+       8900SLI  C ABCDESLGO                     ????      ???? 100       xxxyyy                                                 Slippery sequence
+       8901PKN  C ABCDESLGO                     ????      ???? 100       X                                                      Pseudoknot motif
+::
+FrameShifterMotif::
+       8500COI  C ABCDESLGO                     ????      ???? 100       8900 8901 12<16                                        Coincidence of slippery and pseudoknot
+::
+RMotif::
+       8600R    C ABCDESLGO                     ????      ???? 100       X                                                      Motif for R part of LTR
+::
+NotInUse::
+       9100SSQ  C ABCDESLGO                     SU        SU1  060       X                                                      von Heijne weight matrix
+::

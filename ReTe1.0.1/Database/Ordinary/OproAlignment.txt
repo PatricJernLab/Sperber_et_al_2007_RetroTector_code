@@ -1,0 +1,49 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+
+                                                                                    <P
+Copia_TotalORF_X04456               ---FHYKRILNNKNKENEKQVQTATSQGIAFMVKEVNNTSVMD--NCGFV
+copialike_D_simulans_totalORF       ---FHYKRILNNKNKENEKQVQTATSHGIAFMVKEVNNTSVMD--NCGFV
+1731_D_Melanogaster_copialike_      ----------------------------MRWIVVVFGKT--------QWC
+P_vulgaris_copialike_gagpol         ---------RVDIKIEETTNLALEVETNEGVLLMAQDEVKINS--YTLWY
+A_Thaliana_copialike_gagpol         --------------PSWEKEANYIEMEEDLLLMAHVEHIGEEE--KHVWF
+TNT1_TotalORF_X1377                 PNPRKGKGETSGQKNDDNTAAMVQNNDNVVLFINEEEECMHLSGPESEWV
+Volvox_copialike_totalORF           PQLYQNQGGNPRPHFGGGGRHPNKFGLFAAALSATTEVCGIKG--VPQWY
+                                          .                        :                : 
+
+
+                                    R2>
+Copia_TotalORF_X04456               LDSGASDHLINDESLYTDSVEVVPPLKIAVAKQGEFIYATKRGIVRLRND
+copialike_D_simulans_totalORF       LDSGASDHLINDESLYTDSVELVPPLKIAVAKQGEFIYATKRGIVRLRND
+1731_D_Melanogaster_copialike_      LDSGATSHMCCDRSVFTEFEEHT--EKISLAGNG-FLLAKGIGTVKLKTD
+P_vulgaris_copialike_gagpol         LDSGASNHMCGHEYLFKDMQKIED-GHVSFGDASKVEVKGRGTVCYLQKD
+A_Thaliana_copialike_gagpol         LDSGCSNHMCGVKEWFIELDHDFK-QNVRLGDDRKMTVEGR-GKLRLEVD
+TNT1_TotalORF_X1377                 VDTAASHHATPVRDLFCRYVAGDF-GTVKMGNTSYSKIAGIGDICIKTNV
+Volvox_copialike_totalORF           IDSACGLHLTGCKEDLDDYVRVDDGPQIQALKGASLKAEGYGSVKLLTNV
+                                    :*:..  *    .              :                      
+                                    
+
+                                               <PR3>
+Copia_TotalORF_X04456               ----HEITLEDVLFCKEAAGNLMSVKRLQEAGMSIEFDKSGVTISKN---
+copialike_D_simulans_totalORF       ----HEITLEDVLFCKEAAGNLMSVKRLQEAGMSIEFDKSGVTISKN---
+1731_D_Melanogaster_copialike_      L---CTLVLNNVLFVPDLNGNFMSVSRAAQYKCFVNFGPHYADVIQE---
+P_vulgaris_copialike_gagpol         G---LIGSLQNVYYVSDLKTNILSMGQLTEKGYSIFLKDRLLHLKNK---
+A_Thaliana_copialike_gagpol         G---RNQVISDVYFVPGLKNNLLSVGQLQQKGLRFIIEDDVCEVWHKL--
+TNT1_TotalORF_X1377                 G---CTLVLKDVRHVPDLRMNLISGIALDRDGYESYFANQKWRLTKG---
+Volvox_copialike_totalORF           DGSEYTLEVEQVWYVPGADFRLISASELDKKGYSMEIRDGQLNLYVTVKV
+                                            :.:* .      .::*     .      :      :      
+
+
+Copia_TotalORF_X04456               GLMVVKNSG-----------------------
+copialike_D_simulans_totalORF       GLMVVKNSG-----------------------
+1731_D_Melanogaster_copialike_      GERILRVM------------------------
+P_vulgaris_copialike_gagpol         QGRLVAQIEM----------------------
+A_Thaliana_copialike_gagpol         EQRMVMHSTM----------------------
+TNT1_TotalORF_X1377                 --SLVIAKGV----------------------
+Volvox_copialike_totalORF           PERMIRFLGVRPYGHRFLNPLALNKPLVHRMR
+                                       ::                           
+
+::

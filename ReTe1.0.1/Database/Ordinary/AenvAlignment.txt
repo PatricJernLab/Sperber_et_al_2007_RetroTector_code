@@ -1,0 +1,60 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright ((c)) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+                                                                      <SU1>
+RSV_env              MRRALFLQAFLTGYPGKTSKKDSKEKPLATSKKDPEKTPLLPTRVNYILIIGVLVLCEVT
+LPDV_env_U09568      -----------------------------------------------MVVLGVIIP-SIT
+                                                                    ::::**::  .:*
+
+RSV_env              GVRADVHLLEQPGNLWITWANRTGQTDFCLSTQSATSPFQTCLIGIPSPISEGDFKGYVS
+LPDV_env_U09568      GLGPYVEQIRRVGRLRVIRKSVYPGGTELFYSVPGRGPGRFQALACLLELNHGDWPGDRH
+                     *: . *. :.: *.* :   .        : : .. .* :   :.    :..**: *   
+
+
+RSV_env              DTNCSTVGTDRLVLSASITGGPDNSTTLTYRKVSCLLLKLNVSMWDEPPELQLLGSQSLP
+LPDV_env_U09568      HCNYSASPLEWPFNRSSALG--------------------------------VMGRSSFC
+                     . * *:   :  .  :*  *                                ::* .*: 
+
+
+RSV_env              NVTNITQVSGVAGGCVYFAPRATGLFLGWSKQGLSRFLLRHPFTSTSNSTEPFTVVTADR
+LPDV_env_U09568      TCNSCTNSSTKGAGWVSVPRNMT--LGDGTRSAFWHLSGALQFGSNRSHASKLTNLTTLF
+                     . .. *: *  ..* * .. . *  : . ::..: ::     * *. . :. :* :*:  
+
+
+RSV_env              HNLFMGSEYCGAYGYRFWEIYNCSQTRNTYRCGDVGGTGLPETWCRGKGGIWVNQSKEIN
+LPDV_env_U09568      WLWNHSIAYWGWSDEIPWSIEKVNNSR---------DPGWILFMAEEALEKCVREQTSRP
+                          .  * *  .   *.* : .::*         ..*     ..      *.:...  
+
+
+RSV_env              ETEPFSFTANCTGSNLGNVSGCCGEPITILPLGAWIDSTQGSFTKPKALPPAIFLICGDR
+LPDV_env_U09568      SSPPPCINLNGTNVTVPVLAPCS----------------------PFCLKPPMVLLCDGI
+                     .: * .:. * *. .:  :: *.                      * .* *.:.*:*.. 
+
+                                                               <SU3>
+RSV_env              AWQGIPSRPVGGPCYLGKLTMLAPNHTDILKILANSSRTGIRRKR------SVSHLDDTCSD-E--
+LPDV_env_U09568      IVRCVLP---------GQMRLCMAAETRPALFG------RSREKRAEPERWTADTCEERIQEKDWK
+                       : : .         *:: :  . .*    :  . .: .  .: :..  ::  .:   :
+
+
+RSV_env              VQLWGPTARIFASILAPGVAAAQALREIERLACWSVKQANLTTSLLGDLLDDVTSIRHAV
+LPDV_env_U09568      VPIWTGIGDGFLLGIARESGVQRNTLALQGIACEVLKTSHSLSWLGNETARSLATVKGIL
+                     * :*   .  *   :*   .. :    :: :**  :* ::  : * .:   .:::::  :
+
+                     <TM2>             <TM4>
+RSV_env              LQNRAAIDFLLLAHGHG-----CEDVAGMCCFNLSDHSESIQ--KKFQLMKKHVNKIGVD
+LPDV_env_U09568      EAHAEAINLIAEVVVTGGCNNEYLRNTSFCCLATQNYSSLILNVSHWRKLEQQLIKVIEA
+                       :  **:::  .   *         :.:**:  .::*. *   .::: ::::: *:   
+
+
+                                                <TM5>
+RSV_env              SDPIGSWLRGIFGGIGEWAVHLLKG-LLLGLVVILLLLVCLPCLLQFVSSSIRKMINSSI
+LPDV_env_U09568      KGSDMQWIDNLLKSAWQWLLSWIDWTWIIAVNLDGACNMAFLYLWRASSGKVTTFGPGSP
+                     ...  .*: .:: .  :* :  :.   ::.: :     :.:  * :  *..: .:  .* 
+
+
+RSV_env              NYHTEYRKMQGGAV
+LPDV_env_U09568      DQTRKKSTIRRAAE
+                     :   :  .:: .* 
+::

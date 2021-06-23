@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- #BeginTemplate "/Templates/enhetssida.dwt" --><!-- #BeginEditable "doctitle" -->
+  <title>PPTMotif</title>
+<!-- #EndEditable -->
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="RTDocmall_files/profil.txt"
+ type="text/css">
+  <meta name="author" content="G&ouml;ran Sperber">
+</head>
+<body bgcolor="#ffffff" text="#000000" class="rededge" leftmargin="0"
+ topmargin="0" marginwidth="0" marginheight="0">
+<table width="640" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td width="160" rowspan="2" valign="top">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0"
+ height="401" bgcolor="#990000">
+        <tbody>
+          <tr>
+            <td width="160" height="135" valign="top"><a
+ href="http://www.uu.se/"><img src="RTDocmall_files/uulogo_red160.gif"
+ width="160" height="160" border="0" alt="Uppsala universitet"> </a> </td>
+          </tr>
+          <tr>
+            <td valign="top" height="160" class="sidomenyVIT"><!-- #BeginEditable "index" -->
+            <p>&nbsp;</p>
+            <p><big><big><b>RetroTector</b></big></big></p>
+            <p>&nbsp; </p>
+<!-- #EndEditable --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td width="480" valign="top" height="329">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0"
+ class="normal">
+        <tbody>
+          <tr>
+            <td width="464" valign="top" height="198">
+            <div class="normal">
+            <div align="center">
+            <div align="center">
+            <h2>PPTMotif</h2>
+            </div>
+            </div>
+            <h2 align="center"><!-- #EndEditable --></h2>
+<!-- #BeginEditable "text" -->
+            <hr width="100%" size="2"><br>
+This is an <a href="Motifs.html#OrdinaryMotif">OrdinaryMotif</a>,
+evaluating
+similarity to&nbsp;polypurine tracts. <br>
+            <p>Its identifying string is 'PPT'. </p>
+            <p>There are three named parameters, whose values may be
+redefined in <a href="Configuration.html">Configuration.txt</a> : </p>
+            <ul>
+              <li> LowLimit (normally = 20)</li>
+              <li> HighLimit (90)</li>
+              <li> TgBonus (5)</li>
+            </ul>
+The raw score is calculated thus: if
+            <ul>
+              <li> the targeted base is not 'a' or</li>
+              <li> the preceding base is 'a' or</li>
+              <li> the next base is not 'a' or 'g'</li>
+            </ul>
+no hit is scored. Otherwise an end position is located as the position
+before the second non-ag base downstream. The raw score is calculated
+as the sum of contributions from each 'a' between the start and the end
+positions, the contribution from each 'a' being the number of 'g' after
+it, up to the end position. If a 'tg' pair is then found within 5
+positions downstream from the end position, TgBonus is added to the raw
+score.
+            <p>If the raw score is &gt; LowLimit, a hit is registered,
+with final score proportional to (raw score - LowLimit), such that a
+raw score of HighLimit (or possibly more) yields a final score equal to
+the value in the MAXSCORE field in <a href="Motifs.html">Motifs.txt</a>.<br>
+            </p>
+            <hr width="100%" size="2">
+            <div align="right"><font size="-1"><small><a
+ href="RetroTector.html"> To main RetroTector page</a> </small> </font><br>
+            </div>
+<!-- #EndEditable --></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="41" valign="top">
+      <table width="100%" border="0" cellpadding="8" cellspacing="0">
+        <tbody>
+          <tr>
+            <td width="464" height="41" valign="top">
+            <hr size="1" color="#000000" noshade="noshade"><font
+ face="verdana" size="-2"> &copy; 2002-2004 UPPSALA UNIVERSITET, Box
+256, 751 05 Uppsala<br>
+Responsible for this page: G&ouml;ran Sperber. Dept. of Neuroscience,
+Unit of Physiology<br>
+Goran.Sperber@neuro.uu.se</font><br>
+            <font face="verdana" size="-2"> Last updated: 2004-11-18</font><font
+ face="verdana" size="-2"></font><!-- #EndDate --><br>
+<!-- #EndDate --></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndTemplate --> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

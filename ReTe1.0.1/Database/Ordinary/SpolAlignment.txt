@@ -1,0 +1,448 @@
+{CLUSTAL W (1.8) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+HIV-1_MN_Pol_M17449                 --------------------------------------------------
+HIV-2_ROD_Pol_M15390                --------------------------------------------------
+FIV_Pol_M25381                      --------------------------------------------------
+CAEV_Pol_M33677                     --------------------------------------------------
+BIV_Pol_M32690                      --------------------------------------------------
+HTLV_I_Pol_J02029                   --------------------------------------------------
+BLV_POL_K02120                      --------------------------------------------------
+HSRV_Pol_                           ---------------------------------------------PWLTQ
+SFV1_pol                            ---------------------------------------------PWLMK
+Feline_Foamy_Pol_Y08851             ---------------------------------------------PWILK
+Equine_Foamy_Pol                    ---------------------------------------------PWYKK
+HERV_E_4_1_Trolig_POL_M10976        GGLGSRTSKEPMVRMTVGGKDIDFLVDTSAEHSVVTASVAPLSKKTIDII
+MuLV_Rauscher_Pol_U94692            ----------------------------------------------AQVV
+WDSV_Pol_AF033822                   --------------------------------------------------
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 --------------------------------------------------
+HIV-2_ROD_Pol_M15390                --------------------------------------------------
+FIV_Pol_M25381                      --------------------------------------------------
+CAEV_Pol_M33677                     --------------------------------------------------
+BIV_Pol_M32690                      --------------------------------------------------
+HTLV_I_Pol_J02029                   --------------------------------------------------
+BLV_POL_K02120                      --------------------------------------------------
+HSRV_Pol_                           QPLQLT--------------------------------------------
+SFV1_pol                            KPLQLT--------------------------------------------
+Feline_Foamy_Pol_Y08851             KPLELT--------------------------------------------
+Equine_Foamy_Pol                    YELELT--------------------------------------------
+HERV_E_4_1_Trolig_POL_M10976        GAMGVSAKQAFCLPQTCTIGGHKVIHQFLYMPDCPLPLLGRDLLSKLRAT
+MuLV_Rauscher_Pol_U94692            GPMGQP--------------------------------------------
+WDSV_Pol_AF033822                   --------------------------------------------------
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 --------------------------------------------------
+HIV-2_ROD_Pol_M15390                --------------------------------------------------
+FIV_Pol_M25381                      --------------------------------------------------
+CAEV_Pol_M33677                     --------------------------------------------------
+BIV_Pol_M32690                      --------------------------------------------------
+HTLV_I_Pol_J02029                   --------------------------------------------------
+BLV_POL_K02120                      --------------------------------------------------
+HSRV_Pol_                           -------------------ILVPLQEYQEKILSKTALPEDQKQQLKTLFV
+SFV1_pol                            -------------------VLVPLHEYQERLLQQTALPKEQKELLQKLFL
+Feline_Foamy_Pol_Y08851             -------------------IKLDLEEQQGTLLNNSILSKKGKEELKQLFE
+Equine_Foamy_Pol                    -------------------IKIDIQKQQEQLLHTTNLSSEGKKYLKDLFI
+HERV_E_4_1_Trolig_POL_M10976        ISFTEHGSLLLKLPGTGVIMTLMLPREEEWRLFLT---EPGQEIRPALAK
+MuLV_Rauscher_Pol_U94692            ------------------LQVLTLNIEDEYRLHETSK-EPDVSLGSTWLS
+WDSV_Pol_AF033822                   -----------------KNGEMTVLLPPTYHKQLSCQTKNTLNIDEYLLQ
+                                                                                      
+
+
+HIV-1_MN_Pol_M17449                 -------------PISPIETVPVKLKPGMDGPKVKQWPLTEEKIKALIEI
+HIV-2_ROD_Pol_M15390                -------------PVAKVEPIKIMLKPGKDGPKLRQWPLTKEKIEALKEI
+FIV_Pol_M25381                      ------------------PVVKVKMKDPNKGPQIKQWPLTNEKIEALTEI
+CAEV_Pol_M33677                     ------------------PITKVKLKEGCTGPHVPQWPLTEEKLKGLTEI
+BIV_Pol_M32690                      ---------------------PVKVRGP--GPKVPQWPLTKEKYQALKEI
+HTLV_I_Pol_J02029                   -------GKKAACNLANTGASRPWARTPPKAPRNQPVPFKPERLQALQHL
+BLV_POL_K02120                      --------------------------------------------------
+HSRV_Pol_                           KYDNLWQHWENQVGHRKIRPHNIATG-DYPPRPQKQYPINPKAKPSIQIV
+SFV1_pol                            KYDALWQHWENQVGHRRIKPHNIATG-TLAPRPQKQYPINPKAKPSIQIV
+Feline_Foamy_Pol_Y08851             KYSALWQSWENQVGHRRIRPHKIATG-TVKPTPQKQYHINPKAKPDIQIV
+Equine_Foamy_Pol                    KYDNLWQKWENQVGHRRITPHKIATG-TLNPKPQKQYRINPKAKADIQIV
+HERV_E_4_1_Trolig_POL_M10976        RWPRVWAEANPPGLAVNQAPVLIEVKPGVQPVRQKQYPVLREALEGIQVH
+MuLV_Rauscher_Pol_U94692            DFPQAWAETGGMGLAVRQAPLIIPLKATSTPVSIKQYPISQEARLGIKPH
+WDSV_Pol_AF033822                   FPDQLWASLPTDIGRMLVPPITIKIKDNASLPSIRQYPLPKDKTEGLRPL
+                                                                                      
+
+                                                      <RT1>
+HIV-1_MN_Pol_M17449                 CTEMEKEGKISKIGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKKTQDF
+HIV-2_ROD_Pol_M15390                CEKMEKEGQLEEAPPTNPYNTPTFAIKKKDKNKWRMLIDFRELNKVTQDF
+FIV_Pol_M25381                      VERLEREGKVKRADPNNPWNTPVFAIKKK-SGKWRMLIDFRELNKLTEKG
+CAEV_Pol_M33677                     IDKLVEEGKLGKAPPHWTCNTPIFCIKKK-SGKWRMLIDFRELNKQTEDL
+BIV_Pol_M32690                      VKDLLAEGKISEAAWDNPYNTPVFVIKKKGTGRWRMLMDFRELNKITVKG
+HTLV_I_Pol_J02029                   VRKALEAG--HIEPYTGPGNNPVFPVKKA-NGTWRFIHDLRATNSLTIDL
+BLV_POL_K02120                      ------------------------------------VHDLRATNALTKPI
+HSRV_Pol_                           IDDLLKQG--VLTPQNSTMNTPVYPVPKP-DGRWRMVLDYREVNKTIPLT
+SFV1_pol                            IDDLLKQG--VLIQQNSTMNTPVYPVPKP-DGKWRMVLDYREVNKTIPLI
+Feline_Foamy_Pol_Y08851             INDLLKQG--VLIQKESTMNTPVYPVPKP-NGRWRMVLDYRAVNKVTPLI
+Equine_Foamy_Pol                    IDDLLKQG--VLKQQTSPMNTPVYPVPKP-DGRWRMVLDYRAVNKVTPAI
+HERV_E_4_1_Trolig_POL_M10976        LKCLRTFR--IIVPCQSPWNTPLLPVPKPGTKDYRPVQDLRLVNQATVTL
+MuLV_Rauscher_Pol_U94692            IQRLLDQG--ILVPCQSPWNTPLLPVKKPGTHDYRPVQDLREVNKRVEDI
+WDSV_Pol_AF033822                   ISSLENQG--ILIKCHSPCNTPIFPIKKAGRDEYRMIHDLRAINNIVAPL
+                                                                               :      
+                                                         <RT2>
+HIV-1_MN_Pol_M17449                 WEVQLGIPHPAGLKKK--KSVTVLDVGDAYFSVPLDKDFRKYTAFTIPSI
+HIV-2_ROD_Pol_M15390                TEIQLGIPHPAGLAKK--RRITVLDVGDAYFSIPLHEDFRPYTAFTLPSV
+FIV_Pol_M25381                      AEVQLGLPHPAGLQIK--KQVTVLDIGDAYFTIPLDPDYAPYTAFTLPRK
+CAEV_Pol_M33677                     TEAQLGLPHPGGLQKK--KHVTILDIGDAYFTIPLYEPYREYTCFTLLSP
+BIV_Pol_M32690                      QEFSTGLPYPPGIKEC--EHLTAIDIKDAYFTIPLHEDFRPFTAFSVVPV
+HTLV_I_Pol_J02029                   SSSSPGPPDLSSLPTTL-AHLQTIDLRDAFFQIPLPKQFQPYFAFTVPQQ
+BLV_POL_K02120                      PALSPGPPDLTAIPTHP-PHIICLDLKDAFFQIPVEDRFRFYLSFTLPSP
+HSRV_Pol_                           AAQNQHSAGILATIVRQ-KYKTTLDLANGFWAHPITPESYWLTAFTWQGK
+SFV1_pol                            AAQNQHSAGILSSIYRG-KYKTTLDLTNGFWAHPITPESYWLTAFTWQGK
+Feline_Foamy_Pol_Y08851             AVQNQHSYGILGSLFKG-RYKTTIDLSNGFWAHPIVPEDYWITAFTWQGK
+Equine_Foamy_Pol                    ATQNCHSASLLNTLYRG-QYKTTLDLANGFWAHPIQESDQWITSFTWNGK
+HERV_E_4_1_Trolig_POL_M10976        HPTVPNLYTLLGLLPAEDSWFTCLDLKDAFFSIRLAPERQKLFAFQWEDP
+MuLV_Rauscher_Pol_U94692            HPTVPNPYNLLSGLPPSHQWYTVLDLKDAFFCLRLHPTSQSLFAFEWRDP
+WDSV_Pol_AF033822                   TAVVASPTTVLSNLAPSLHWFTVIDLSNAFFSVPIHKDSQYLFAFTFEGH
+                                                            *    :    :        .:     
+
+                                           <RT3>                                 <RT4>
+HIV-1_MN_Pol_M17449                 NNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIYQYMD
+HIV-2_ROD_Pol_M15390                NNAEPGKRYIYKVLPQGWKGSPAIFQHTMRQVLEPFRKANKDVIIIQYMD
+FIV_Pol_M25381                      NNAGPGRRFVWCSLPQGWILSPLIYQSTLDNIIQPFIRQNPQLDIYQYMD
+CAEV_Pol_M33677                     NNLGPCKRYYWKVLPQGWKLSPSVYQFTMQEILEDWIQQHPEIQFGIYMD
+BIV_Pol_M32690                      NREGPIERFQWNVLPQGWVCSPAIYQTTTQKIIENIKKSHPDVMLYQYMD
+HTLV_I_Pol_J02029                   CNYGPGTRYAWKVLPQGFKNSPTLFEMQLAHILQPIRQAFPQCTILQYMD
+BLV_POL_K02120                      GGLQPHRRFAWRVLPQGFINSPALFERALQEPLRQVSAAFSQSLLVSYMD
+HSRV_Pol_                           -------QYCWTRLPQGFLNSPALFTADVVDLLKEIPN------VQVYVD
+SFV1_pol                            -------QYCWTRLPQGFLNSPALFTADVVDLLKEIPN------VQAYVD
+Feline_Foamy_Pol_Y08851             -------QYCWTVLPQGFLNSPGLFTGDVVDLLQGIPN------VEVYVD
+Equine_Foamy_Pol                    -------SYVWTTLPQGFLNSPALFTADVVDLLKDIPN------VEVYVD
+HERV_E_4_1_Trolig_POL_M10976        E-SGVTTQYTWTQLPQRFKNSPTIFGEALARDLQKFPTRDLGCVLLQYVD
+MuLV_Rauscher_Pol_U94692            E-MGISGQLTWTRLPQGFKNSPTLFDEALHRDLADFRIQHPDLILLQYVD
+WDSV_Pol_AF033822                   -------QYTWTVLPQGFIHSPTLFSQALYQSLHKIKFKISS-EICIYMD
+                                                  *:    :  :        :                 
+
+                                                               <RT5>
+HIV-1_MN_Pol_M17449                 DLYVGSDLEIGQHRAKIEELRRHLLRWGFTTPDKKHQKEP-PFLWMGYEL
+HIV-2_ROD_Pol_M15390                DILIASDRTDLEHDRVVLQLKELLNGLGFSTPDEKFQKDP-PYHWMGYEL
+FIV_Pol_M25381                      DIYIGSNLSKKEHKEKVEELRKLLLWWGFETPEDKLQEEP-PYTWMGYEL
+CAEV_Pol_M33677                     DIYIGSDLEIKKHREIVKDLANYIAQYGFTLPEEKRQKGY-PAKWLGFEL
+BIV_Pol_M32690                      DLLIGSNRD--DHKQIVQEIRDKLGSYGFKTPDEKVQEE--RVKWIGFEL
+HTLV_I_Pol_J02029                   DILLASPSH-EDLLLLSEATMASLISHGLPVSENKTQQTPGTIKFLGQII
+BLV_POL_K02120                      DILYASPTE-EQRSQCYQALAARLRDLGFQVASEKTSQTPSPVPFLGQMV
+HSRV_Pol_                           DIYLSHDDP-KEHVQQLEKVFQILLQAGYVVSLKKSEIGQKTVEFLGFNI
+SFV1_pol                            DIYISHDDP-QEHLEQLEKIFSILLNAGYVVSLKKSEIAQREVEFLGFNI
+Feline_Foamy_Pol_Y08851             DVYISHDSE-KEHLEYLDILFNRLKEAGYIISLKKSNIANSIVDFLGFQI
+Equine_Foamy_Pol                    DVYFSNDTE-EEHLKTMDLLFQKLQTAGYIVSLKKSKLGQHTVDFLGFQI
+HERV_E_4_1_Trolig_POL_M10976        DLLLGHPTA-VGWPREQMLYSGTWRTVGIRCPRKKAQICRQQVCYLGFTI
+MuLV_Rauscher_Pol_U94692            DLLLAATSE-LDCQQGTRALLQTLGDLGYRASAKKAQICQKQVKYLGYLL
+WDSV_Pol_AF033822                   DVLIASKDR-DTNLKDTAVMLQHLASEGHKVSKKKLQLCQQEVVYLGQLL
+                                     :  .                          .  . .       ::.  :
+
+HIV-1_MN_Pol_M17449                 HPDKWTVQPIVLPEKDS----WTVNDIQKLVGKLNWAS--QIYAGIKVKQ
+HIV-2_ROD_Pol_M15390                WPTKWKLQKIQLPQKEI----WTVNDIQKLVGVLNWAA--QLYPGIKTKH
+FIV_Pol_M25381                      HPLTWTIQQKQLDIPEQ----PTLNELQKLAGKINWAS--QAIPDLSIKA
+CAEV_Pol_M33677                     HPQTWKFQKHTLPELTKGT--ITLNKLQKLVGELVWR---QSIIGKSIPN
+BIV_Pol_M32690                      TPKKWRFQPRQLKIKNP----LTVNELQQLVGNCVWV---QPEVKIPLYP
+HTLV_I_Pol_J02029                   SPNHLTYDAVPTVPIRSR---WALPELQALLGEIQWVSKGTPTLRQPLHS
+BLV_POL_K02120                      HEQIVTYQSLPTLQISSP---ISLHQLQAVLGDLQWVSRGTPTTRRPLQL
+HSRV_Pol_                           TKEGRGLTDTFKTKLLNITPPKDLKQLQSILGLLNFARNFIPNFAELVQP
+SFV1_pol                            TKEGRGLTDTFKQKLLNITPPKDLKQLQSILGLLNFARNFIPNYSELVKP
+Feline_Foamy_Pol_Y08851             TNEGRGLTDTFKEKLENITAPTTLKQLQSILGLLNFARNFIPDFTELIAP
+Equine_Foamy_Pol                    TQTGRGLTDSYKSKLLDITPPNTLKQLQSILGLLNFARNFIPNYSELITP
+HERV_E_4_1_Trolig_POL_M10976        QQGEHSLGSERKQVICNLPEPKTRRQVREFLGAVGFCRLWIPNFAVLAKP
+MuLV_Rauscher_Pol_U94692            KEGQRWLTEARKETVMGQPTPKTPRQLREFLGTAGFCRLWIPGFAEMAAP
+WDSV_Pol_AF033822                   TPEGRKILPDRKVTVSQFQQPTTIRQIRAFLGLVGYCRHWIPEFSIHSKF
+                                                                 .     :              
+
+HIV-1_MN_Pol_M17449                 LCKLLRGTKALTEVIPLTEEAELELAENREILKEPVHGVYYDPSKDLIAE
+HIV-2_ROD_Pol_M15390                LCRLIRGKMTLTEEVQWTELAEAELEENRIILSQEQEGHYYQEEKELEAT
+FIV_Pol_M25381                      LTNMMRGNQNLNSTRQWTKEARLEVQKAKKAIEEQVQLGYYDPSKELYAK
+CAEV_Pol_M33677                     ILKLMEGDRELQSERKIEEVHVKEWEACRKKL-EEMEGNYYNKDKDVYGQ
+BIV_Pol_M32690                      LTDLLRDKTNLQEKIQLTPEAIKCVEEFNLKLKDPEWKDRIREGAELVIK
+HTLV_I_Pol_J02029                   LYCALQRHTDPRDQIYLNPSQVQSLVQLRQALSQNCR-SRLVQTLPLLGA
+BLV_POL_K02120                      LYSSLKRHHDPRAIIQLSPEQLQGIAELRQALSHNAR-SRYNEQEPLLAY
+HSRV_Pol_                           LYNLIASAK--GKYIEWSEENTKQLNMVIEALNTASNLEERLPEQRLVIK
+SFV1_pol                            LYTIVANAN--GKFISWTEDNSNQLQHIISVLNQADNLEERNPETRLIIK
+Feline_Foamy_Pol_Y08851             LYALIPKST--KNYVPWQIEHSTTLETLITKLNGAEYLQGRKGDKTLIMK
+Equine_Foamy_Pol                    LYQLIPLAK--GIYIPWETKHTAILQKIIKELNASENLEQRKPDVELIVK
+HERV_E_4_1_Trolig_POL_M10976        LYEVTKAGD--QEPFEWGSQQQQAFHELKERLMSVPALGLPDLTKPFTLY
+MuLV_Rauscher_Pol_U94692            LYPLTKTG----TLFNWGPDQQKAYQEIKQALLTAPALGLPDLTKPFELF
+WDSV_Pol_AF033822                   LEKQLKKDT--AEPFQLDDQQVEAFNKLKHAITTAPVLVVPDPAKPFQLY
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 VQKQG---QGQWTYQIYQEP-FKNLKTGKYARMRGAHTNDVKQLTEAVQK
+HIV-2_ROD_Pol_M15390                VQKDQ---ENQWTYKIHQE--EKILKVGKYAKVKNTHTNGIRLLAQVVQK
+FIV_Pol_M25381                      LSLVG---PHQISYQVYQKDPEKILWYGKMSRQKKKAENTCDIALRACYK
+CAEV_Pol_M33677                     LAWG----DKAIEYIVYQEK-GKPLWVNVVHNIKNLSIP--QQVIKAAQK
+BIV_Pol_M32690                      IQMV----PRGIVFDLLQD--GNPIWGGVKG-LNYDHSNKIKKILRTMNE
+HTLV_I_Pol_J02029                   IMLT----LTGTTTVVFQSKEQWPLVWLHAPLPHTSQCPWGQLLASAVLL
+BLV_POL_K02120                      VHLT----RAGSTLVLFQKGAQFPLAYFQTPLTDNQASPWGLLLLLGCQY
+HSRV_Pol_                           VNTSP--SAGYVRYYNETGKKPIMYLNYVFSKAELKFSMLEKLLTTMHKA
+SFV1_pol                            VNSSP--SAGYIRYYNEGSKRPIMYVNYIFSKAEAKFTQTEKLLTTMHKG
+Feline_Foamy_Pol_Y08851             VNASY--TTGYIRYYNEGEKKPISYVSIVFSKTELKFTELEKLLTTVHKG
+Equine_Foamy_Pol                    VHVSP--TAGYIKFANKGSIKPIAYHNVVFSKTELKFTITEKVMTTIHKA
+HERV_E_4_1_Trolig_POL_M10976        VSESEKMAVGVLTQTVGPWPRPVTYLSKQLDGVSKGWPPCLRALAATALL
+MuLV_Rauscher_Pol_U94692            VDEKQGYAKGVLTQKLGPWRRPVAYLSKKLDPVAAGWPPCLRMVAAIAVL
+WDSV_Pol_AF033822                   TSHSEHASIAVLTQKHAGRTRPIAFLSSKFDAIESGLPPCLKACASIHRS
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 IATESIVIWGK-TPKFRLPIQKETWET-------WWTEYT------ATWI
+HIV-2_ROD_Pol_M15390                IGKEALVIWGR-IPKFHLPVEREIWEQ-------WWDNYWQ-----VTWI
+FIV_Pol_M25381                      IREESIIRIGK-EPRYEIPTSREAWESN------LINSPYL-----KAPP
+CAEV_Pol_M33677                     LTQEVIIRTGK-IPWILLPGKEEDWR--------LELQLGN-----ITWM
+BIV_Pol_M32690                      LNRTVVIMTGR-EASFLLPGSSEDWEAA------LQKEESL-----TQIF
+HTLV_I_Pol_J02029                   LDKYTLQSYGLLCQTIHHNISTQTFNQF------IQTSDHPSVPILLHHS
+BLV_POL_K02120                      LQTQALSSYAKPILKYYHNLPKTSLDNW------IQSSEDPRVQELLQLW
+HSRV_Pol_                           LIKAMDLAMGQEILVYSPIVSMTKIQKTPLPERKALPIRWITWMTYLED-
+SFV1_pol                            LIKAMDLAMGQEILVYSPIVSMTKIQRTPLPERKALPVRWITWMTYLED-
+Feline_Foamy_Pol_Y08851             LLKALDLSMGQNIHVYSPIVSMQNIQKTPQTAKKALASRWLSWLSYLED-
+Equine_Foamy_Pol                    LLKAFDLAMGQPIWVYSPIHSMTRIQKTPLTERKALSIRWLKWQTYFED-
+HERV_E_4_1_Trolig_POL_M10976        VQEADKLILGQNLNIKDPHAVVTLMNTR--GHHWLTNARLTKYQSLLCEN
+MuLV_Rauscher_Pol_U94692            TKDAGKLTMGQPLVILAPHAVEALVKQP--PDRWLSNARMTHYQALLLDT
+WDSV_Pol_AF033822                   LTQADSFILGAPLIIYTTHAICTLLQRD--RSQLVTASRFSKWEADLLR-
+                                             .                                        
+
+HIV-1_MN_Pol_M17449                 PEWEVVNTPPLVKLWYQLEKE-P-------IV---GAETFYVDGAA----
+HIV-2_ROD_Pol_M15390                PDWDFVSTPPLVRLAFNLVGD-P-------IP---GAETFYTDGSC----
+FIV_Pol_M25381                      PEVEYIHAALNIKRALSMIKDAP-------IP---GAETWYIDGGR----
+CAEV_Pol_M33677                     PKFWSCYRGHTRWRKRNIIEE---------VV---EGPTYYTDGG-----
+BIV_Pol_M32690                      PVKFYRHSCRWTSICGPVREN---------------LTTYYTDGG-----
+HTLV_I_Pol_J02029                   HRFKNLGAQTGELWNTFLKTAAP-------LAPVKALMPVFTLSPVI-IN
+BLV_POL_K02120                      PQISSQGIQPPGPWKTLITRAEV-------F-----LTPQFSPDP---IP
+HSRV_Pol_                           PRIQFHYDKTLPELKHIPDVYTS--SQSPVKHPSQYEGVFYTDGSAIKSP
+SFV1_pol                            PRIQFHYDKSLPELQQIPNVTED--VIAKTKHPSEFAMVFYTDGSAIKHP
+Feline_Foamy_Pol_Y08851             PRIRFFYDPQMPALKDLPAVDTG---KDNKKHPSNFQHIFYTDGSAITSP
+Equine_Foamy_Pol                    PRLIFHYDDTLPDLQNLPQTTLG--NEVDILPLSEYEVVFYTDGSSIKSP
+HERV_E_4_1_Trolig_POL_M10976        PHITIEVCNTLNPATLLPVLEIP--VEHDCVEVLDSVYSGHQ--------
+MuLV_Rauscher_Pol_U94692            DRVQFGPIVTLNPATLLPLPEEG--LQHDCLDILAEAHGTRPDLTDQPLP
+WDSV_Pol_AF033822                   PELTFVACSAVSPAHLYMQSCENNIPPHDCVLLTHTISRPRPDLSDLPIP
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 -----NRETKKGKAGYVTNRGR-----QKVVSLTDTT-----NQKTELQA
+HIV-2_ROD_Pol_M15390                -----NRQSKEGKAGYVTDRGK-----DKVKKLEQTT-----NQQAELEA
+FIV_Pol_M25381                      ------KLGKAAKAAYWTDTGK-----WQVMELEGS------NQKAEIQA
+CAEV_Pol_M33677                     ------KKNKVGSLGFIVSTG------EKFRKHEEGT-----NQQLELRA
+BIV_Pol_M32690                      ------KKGKTAAAVYWCEGR------TKSKVFPGT------NQQAELKA
+HTLV_I_Pol_J02029                   TAPCLFSDGSTSRAAYILWDKQ-----ILSQRSFPLPPPHKSAQRAELLG
+BLV_POL_K02120                      AALCLFSDGATGRGAYCLWKDH-----LLDFQAVPAP---ESAQKGELAG
+HSRV_Pol_                           DPTKSNNAG--MGIVHATYKP----EYQVLNQWSIPLG-NHTAQMAEIAA
+SFV1_pol                            DVNKSHSAG--MGIAQVQFIP----EYKIVHQWSIPLG-DHTAQLAEIAA
+Feline_Foamy_Pol_Y08851             TKEGHLNAG--MGIVYFINKDG---NLQKQQEWSISLG-NHTAQFAEIAA
+Equine_Foamy_Pol                    KKDKQHSAG--MGIIAVRYQP----QMNIIQEWSIPLG-DHTAQFAEIAA
+HERV_E_4_1_Trolig_POL_M10976        TGNYTWMG---AALSTHKKRD---VQGMRW-LWTLLLKPDRFPRALQLRK
+MuLV_Rauscher_Pol_U94692            DADHTWYTDGSSFLQEGQRKAGAAVTTETEVIWAKALPAGTSAQRAELIA
+WDSV_Pol_AF033822                   DPDMTLFSDGSYTTGRGGAAVVMHRPVTDDFIIIHQQPGGASAQTAELLA
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 IHLALQDSG-----------LE--VNIVTDSQYALGIIQA--QPDKSESE
+HIV-2_ROD_Pol_M15390                FAMALTDSG-----------PK--VNIIVDSQYVMGISAS--QPTESESK
+FIV_Pol_M25381                      LLLALKAGS-----------EE--MNIITDSQYVINIILQ--QPDMMEG-
+CAEV_Pol_M33677                     IEEALKQGP-----------QT--MNLVTDSRYAFEFLLRNWDEEVIKNP
+BIV_Pol_M32690                      ICMALLDGP-----------PK--MNIITDSRYAYEGMRE--EPETWARE
+HTLV_I_Pol_J02029                   LLHGLSSAR-----------SWRCLNIFLDSKYLYHYLRTLALGTFQGRS
+BLV_POL_K02120                      LLAGLAAAP-----------PE-PVNIWVDSKYLYSLLRTLVLGAWLQPD
+HSRV_Pol_                           VEFACKKALKIPGPVLVITDSF---YVAESANKELPYWKSNGFVNNKKKP
+SFV1_pol                            VEFACKKALKISGPVLIVTDSF---YVAESANKELPYWKSNGFLNNKKKP
+Feline_Foamy_Pol_Y08851             FEFALKKCLPLGGNILVVTDSN---YVAKAYNEELDVWASNGFVNNRKKP
+Equine_Foamy_Pol                    FEFALKQAIRKMGPVLIVTDSD---YVAKSYNQELDFWVSNGFVNNKKKP
+HERV_E_4_1_Trolig_POL_M10976        LNSLL-FGP-NSVKVRL-TFTLTLDMSF-PFKCMEHYVKKRAY-TLGEKT
+MuLV_Rauscher_Pol_U94692            LTQALKMAEGKKLNVYT---DS--RYAFATAHIHGEIYRRRGLLTSEGKE
+WDSV_Pol_AF033822                   LAAACHLATDKTVN-----IYTDSRYAYGVVHDFGHLWMHRGFVTSAGTP
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 -----LVSQIIEQLIKKEKVYLAWVPAHKGIGGNEQVDKLVS--------
+HIV-2_ROD_Pol_M15390                -----IVNQIIEEMIKKEAIYVAWVPAHKGIGGNQEVDHLVS--------
+FIV_Pol_M25381                      -----IWQEVLEELEKKTAIFIDWVPGHKGIPGNEEVDKLCQTMMII-EG
+CAEV_Pol_M33677                     -----IQARIMEIAHKKDRIGVHWVPGHKGIPQNEEIDKYISEIFLAKEG
+BIV_Pol_M32690                      --G--IWLEIAKILPFKQYVGVGWVPAHKGIGGNTEADEGVKKALEQMAP
+HTLV_I_Pol_J02029                   --SQAPFQALLPRLLSRKVVYLHHVRSHTNLPDPISRLNALT--------
+BLV_POL_K02120                      --PVPSYALLYKSLLRHPAIVVGHVRSHSSASHPIASLNNYV--------
+HSRV_Pol_                           LKHISKWKSIAECLSMKPDITIQHEKGISLQIPVFILKGNALADK-----
+SFV1_pol                            LRHVSKWKSIAECLQLKPDIIIMHEKGHQQPMTTLHTEGNNLADK-----
+Feline_Foamy_Pol_Y08851             LKHISKWKSVADLKRLRPDVVVTHEPGHQKLDSSPHAYGNNLADQ-----
+Equine_Foamy_Pol                    LKHVSKWKSIADCKKHKADIHVIHEPGHQNDLQSPYAMGNNAADK-----
+HERV_E_4_1_Trolig_POL_M10976        -NINKKSCNY-KQYGNPTRWLLYIAEDTSEL-PPWWVWGIPALT------
+MuLV_Rauscher_Pol_U94692            IKNKDEILALLKALFLPKRLSIIHCPGHQKG-NRAEARGNRMAD------
+WDSV_Pol_AF033822                   IKNHKEIEYLLKQIMKPKQVSVIKIEAHTKG-VSMEVRGNAAAD------
+                                                                                      
+
+HIV-1_MN_Pol_M17449                 --------------------------------AGIRKVL-----------
+HIV-2_ROD_Pol_M15390                --------------------------------QGIRQVL-----------
+FIV_Pol_M25381                      DGILDKRSEDAGYDLLAAKEIHLLPGEVKVIPTGVKLMLPKGYWGLIIGK
+CAEV_Pol_M33677                     EGILPKREEDAGYDLICPEEVTIEPGQVKCIPIELRLNLKKSQWAMIATK
+BIV_Pol_M32690                      CS--------------PPEAILLKPGEKQNLETGIYMQGLRPQSFLPRAD
+HTLV_I_Pol_J02029                   --------------------------------DALLITP-----------
+BLV_POL_K02120                      --------------------------------DQLLP-------------
+HSRV_Pol_                           -------------LATQGSYVVNCNTKKPNLDAELDQLLQG-----HYIK
+SFV1_pol                            -------------LATQGSYVVHCNTT-PSLDAELDQLLQG-----HYPP
+Feline_Foamy_Pol_Y08851             -------------LATQASFKVHMTKN-PKLDIEQIKAIQACQNNERLPV
+Equine_Foamy_Pol                    -------------LAVKASYTVFSVQTLPSLDAELHQLLDKQT---PNPK
+HERV_E_4_1_Trolig_POL_M10976        -------------RLKKQHLPFRASVTAPLLPQAPDLVP------TYSKE
+MuLV_Rauscher_Pol_U94692            -------------QAAREVATRETPETSTLLIENSTPYTREHF--HYTVT
+WDSV_Pol_AF033822                   ----------------------EAAKNAVFLVQRVLKKGDALASTDLVME
+                                                                                      
+                                                <DL1>                      <DL2>
+HIV-1_MN_Pol_M17449                 --------------------------------------------------
+HIV-2_ROD_Pol_M15390                --------------------------------------------------
+FIV_Pol_M25381                      SSIGSKGLDVLGGVIDEGYRGEIGVIMINVSRKSITLMERQKIAQLIILP
+CAEV_Pol_M33677                     SSMAAKGVFTQGGIIDSGYQGQIQVIMYNSNKIAVVIPQGRKFAQLILMD
+BIV_Pol_M32690                      LPVAITG---------TMVDSELQLQLLNIGTEHIRIQ---K--------
+HTLV_I_Pol_J02029                   --------------------------------------------------
+BLV_POL_K02120                      --------------------------------------------------
+HSRV_Pol_                           GYPKQYTYFLEDGKVKVSRPEGVKIIPPQSDR--Q---------------
+SFV1_pol                            GYPKQYKYTLEENKLIVERPNGIRIVPPKADR--E---------------
+Feline_Foamy_Pol_Y08851             GYPKQYTYELQNNKCMVLRKDGWREIPPSRER--Y---------------
+Equine_Foamy_Pol                    GYPSKYEYTLRDGQVYVKRTDGEKIIPSKDDR--V---------------
+HERV_E_4_1_Trolig_POL_M10976        EKDFLQAEGGQVMEEGWIWLPDGRVAVPQLLG--A---------------
+MuLV_Rauscher_Pol_U94692            DIEDLTKLGATYDSAKKCWVYQGKPVMPDQFT--F---------------
+WDSV_Pol_AF033822                   YSETDEKFTAGAELHDGVFMRGDLIVPP----------------------
+                                                                                      
+                                                                         <IN2>
+HIV-1_MN_Pol_M17449                 ------------------------------FLDGIDKAQEDHEKYHSNWR
+HIV-2_ROD_Pol_M15390                ------------------------------FLEKIEPAQEEHEKYHSNVK
+FIV_Pol_M25381                      CKHEVLEQGKVVMDSERGDNGYGSTGVFSSWVDRIEEAEINHEKFHSDPQ
+CAEV_Pol_M33677                     KKHGKLEPWGESRKTERGEKGFGSTG--MYWIENIPLAEEDHTKWHQDAR
+BIV_Pol_M32690                      ---------DEVFMT--------------CFLENIPSATEDHERWHTSPD
+HTLV_I_Pol_J02029                   ------------------------------VLQLS--PAELHSFTHCGQT
+BLV_POL_K02120                      --------------------------------LETPE--QWHKLTHCNSR
+HSRV_Pol_                           ---------K-------------------I-------VLQAHNLAHTGRE
+SFV1_pol                            ---------K-------------------IIS-------TAHNIAHTGRD
+Feline_Foamy_Pol_Y08851             ---------K-------------------LIK-------EAHNISHAGRE
+Equine_Foamy_Pol                    ---------K-------------------ILE----LAHKGPGSGHLGKN
+HERV_E_4_1_Trolig_POL_M10976        ---------A-------------------VVL-------AVHKTTHLGQE
+MuLV_Rauscher_Pol_U94692            ---------E-------------------L-------LDFLHQLTHLSFS
+WDSV_Pol_AF033822                   --------------------------LEMLHA----ILLAIHGVSHTHKG
+                                                                                      
+
+                                                            <IN3>
+HIV-1_MN_Pol_M17449                 ----AMASDFNLPPIVA-----KEIVASCDKCQLKGE-----AMHGQVDCSPG---
+HIV-2_ROD_Pol_M15390                ----ELSHKFGIPNLVA-----RQIVNSCAQCQQKGE-----AIHGQVNAELG---
+FIV_Pol_M25381                      ----YLRTEFNLPKMVA-----EEIRRKCPVCRIRGE-----QVGGQLKIGPG---
+CAEV_Pol_M33677                     ----SLHLEFEIPRTAA-----EDIVNQCEICKEARTPA---VIRGGNKRGVN---
+BIV_Pol_M32690                      ----ILVRQFHLPKRIA-----KEIVARCQECKRTTTS----PVRGTNPRGRF---
+HTLV_I_Pol_J02029                   AL--TLQGATTTEASN--------ILRSCHACRGGNPQHQ--MPRGHIRRGLLPNH
+BLV_POL_K02120                      AL--SRWPNPRISAWDP-----RSPATLCETCQKLNPTGG--GKMRTIQRGWAPNH
+HSRV_Pol_                           ATLLKIANLYWWPNMRKDVV---KQLGRCQQCLITNASNKASGPILRPDRPQKPFD
+SFV1_pol                            ATFLKVSSKYWWPNLRKDVV---KSIRQCKQCLVTNATNLTSPPILRPVKPLKPFD
+Feline_Foamy_Pol_Y08851             AVLLKIQENYWWPKMKKDIS---SFLSTCNVCKMVNPLNLKPISPQAIVHPTKPFD
+Equine_Foamy_Pol                    TMYIKILNKYWWPNLIKDIS---KYIRTCTNCIITNTDNVPNKSYIVQEKTGLPFQ
+HERV_E_4_1_Trolig_POL_M10976        SLEKLLGWYFYISHLSALAK---TVTQRCVTCRQHNARQGPAVPPGIQAYGAAPFE
+MuLV_Rauscher_Pol_U94692            KTKALLERSYSPYYMLNRDRTLKDITETCKACAQVNASKS-AVKQGTRVRGHRPGT
+WDSV_Pol_AF033822                   GIMSYFSKFWTHPKASQTID---LILGHCQICLKHNPKYKS-RLQGHRPLPSRPFA
+
+
+                                    <IN4>
+HIV-1_MN_Pol_M17449                 IWQLDCTHLEGK-----VILVAVHVASGYIEAEVIPAETGQETAYFLLK-L
+HIV-2_ROD_Pol_M15390                TWQMDCTHLEGK-----IIIVAVHVASGFIEAEVIPQESGRQTALFLLK-L
+FIV_Pol_M25381                      IWQMDCTHFDGK-----IILVGIHVESGYIWAQIISQETADCTVKAVLQ-L
+CAEV_Pol_M33677                     HWQVDYTHYENI-----ILLVWVETNSGLIYAEKVKGESGQEFRIKVMH-W
+BIV_Pol_M32690                      LWQMDNTHWNKT-----IIWVAVETNSGLVEAQVIPEETALQVALCILQ-L
+HTLV_I_Pol_J02029                   IWQGDITHFKYKNTLY-RLHVWVDTFSGAISATQKRKETSSEAISSLLQ-A
+BLV_POL_K02120                      IWQADITHYKYKQFTY-ALHVFVDTYSGATHASAKRGLTTQTTIEGLLE-A
+HSRV_Pol_                           KFFIDYIGPLPPSQGYLYVLVVVDGMTGFTWLYPTKAPSTSATVKSLN--V
+SFV1_pol                            KFYIDYIGPLPPSNGYLHVLVVVDSMTGFVWLYPTKAPSTSATVKALN--M
+Feline_Foamy_Pol_Y08851             KFYMDYIGPLPPSEGYVHVLVVVDAATGFTWLYPTKAQTSKATIKVLN--H
+Equine_Foamy_Pol                    KYYMDYIGPLPPSDGYYHVLVIVDEGTGYTWLYPTKAQTANATVKALN--H
+HERV_E_4_1_Trolig_POL_M10976        DLQVDFTEM-PKCGGNKYLLVLVCTYSGQVEAYPTRTEKAHEVTRVLLRDL
+MuLV_Rauscher_Pol_U94692            HWEIDFTEVKPGLYGYKYLLVFVDTFSGWIEAFPTKKKTAKVVTKKLLEEI
+WDSV_Pol_AF033822                   HLQIDFVQMCVKKP--MYALVIIDVFSKWPEIIPCNKEDAKTVCDILMKDI
+                                         .                                         :    
+
+                                              <IN5>                       <IN6>
+HIV-1_MN_Pol_M17449                 AGRWP-VKTIHTDNGPNFTSTTVKAACWWTGIKQEFGIPYNPQSQGVIES
+HIV-2_ROD_Pol_M15390                ASRWP-ITHLHTDNGANFTSQEVKMVAWWIGIEQSFGVPYNPQSQGVVEA
+FIV_Pol_M25381                      LSAHN-VTELQTDNGPNFKNQKMEGVLNYMGVKHKFGIPGNPQSQALVEN
+CAEV_Pol_M33677                     YALFG-PESLQSDNGPAFAAEPTQLLMQYLGVKHTTGIPWNPQSQAIVER
+BIV_Pol_M32690                      IQRYT-VLHLHSDNGPCFTAHRIENLCKYLGITKTTGIPYNPQSQGVVER
+HTLV_I_Pol_J02029                   IAHLGKPSYINTDNGPAYISQDFLNMCTSLAIRHTTHVPYNPTSSGLVER
+BLV_POL_K02120                      IVHLGRPKKLNTDQGANYTSKTFVRFCQQFGVSLSHHVPYNPTSSGLDER
+HSRV_Pol_                           LTSIAIPKVIHSDQGAAFTSSTFAEWAKERGIHLEFSTPYHPQSGSKVER
+SFV1_pol                            LTSIAIPKVLHSDQGAAFTSSTFADWAKEKGIQLEFSTPYHPQSSGKVER
+Feline_Foamy_Pol_Y08851             LTGLAIPKVLHSDQGSAFTSEEFAQWAKERNIQLEFSTPYHPQSSGKVER
+Equine_Foamy_Pol                    LTGTAIPKVLHSDQGSAFTSATLVAWAKDKGIQMEYSSPYHPQSSGKVER
+HERV_E_4_1_Trolig_POL_M10976        IPRFGLPLRIGSDNGLVFVADLVQKTAKVLGITWKLHAAYQPQSSGKVER
+MuLV_Rauscher_Pol_U94692            FPRFGMPQVLGTDNGPAFVSKVSQTVADLLGVDWKLHCAYRPQSSGQVER
+WDSV_Pol_AF033822                   IPRWGLPDQIDSDQGTHFTAKISQELTHSIGVAWKLHCPGHPRSSGIVER
+                                               : .  :                    . .  . .    
+
+
+HIV-1_MN_Pol_M17449                 MNKELKKIIGQVRDQAEHLKRAVQMAVFIHNFKRK-GGIGGYSAGERIVG
+HIV-2_ROD_Pol_M15390                MNHHLKNQISRIREQANTIETIVLMAIHCMNFKRR-GGIGDMTPSERLIN
+FIV_Pol_M25381                      VNHTLKVWIRKFLPETTSLDNALSLAVHSLNFKRR-GRIGGMAPYELLAQ
+CAEV_Pol_M33677                     AHQLLKSTLKKFQPQFVAVESAIAAALVAINIKRK-GGLGTSPMDIFIYN
+BIV_Pol_M32690                      AHRDLKDRLAAYQGDCETVEAALSLALVSLNKKR--GGIGGHTPYEIYLE
+HTLV_I_Pol_J02029                   SNGILKTLLYKYFTDKPDLPMDNALSIALWTINHL-NVLTNCHKTRWQLH
+BLV_POL_K02120                      TNGLLKLLLSKYHLDEPHLPMTQALSRALWTHNQI-NLLP-ILKTRWELH
+HSRV_Pol_                           KNSDIKRLLTKLLVGRP-TKWYDLLPVVQLALNNTYSPVLKYTPHQLLFG
+SFV1_pol                            KNSDIKRLLTKLLIGRP-AKWYDLLPVVQLALNNSYSPSSKYTPHQLLFG
+Feline_Foamy_Pol_Y08851             KNSEIKKLLTKLLVGRP-LKWYNLISSVQLALNNTHVVSTKYTPHQLMFG
+Equine_Foamy_Pol                    KNSEIKRLLTKLLVGRP-TKWYPLIPTVQLALNNTPNAKIGKTPHQLMYG
+HERV_E_4_1_Trolig_POL_M10976        MNRTIKNSLGKVCQETG-LKWIQALPMVLFKIRCTPSKRTGYSPYEILYH
+MuLV_Rauscher_Pol_U94692            MNRTIKETLTKLTLATGSRDWVLLLPLALYRARNTPG-PHGLTPYEILYG
+WDSV_Pol_AF033822                   TNRTLKSKIIKAQEQLQLSKWTEVLPYVLLEMRAT-PKKHGLSPHEIVMG
+
+
+HIV-1_MN_Pol_M17449                 ------------------IIATDIQTKELQKQITKIQNFRVYYRD-S---
+HIV-2_ROD_Pol_M15390                ------------------MITTEQEIQFLQAKNSKLKDFRVYFRE-G---
+FIV_Pol_M25381                      ------------------QESLRIQ-DYFSAIPQKLQAQWIYYKD-Q---
+CAEV_Pol_M33677                     ------------------KEQKRIN-NKYNKNSQKIQFCYYRIRKRG---
+BIV_Pol_M32690                      ------------------SEHTKYQDQLEQQFSKQKIEKWCYVRN-----
+HTLV_I_Pol_J02029                   ------------------HSPRLQPIPETRSLSNKQTHWYYFKLPGL---
+BLV_POL_K02120                      ------------------HSPPLAVISEGGETPKGSDKLFLYLLPGQ---
+HSRV_Pol_                           -----IDSNTPFANQDTLDLTREEELSLLQEIRTSLYHPSTPPASSRSWS
+SFV1_pol                            -----VDSNTPFANSDTLDLSREEELSLLQEIRSSLHQPTSPPASSRSWS
+Feline_Foamy_Pol_Y08851             -----IDCNLPFANKDTLDWTREEELALLQEIRESLQHPVQPPTCSG-WS
+Equine_Foamy_Pol                    -----VDCNLPFQDLSTLDLTREEQLAVLQEIRTALEQPAQHPTLPK-WT
+HERV_E_4_1_Trolig_POL_M10976        RPPPILRG-LPGTPRELGEIELQR-LQASGKITQTISAWVNERCPVNLFS
+MuLV_Rauscher_Pol_U94692            APPPLVNFPDPDMAKVTHNPSLQAHLQALYLVQHEVWRPLAAAYQEQLDR
+WDSV_Pol_AF033822                   ---------RPMKTTYLSDMSPLWATDTLVTYMNKLTRQLSAYHQQVVDQ
+
+
+
+HIV-1_MN_Pol_M17449                 ----------------------RDPLWKGPAKLLWKGEGAVVIQDN--ND
+HIV-2_ROD_Pol_M15390                ----------------------RDQLWKGPGELLWKGEGAVLVKVG--TD
+FIV_Pol_M25381                      ----------------------KDKKWKGPMRVEYWGQGSVLLKDEE-KG
+CAEV_Pol_M33677                     ----------------------HQESGKDQPRYCGKGKEPIVVKDIESEK
+BIV_Pol_M32690                      ----------------------RRKEWKGPYKVLWDGDGAAVIEEE--GK
+HTLV_I_Pol_J02029                   ----------------------NSRQWKGPQEALQEAAGAALIPVSA-SS
+BLV_POL_K02120                      ----------------------NNRRWLGPLPALVEASGGALLATDP-P-
+HSRV_Pol_                           PV------VGQLVQERVARPASLRPRWHKPSTVLKVLNPRTVVILDHLGN
+SFV1_pol                            PS------VGQLVQERVARPASLRPRWHKPTAILEVVNPRTVIILDHLGN
+Feline_Foamy_Pol_Y08851             PY------VGQLVQERVYRPSQLRPKWRKPTKVLEILNPRTVIIVDHLGQ
+Equine_Foamy_Pol                    PC------PGLLVQERVNRPAQLRPKWKKPTPILKVLNPKTVVIAGPGGQ
+HERV_E_4_1_Trolig_POL_M10976        PV--HPFSPGDLVWIKD-NVACLCPRWKGPQTVILST-PTAVKVEGIPTW
+MuLV_Rauscher_Pol_U94692            PVVPHPFRVGDTVWVRRHQTKNLEPRWKGPYTVLLTT-PTALKVDGIAAW
+WDSV_Pol_AF033822                   WPSTSLPPGPEPGSWCMLRNPKKSSNWEGPFLILLST-PTAVKVEGRPTW
+
+
+HIV-1_MN_Pol_M17449                 IKVVPRRKAKVIRDYG----KQTAGDDCVASRQDED--------------
+HIV-2_ROD_Pol_M15390                IKIIPRRKAKIIRDYGGR-QEMDSGSHLEGAREDGEMA------------
+FIV_Pol_M25381                      YFLIPRRHIRRVPEPC----ALPEGDE-----------------------
+CAEV_Pol_M33677                     YLVIPYKDAKFIPPPT----KEKE--------------------------
+BIV_Pol_M32690                      TALYPHRHMRFIPPPD---SDIQDGSS-----------------------
+HTLV_I_Pol_J02029                   AQWIPWRLLKRAACPRP--VGGPADPKEKDLQHHG---------------
+BLV_POL_K02120                      -VWVPWRLLKAFKCLK---NDGPEDAHNRSSDG-----------------
+HSRV_Pol_                           NRTVSIDNLKPTSHQN-G--TTNDTATMDHLEKNE---------------
+SFV1_pol                            RRTVSVDNLKLTAYQDNG--TSNDSGTMALMEEDESSTSST---------
+Feline_Foamy_Pol_Y08851             RKSVSIDNLKPTAHQHNGTRTCDDPEGMDGMECSQTTTETSVDSS-----
+Equine_Foamy_Pol                    ERIVSIDNLKKTPHHD----TSNDSTRMDAVEVPTECQQDQRGHT-----
+HERV_E_4_1_Trolig_POL_M10976        IHHSRVKPAVPETWEARP--SPENPCRVTPKKTTSPAPVTPGS-LVHARP
+MuLV_Rauscher_Pol_U94692            IHAAHVK-AADTR--IEP--PSESTWRVQRSQNPLKIRLTRGT-------
+WDSV_Pol_AF033822                   IHLDHCKLLRSSLS-------SSLGGPVNQLLS-----------------
+
+
+HIV-1_MN_Pol_M17449                 ----------------------
+HIV-2_ROD_Pol_M15390                ----------------------
+FIV_Pol_M25381                      ----------------------
+CAEV_Pol_M33677                     ----------------------
+BIV_Pol_M32690                      ----------------------
+HTLV_I_Pol_J02029                   ----------------------
+BLV_POL_K02120                      ----------------------
+HSRV_Pol_                           ----------------------
+SFV1_pol                            ----------------------
+Feline_Foamy_Pol_Y08851             ----------------------
+Equine_Foamy_Pol                    ----------------------
+HERV_E_4_1_Trolig_POL_M10976        KHAEAHHGIHFSILDLYSKGFN
+MuLV_Rauscher_Pol_U94692            -----S----------------
+WDSV_Pol_AF033822                   ----------------------
+::
+Suspect::
+BLV_POL_K02120<START><RT1>
+::

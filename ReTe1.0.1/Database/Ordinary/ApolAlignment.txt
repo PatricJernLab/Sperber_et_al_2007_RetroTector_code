@@ -1,0 +1,84 @@
+{CLUSTAL W (1.81) multiple sequence alignment
+{ Copyright (©) 2000-2003, Jonas Blomberg & Gšran Sperber. All Rights Reserved.
+{  Last changed 2003 05 30
+{
+Alignment::
+LPDV_pol_U09568      FSLRATVLLMERSWAIPLEWHTD-VPVWIEQWPLTAQKLDAVQNIIQDLLKDGRIIPSRS
+RSV_pol              -IGRATVLTVALHLAIPLKWKPDHTPVWIDQWPLPEGKLVALTQLVEKELQLGHIEPSLS
+                        ***** :    ****:*:.* .****:****.  ** *: ::::. *: *:* ** *
+
+                      <RT1>                                              <RT2>
+LPDV_pol_U09568      QWNSPIFVIQKKDKSKFRMLHDLRAVNALIKDWGALQPGTPWPGAIPSEWPVIAMDISDC
+RSV_pol              CWNTPVFVIRKASGS-YRLLHDLRAVNAKLVPFGAVQQGAPVLSALPRGWPLMVLDLKDC
+                      **:*:***:* . * :*:********* :  :**:* *:*  .*:*  **::.:*:.**
+
+                                                 <RT3>
+LPDV_pol_U09568      FFSIPLAERDSERFAFTIPSPNLREPAKRYQWTVLPQGMKNSPYICQQVVAEVIRPIRER
+RSV_pol              FFSIPLAEQDREAFAFTLPSVNNQAPARRFQWKVLPQGMTCSPTICQLVVGQVLEPLRLK
+                     ********:* * ****:** * : **:*:**.******. ** *** **.:*:.*:* :
+
+                           <RT4>                          <RT5>
+LPDV_pol_U09568      FRDAVIIHYMDDILIAAAEERQTEVIFEAVKTTCHEKGLKINEAKTQRAPEVSYLGWRVM
+RSV_pol              HPSLCMLHYMDDLLLAASSHDGLEAAGEEVISTLERAGFTISPDKVQREPGVQYLGYKLG
+                     . .  ::*****:*:**:..   *.  * * :* .. *:.*.  *.** * *.***::: 
+
+                                     <RT6>
+LPDV_pol_U09568      ETGIAPLTVQLPETVTNLVQLQRLLGIIQWLKPILSLRPEQLQVFYDLLKGKTRPEEPCR
+RSV_pol              STYVAPVGLVAEPRIATLWDVQKLVGSLQWLRPALGIPPRLMGPFYEQLRGSD-PNEARE
+                     .* :**: :     ::.* ::*:*:* :***:* *.: *. :  **: *:*.  *:*. .
+
+
+LPDV_pol_U09568      LTEEAQQELRNIQQRLQASCVGRWRSDLPITLFVCTTAAGGIGLIAQQQDQRIQPLYWLS
+RSV_pol              WNLDMKMAWREIVRLSTTAALERWDPALPLEGAVARCEQGAIGVLGQGLSTHPRPCLWLF
+                      . : :   *:* :   ::.: ** . **:   *.    *.**::.*  . : :*  ** 
+
+
+LPDV_pol_U09568      STRLTRAWTSASRVLVLLIRQGSQICAQYWGQLPDKVMIPMTTEEWELFSSANDYAIASL
+RSV_pol              STQPTKAFTAWLEVLTLLITKLRASAVRTFGKEVDILLLPACFREDLPLPEG---ILLAL
+                     **: *:*:*:  .**.*** :    ..: :*:  * :::*   .*   :...    : :*
+
+
+LPDV_pol_U09568      VEIGPRICPAAADPIWPSLSYLRP-VAPPITDTPLVGRTVFTDASSQTAMAVAVWQENGR
+RSV_pol              KGFAGKIRSSDTPSIFDIARPLHVSLKVRVTDHPVPGPTVFTDASSSTHKGVVVWREGPR
+                       :. :* .: : .*:     *:  :   :** *: * ********.*  .*.**:*. *
+
+
+LPDV_pol_U09568      WKKVTECSPGSSVQQLEARAVQLASDAFPTEALNVVTDSLYVARLVSRMATPGWPDLASP
+RSV_pol              WEIKEIADLGASVQQLEARAVAMALLLWPTTPTNVVTDSAFVAKMLLKMGQEGVPSTAAA
+                     *:    .. *:********** :*   :** . ****** :**::: :*.  * *. *:.
+
+                                     <IN1>                              <IN2>
+LPDV_pol_U09568      WLYN-SLSRRTAPLFICHVQAHQSLEGLHT-GNDAAD-RAAKGLWPLQEAVQKHAFLHLG
+RSV_pol              FILEDALSQRSAMAAVLHVRSHSEVPGFFTEGNDVADSQATFQAYPLREAKDLHTALHIG
+                     :: : :**:*:*   : **::*..: *:.* ***.** :*:   :**:** : *: **:*
+
+                                      <IN3>                      <IN4>
+LPDV_pol_U09568      AKALAQECNIPLTEVERLVKSCSHCQKTPLWMAGVNPRGLEPNQIWQTDFTMYPPFRPNH
+RSV_pol              PRALSKACNISMQQAREVVQTCPHCNSAPALEAGVNPRGLGPLQIWQTDFTLEPRMAPRS
+                     .:**:: ***.: :...:*::*.**:.:*   ******** * ********: * : *. 
+
+                                                                <IN5>
+LPDV_pol_U09568      WLAVTVDTYSGVIVATAHRGTKSRHAIHHWTAAIAYLGRPSVIKTDNGSAFTSKAATAWA
+RSV_pol              WLAVTVDTASSAIVVTQHGRVTSVAVQHHWATAIAVLGRPKAIKTDNGSCFTSKSTREWL
+                     ******** *..**.* *  ..*  . ***::*** ****..*******.****::  * 
+
+                                <IN6>
+LPDV_pol_U09568      QRWHITLKHGIAYNSQGQAIVERANRTLKARLEALGEGEGWGARVPPEHQPELLYRALYS
+RSV_pol              ARWGIAHTTGIPGNSQGQAMVERANRLLKDRIRVLAEGDGFMKRIPTSKQGELLAKAMYA
+                      ** *: . **. ******:****** ** *:..*.**:*:  *:*..:* *** :*:*:
+
+                                                                <IN7>
+LPDV_pol_U09568      MNFFAR-STEQTSVARHWSHQRLPIGPAVLVRDHLGAWQGGWHLMTVGRGYAVGQD---G
+RSV_pol              LNHFERGENTKTPIQKHWRPTVLTEGPPVKIRIETGEWEKGWNVLVWGRGYAAVKNRDTD
+                     :*.* * .. :*.: :**    *. **.* :* . * *: **:::. *****. ::   .
+
+
+LPDV_pol_U09568      TVKWVPARWVKPR-----------------------------------------------
+RSV_pol              KVIWVPSRKVKPDITQKDEVTKKDEASPLFAGISDWIPWEDEQEGLQGETASNKQERPGE
+                     .* ***:* ***                                                
+
+
+LPDV_pol_U09568      --------
+RSV_pol              DTLAANES
+                             
+::
