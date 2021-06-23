@@ -1,9 +1,9 @@
 # Sperber_et_al_2007_RetroTector_code
 RetroTector | Code | Documentation
 
-In memmory of Prof. Jonas Blomberg, we make the RetroTector code for identifying and analyzing endogenous retroviruses available in its current form.
+In memory of Prof. Jonas Blomberg, we make the RetroTector code for identifying and analyzing endogenous retroviruses available in its current form.
 
-• RetroTector 1.0.1 | This version consists mainly of executable files (.jar|.class|.txt) containing motifs and alignments that may improve further with revision.
+• RetroTector 1.0.1 | This version consists mainly of A: executable files ('.jar' | '.class') and B: '.txt' files containing motifs and alignments that may improve further with revision.
 A compiled version can be downloaded: https://github.com/PatricJernLab/RetroTector
 
 The Java source code behind the .jar and .class files is appended to the RetroTector package, which also includes extensive .html documentation
